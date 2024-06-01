@@ -15,8 +15,10 @@ pip install -e .
 ```
 
 ## Datasets
+The datasets can be downloaded from https://zenodo.org/records/11413479
+
 We provide two types of zip files for the datasets:
-1. `data.zip` contains the raw data files, the ground truth files, the sampled data (n=[100, 200, 300, 400, 500] used in the experiments, as well as the contrastive data used to train the model.
+1. `data.zip` contains the raw data files, the ground truth files, the sampled data (n=[100, 200, 300, 400, 500]) used in the experiments, as well as the contrastive data used to train the model.
 2. `data-raw.zip` contains only the raw data files and the ground truth files. You can sample the data and generate the contrastive dataset yourself by following step 1 and 2 in the `How to Run` section. 
 Download and unzip one of the zip files to the `data` folder.
 
