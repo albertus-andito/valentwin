@@ -1,0 +1,145 @@
+,table_a,column_a,table_b,column_b,similarity,type,correct
+0,sephora_2,number of colors,ulta_1,number of colors/scent,0.9337074756622314,numerical,True
+1,sephora_2,_id,ulta_1,_id,0.9211108684539796,numerical,True
+2,sephora_2,price,ulta_1,price,0.917313277721405,mixed,True
+3,sephora_2,product name,ulta_1,product name,0.908191740512848,textual,True
+4,sephora_1,Product_id,sephora_2,_id,0.9038375616073608,numerical,True
+5,sephora_2,brand,ulta_1,brand,0.8805164694786072,textual,True
+6,sephora_1,Product_id,ulta_1,_id,0.8802974224090576,numerical,True
+7,sephora_2,rating,ulta_1,rating,0.8780697584152222,textual,True
+8,sephora_1,Price,ulta_1,price,0.852125883102417,mixed,True
+9,sephora_1,Price,sephora_2,price,0.8415318131446838,mixed,True
+10,sephora_1,Description,sephora_2,product name,0.8116340041160583,textual,True
+11,sephora_1,Description,ulta_1,product name,0.7636362314224243,textual,True
+12,amazon_1,ID,sephora_1,Product_id,0.7473539710044861,textual,True
+13,amazon_1,ID,ulta_1,_id,0.7247076630592346,textual,True
+14,amazon_1,ID,sephora_2,_id,0.7182788252830505,textual,True
+15,amazon_1,Description,sephora_1,Color,0.6429585814476013,textual,False
+16,amazon_1,Description,sephora_2,brand,0.5206292271614075,textual,False
+17,amazon_1,Color,sephora_1,Color,0.5109899044036865,textual,True
+18,amazon_1,Description,ulta_1,brand,0.5108330845832825,textual,False
+19,sephora_1,Color,sephora_2,brand,0.4989638924598694,textual,False
+20,sephora_1,Color,ulta_1,brand,0.4900119602680206,textual,False
+21,amazon_1,Description,sephora_1,Product_id,0.465345025062561,textual,False
+22,amazon_1,Price,sephora_2,price,0.4592344760894775,mixed,True
+23,sephora_2,_id,ulta_1,number of colors/scent,0.4434177875518799,numerical,False
+24,sephora_1,Color,ulta_1,number of colors/scent,0.4417608976364136,textual,False
+25,amazon_1,Price,ulta_1,price,0.4297261834144592,mixed,True
+26,amazon_1,Price,sephora_1,Price,0.4205943048000335,mixed,True
+27,sephora_1,Color,sephora_2,number of colors,0.418457567691803,textual,False
+28,sephora_1,Product_id,ulta_1,number of colors/scent,0.4127666652202606,numerical,False
+29,sephora_1,Product_id,ulta_1,product name,0.4116342067718506,textual,False
+30,amazon_1,Description,sephora_2,_id,0.4113585352897644,textual,False
+31,sephora_2,number of colors,ulta_1,_id,0.4053314626216888,numerical,False
+32,amazon_1,Description,ulta_1,number of colors/scent,0.4025622606277466,textual,False
+33,sephora_1,Price,sephora_2,brand,0.4022319614887237,textual,False
+34,sephora_2,brand,ulta_1,price,0.3976531028747558,textual,False
+35,amazon_1,Description,ulta_1,_id,0.3915862143039703,textual,False
+36,amazon_1,ID,ulta_1,number of colors/scent,0.3893923759460449,textual,False
+37,sephora_1,Product_id,sephora_2,number of colors,0.3875098526477813,numerical,False
+38,sephora_2,_id,ulta_1,product name,0.3827338218688965,textual,False
+39,amazon_1,Description,sephora_2,rating,0.3739642202854156,textual,False
+40,amazon_1,Color,sephora_1,Description,0.3689526915550232,textual,False
+41,sephora_1,Description,sephora_2,brand,0.3602496981620788,textual,False
+42,amazon_1,ID,sephora_2,number of colors,0.3596481084823608,textual,False
+43,amazon_1,Description,sephora_2,number of colors,0.3592685461044311,textual,False
+44,amazon_1,ID,ulta_1,product name,0.3583950996398926,textual,False
+45,sephora_1,Description,ulta_1,brand,0.3521171510219574,textual,False
+46,sephora_1,Product_id,sephora_2,product name,0.3484088480472564,textual,False
+47,sephora_1,Price,ulta_1,brand,0.3454137146472931,textual,False
+48,amazon_1,Description,ulta_1,price,0.3422490954399109,textual,False
+49,sephora_1,Color,ulta_1,price,0.3337762057781219,textual,False
+50,sephora_2,product name,ulta_1,_id,0.3324423432350158,textual,False
+51,amazon_1,Description,ulta_1,rating,0.3307768404483795,textual,False
+52,amazon_1,Color,ulta_1,number of colors/scent,0.329985111951828,textual,False
+53,amazon_1,Description,ulta_1,product name,0.3275992572307586,textual,True
+54,amazon_1,Description,sephora_1,Price,0.3234981596469879,textual,False
+55,sephora_1,Price,sephora_2,number of colors,0.32093146443367,textual,False
+56,amazon_1,Color,sephora_2,number of colors,0.3111376762390136,textual,False
+57,sephora_2,brand,ulta_1,number of colors/scent,0.3057230412960052,textual,False
+58,amazon_1,Description,sephora_2,price,0.3031137883663177,textual,False
+59,amazon_1,Description,sephora_2,product name,0.2973761856555938,textual,True
+60,amazon_1,Description,sephora_1,Description,0.296343982219696,textual,True
+61,sephora_1,Price,ulta_1,number of colors/scent,0.2955902516841888,textual,False
+62,sephora_1,Product_id,sephora_2,brand,0.2904505431652069,textual,False
+63,amazon_1,Color,ulta_1,product name,0.2902169823646545,textual,False
+64,amazon_1,ID,sephora_2,product name,0.2877034842967987,textual,False
+65,amazon_1,ID,sephora_1,Color,0.2875821888446808,textual,False
+66,sephora_2,price,ulta_1,brand,0.287500649690628,textual,False
+67,sephora_1,Color,sephora_2,price,0.2861886024475097,textual,False
+68,sephora_2,rating,ulta_1,number of colors/scent,0.2856740057468414,textual,False
+69,sephora_2,brand,ulta_1,_id,0.2853470742702484,textual,False
+70,sephora_1,Color,ulta_1,product name,0.2791802585124969,textual,False
+71,amazon_1,ID,ulta_1,price,0.276650607585907,mixed,False
+72,sephora_2,_id,ulta_1,price,0.2703724205493927,textual,False
+73,sephora_1,Color,ulta_1,_id,0.2668861150741577,textual,False
+74,sephora_1,Color,sephora_2,_id,0.2661855220794678,textual,False
+75,amazon_1,Color,sephora_1,Product_id,0.2655239701271057,textual,False
+76,amazon_1,Color,sephora_2,product name,0.2643888592720032,textual,False
+77,sephora_2,number of colors,ulta_1,brand,0.2638657093048095,textual,False
+78,sephora_1,Color,sephora_2,product name,0.2637189924716949,textual,False
+79,sephora_2,number of colors,ulta_1,price,0.2622544169425964,textual,False
+80,sephora_1,Product_id,ulta_1,brand,0.2621444165706634,textual,False
+81,amazon_1,ID,sephora_2,price,0.2604690492153168,mixed,False
+82,sephora_2,_id,ulta_1,brand,0.2604587972164154,textual,False
+83,sephora_2,product name,ulta_1,rating,0.2603112161159515,textual,False
+84,sephora_2,rating,ulta_1,product name,0.258403867483139,textual,False
+85,sephora_2,product name,ulta_1,brand,0.2557215094566345,textual,False
+86,sephora_2,brand,ulta_1,product name,0.2541675567626953,textual,False
+87,amazon_1,Color,sephora_1,Price,0.2534944713115692,textual,False
+88,amazon_1,Color,sephora_2,brand,0.248310387134552,textual,False
+89,amazon_1,ID,sephora_1,Price,0.2475459426641464,mixed,False
+90,sephora_1,Color,ulta_1,rating,0.2453569322824478,textual,False
+91,sephora_2,product name,ulta_1,number of colors/scent,0.2411993443965912,textual,False
+92,sephora_1,Product_id,ulta_1,price,0.2411044687032699,textual,False
+93,sephora_2,price,ulta_1,product name,0.2407632619142532,textual,False
+94,sephora_1,Description,sephora_2,_id,0.2393131256103515,textual,False
+95,sephora_1,Color,sephora_2,rating,0.2331500798463821,textual,False
+96,sephora_2,price,ulta_1,number of colors/scent,0.2327204495668411,textual,False
+97,sephora_2,price,ulta_1,rating,0.2315780222415924,textual,False
+98,amazon_1,Price,sephora_2,product name,0.2290669083595276,textual,False
+99,sephora_1,Price,sephora_2,_id,0.228428915143013,textual,False
+100,amazon_1,ID,sephora_2,brand,0.2274494171142578,textual,False
+101,amazon_1,ID,sephora_1,Description,0.2258036285638809,textual,False
+102,sephora_1,Description,ulta_1,rating,0.2257472574710846,textual,False
+103,amazon_1,Color,ulta_1,brand,0.2248148024082183,textual,False
+104,sephora_1,Price,sephora_2,product name,0.2187376320362091,textual,False
+105,sephora_2,product name,ulta_1,price,0.2181163430213928,textual,False
+106,sephora_1,Description,ulta_1,number of colors/scent,0.2159814983606338,textual,False
+107,amazon_1,Price,ulta_1,product name,0.2152122557163238,textual,False
+108,sephora_1,Description,ulta_1,_id,0.2150865346193313,textual,False
+109,amazon_1,ID,ulta_1,brand,0.2134312242269516,textual,False
+110,sephora_2,rating,ulta_1,price,0.2131313383579254,mixed,False
+111,sephora_1,Price,ulta_1,rating,0.2131309807300567,textual,False
+112,sephora_2,price,ulta_1,_id,0.2102800756692886,textual,False
+113,sephora_2,_id,ulta_1,rating,0.2080898880958557,numerical,False
+114,sephora_1,Price,ulta_1,product name,0.2066623568534851,textual,False
+115,sephora_2,brand,ulta_1,rating,0.2044757604598999,textual,False
+116,sephora_2,rating,ulta_1,_id,0.2019205391407013,textual,False
+117,amazon_1,Color,sephora_2,price,0.1985658705234527,textual,False
+118,sephora_1,Product_id,sephora_2,price,0.1944205462932586,textual,False
+119,sephora_2,number of colors,ulta_1,product name,0.1937775611877441,textual,False
+120,amazon_1,Color,sephora_2,_id,0.1925717890262603,textual,False
+121,amazon_1,Color,ulta_1,price,0.1905417442321777,textual,False
+122,sephora_1,Price,ulta_1,_id,0.1902745068073272,textual,False
+123,amazon_1,Color,ulta_1,_id,0.1899579316377639,textual,False
+124,sephora_2,number of colors,ulta_1,rating,0.1848391145467758,numerical,False
+125,sephora_1,Description,sephora_2,rating,0.1840220093727111,textual,False
+126,amazon_1,ID,sephora_2,rating,0.1807590126991272,mixed,False
+127,sephora_1,Price,sephora_2,rating,0.1792088150978088,mixed,False
+128,sephora_1,Description,sephora_2,number of colors,0.1782542914152145,textual,False
+129,amazon_1,ID,ulta_1,rating,0.1702514439821243,textual,False
+130,amazon_1,Price,sephora_1,Description,0.1676280051469802,textual,False
+131,sephora_1,Description,sephora_2,price,0.1524302512407302,textual,False
+132,sephora_1,Description,ulta_1,price,0.1521742194890976,textual,False
+133,sephora_2,rating,ulta_1,brand,0.1509084105491638,textual,False
+134,sephora_1,Product_id,ulta_1,rating,0.1450471878051757,numerical,False
+135,sephora_1,Product_id,sephora_2,rating,0.1413549929857254,textual,False
+136,amazon_1,Price,sephora_2,rating,0.0805592089891433,mixed,False
+137,amazon_1,Price,ulta_1,rating,0.0708373039960861,textual,False
+138,amazon_1,Price,sephora_2,_id,0.0697987899184227,textual,False
+139,amazon_1,Price,sephora_2,brand,0.0635757967829704,textual,False
+140,amazon_1,Price,sephora_1,Product_id,0.0420819744467735,textual,False
+141,amazon_1,Price,ulta_1,brand,0.0371420308947563,textual,False
+142,amazon_1,Price,ulta_1,_id,0.0353249609470367,textual,False
+143,amazon_1,Price,sephora_1,Color,0.0074766660109162,textual,False

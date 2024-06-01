@@ -1,0 +1,981 @@
+,table_a,column_a,table_b,column_b,similarity,type,correct
+0,1004ipopayments,VAT registration number,1007ipopayments,VAT registration number,1.0,textual,True
+1,1004ipopayments,VAT registration number,1009ipopayments,VAT registration number,1.0,textual,True
+2,1004ipopayments,VAT registration number,1010ipopayments,VAT registration number,1.0,textual,True
+3,1007ipopayments,Department family,1009ipopayments,Department family,1.0,textual,True
+4,1007ipopayments,Entity,1009ipopayments,Entity,1.0,textual,True
+5,1007ipopayments,VAT registration number,1009ipopayments,VAT registration number,1.0,textual,True
+6,1007ipopayments,VAT registration number,1010ipopayments,VAT registration number,1.0,textual,True
+7,1009ipopayments,VAT registration number,1010ipopayments,VAT registration number,1.0,textual,True
+8,1007ipopayments,Amount,1009ipopayments,Amount,0.9964000582695008,numerical,True
+9,1004ipopayments,Transaction Total,1010ipopayments,Transaction Amount,0.993018627166748,numerical,True
+10,1008ipopayments,Transaction number,1009ipopayments,Transaction number,0.990348219871521,mixed,True
+11,1006ipopayments,Expense type,1009ipopayments,Expense type,0.9862422943115234,textual,True
+12,1007ipopayments,Expense type,1009ipopayments,Expense type,0.9861014485359192,textual,True
+13,1006ipopayments,Expense type,1007ipopayments,Expense type,0.984824538230896,textual,True
+14,1006ipopayments,Transaction number,1008ipopayments,Transaction number,0.9845067858695984,mixed,True
+15,1004ipopayments,Transaction ID,1010ipopayments,Transaction ID,0.9839669466018676,mixed,True
+16,1008ipopayments,Supplier,1009ipopayments,Supplier,0.983794927597046,textual,True
+17,1006ipopayments,Transaction number,1009ipopayments,Transaction number,0.9832375049591064,mixed,True
+18,1006ipopayments,Date,1007ipopayments,Date,0.9828611612319946,mixed,True
+19,1008ipopayments,Expense Category,1010ipopayments,Expense Category,0.9822949767112732,textual,True
+20,1006ipopayments,Expense area,1007ipopayments,Expense area,0.980811357498169,textual,True
+21,1005ipopayments,Date,1007ipopayments,Date,0.9805887937545776,mixed,True
+22,1007ipopayments,Expense area,1009ipopayments,Expense area,0.9798777103424072,textual,True
+23,1008ipopayments,Date,1009ipopayments,Date,0.9796299934387208,mixed,True
+24,1005ipopayments,Date,1006ipopayments,Date,0.9792507886886596,mixed,True
+25,1007ipopayments,Date,1008ipopayments,Date,0.976902723312378,mixed,True
+26,1006ipopayments,Date,1008ipopayments,Date,0.97688090801239,mixed,True
+27,1008ipopayments,Expense Office,1009ipopayments,Expense area,0.975145936012268,textual,True
+28,1007ipopayments,Date,1009ipopayments,Date,0.974143922328949,mixed,True
+29,1009ipopayments,Amount,1010ipopayments,Transaction Amount,0.9729056358337402,numerical,True
+30,1006ipopayments,Date,1009ipopayments,Date,0.972399115562439,mixed,True
+31,1007ipopayments,Amount,1010ipopayments,Transaction Amount,0.9719199538230896,numerical,True
+32,1005ipopayments,Date,1008ipopayments,Date,0.9710696935653688,mixed,True
+33,1004ipopayments,VAT registration number,1008ipopayments,VAT number,0.969638466835022,textual,True
+34,1007ipopayments,VAT registration number,1008ipopayments,VAT number,0.969638466835022,textual,True
+35,1008ipopayments,VAT number,1009ipopayments,VAT registration number,0.969638466835022,textual,True
+36,1008ipopayments,VAT number,1010ipopayments,VAT registration number,0.969638466835022,textual,True
+37,1007ipopayments,Expense area,1008ipopayments,Expense Office,0.9694198369979858,textual,True
+38,1008ipopayments,Entity Category,1010ipopayments,Department Primary,0.9680680632591248,textual,True
+39,1004ipopayments,Transaction Total,1009ipopayments,Amount,0.9679035544395448,numerical,True
+40,1006ipopayments,Expense area,1009ipopayments,Expense area,0.9677178859710692,textual,True
+41,1005ipopayments,Date,1009ipopayments,Date,0.9674495458602904,mixed,True
+42,1005ipopayments,ExpenseCategory,1007ipopayments,Expense area,0.9671406745910645,textual,True
+43,1004ipopayments,Transaction Total,1007ipopayments,Amount,0.9670708179473876,numerical,True
+44,1007ipopayments,Expense type,1010ipopayments,Expense Category,0.965566873550415,textual,True
+45,1007ipopayments,Amount,1008ipopayments,Amount,0.9642943739891052,numerical,True
+46,1008ipopayments,Expense Category,1009ipopayments,Expense type,0.9641886353492736,textual,True
+47,1008ipopayments,Amount,1009ipopayments,Amount,0.9640387296676636,numerical,True
+48,1009ipopayments,Expense type,1010ipopayments,Expense Category,0.9610775113105774,textual,True
+49,1005ipopayments,ExpenseCategory,1008ipopayments,Expense Office,0.9593072533607484,textual,True
+50,1006ipopayments,Expense type,1008ipopayments,Expense Category,0.95890074968338,textual,True
+51,1005ipopayments,ExpenseCategory,1009ipopayments,Expense area,0.9582252502441406,textual,True
+52,1007ipopayments,Expense type,1008ipopayments,Expense Category,0.95793879032135,textual,True
+53,1006ipopayments,Expense type,1010ipopayments,Expense Category,0.957375466823578,textual,True
+54,1006ipopayments,Expense area,1008ipopayments,Expense Office,0.9572322368621826,textual,True
+55,1004ipopayments,Supplier Name,1006ipopayments,Vendor Name,0.9571069478988647,textual,True
+56,1005ipopayments,ExpenseCategory,1006ipopayments,Expense area,0.9570063948631288,textual,True
+57,1009ipopayments,Transaction number,1010ipopayments,Transaction ID,0.9557710886001588,mixed,True
+58,1008ipopayments,Transaction number,1010ipopayments,Transaction ID,0.9538713693618774,mixed,True
+59,1005ipopayments,DeptName,1008ipopayments,Department Category,0.9535404443740844,textual,True
+60,1004ipopayments,Transaction ID,1009ipopayments,Transaction number,0.9525521993637084,mixed,True
+61,1007ipopayments,Entity,1008ipopayments,Entity Category,0.949243426322937,textual,True
+62,1008ipopayments,Entity Category,1009ipopayments,Entity,0.949243426322937,textual,True
+63,1004ipopayments,Transaction ID,1008ipopayments,Transaction number,0.9490927457809448,mixed,True
+64,1005ipopayments,Expense,1006ipopayments,Expense type,0.9481742978096008,textual,True
+65,1007ipopayments,Department family,1008ipopayments,Department Category,0.9479474425315856,textual,True
+66,1008ipopayments,Department Category,1009ipopayments,Department family,0.9479474425315856,textual,True
+67,1006ipopayments,Transaction number,1010ipopayments,Transaction ID,0.9461339712142944,mixed,True
+68,1005ipopayments,Expense,1007ipopayments,Expense type,0.9456278681755066,textual,True
+69,1005ipopayments,Vendor,1009ipopayments,Supplier,0.945221781730652,textual,True
+70,1004ipopayments,Title,1009ipopayments,Expense type,0.9429922699928284,textual,True
+71,1004ipopayments,Title,1007ipopayments,Expense type,0.9429705142974854,textual,True
+72,1005ipopayments,Expense,1009ipopayments,Expense type,0.9426224827766418,textual,True
+73,1004ipopayments,Transaction ID,1006ipopayments,Transaction number,0.942569375038147,mixed,True
+74,1008ipopayments,Amount,1010ipopayments,Transaction Amount,0.9405921697616576,numerical,True
+75,1005ipopayments,Vendor,1008ipopayments,Supplier,0.9398037791252136,textual,True
+76,1004ipopayments,Title,1006ipopayments,Expense type,0.9380467534065248,textual,True
+77,1004ipopayments,Transaction Total,1008ipopayments,Amount,0.937131941318512,numerical,True
+78,1007ipopayments,Entity,1010ipopayments,Department Primary,0.9367571473121644,textual,True
+79,1009ipopayments,Entity,1010ipopayments,Department Primary,0.9367571473121644,textual,True
+80,1004ipopayments,Supplier Name,1009ipopayments,Supplier,0.9366304278373718,textual,True
+81,1004ipopayments,Category,1005ipopayments,ExpenseCategory,0.9322099089622498,textual,True
+82,1004ipopayments,Supplier Name,1008ipopayments,Supplier,0.9303544759750366,textual,True
+83,1005ipopayments,DeptName,1007ipopayments,Department family,0.9290413856506348,textual,True
+84,1005ipopayments,DeptName,1009ipopayments,Department family,0.9290413856506348,textual,True
+85,1006ipopayments,Vendor Name,1008ipopayments,Supplier,0.9254755973815918,textual,True
+86,1005ipopayments,Expense,1010ipopayments,Expense Category,0.9243831634521484,textual,True
+87,1005ipopayments,Expense,1008ipopayments,Expense Category,0.922484278678894,textual,True
+88,1006ipopayments,Vendor Name,1009ipopayments,Supplier,0.9212800860404968,textual,True
+89,1004ipopayments,Title,1010ipopayments,Expense Category,0.9207556247711182,textual,True
+90,1004ipopayments,Title,1008ipopayments,Expense Category,0.9172170162200928,textual,True
+91,1004ipopayments,Category,1009ipopayments,Expense area,0.9145429730415344,textual,True
+92,1004ipopayments,Category,1007ipopayments,Expense area,0.914535641670227,textual,True
+93,1005ipopayments,OfficeName,1008ipopayments,Entity Category,0.9138853549957277,textual,True
+94,1004ipopayments,Category,1006ipopayments,Expense area,0.904502272605896,textual,True
+95,1005ipopayments,Vendor,1006ipopayments,Vendor Name,0.903748631477356,textual,True
+96,1004ipopayments,Supplier Name,1005ipopayments,Vendor,0.8998465538024902,textual,True
+97,1005ipopayments,OfficeName,1007ipopayments,Entity,0.8966742753982544,textual,True
+98,1005ipopayments,OfficeName,1009ipopayments,Entity,0.8966742753982544,textual,True
+99,1004ipopayments,Title,1005ipopayments,Expense,0.8965504169464111,textual,True
+100,1004ipopayments,Category,1008ipopayments,Expense Office,0.8959049582481384,textual,True
+101,1005ipopayments,OfficeName,1010ipopayments,Department Primary,0.8860393166542053,textual,True
+102,1008ipopayments,Department Category,1010ipopayments,Department Secondary,0.75240159034729,textual,True
+103,1007ipopayments,Department family,1010ipopayments,Department Secondary,0.7362097501754761,textual,True
+104,1009ipopayments,Department family,1010ipopayments,Department Secondary,0.7362097501754761,textual,True
+105,1005ipopayments,DeptName,1010ipopayments,Department Secondary,0.7289432287216187,textual,True
+106,1006ipopayments,Vendor Name,1010ipopayments,Department Secondary,0.4712419807910919,textual,False
+107,1004ipopayments,Supplier Name,1010ipopayments,Department Secondary,0.4505921602249145,textual,False
+108,1008ipopayments,Supplier,1010ipopayments,Department Secondary,0.4424662590026855,textual,False
+109,1005ipopayments,Vendor,1010ipopayments,Department Secondary,0.4416766762733459,textual,False
+110,1009ipopayments,Supplier,1010ipopayments,Department Secondary,0.4411333203315735,textual,False
+111,1005ipopayments,DeptName,1006ipopayments,Vendor Name,0.3816827833652496,textual,False
+112,1005ipopayments,Vendor,1007ipopayments,Department family,0.368223488330841,textual,False
+113,1005ipopayments,Vendor,1009ipopayments,Department family,0.368223488330841,textual,False
+114,1007ipopayments,Department family,1008ipopayments,Supplier,0.3674923777580261,textual,False
+115,1008ipopayments,Supplier,1009ipopayments,Department family,0.3674923777580261,textual,False
+116,1006ipopayments,Vendor Name,1007ipopayments,Department family,0.3673551678657532,textual,False
+117,1006ipopayments,Vendor Name,1009ipopayments,Department family,0.3673551678657532,textual,False
+118,1007ipopayments,Department family,1009ipopayments,Supplier,0.364747405052185,textual,False
+119,1004ipopayments,Title,1006ipopayments,Vendor Name,0.3629606366157532,textual,False
+120,1004ipopayments,Supplier Name,1005ipopayments,DeptName,0.362827718257904,textual,False
+121,1006ipopayments,Vendor Name,1008ipopayments,Department Category,0.3546622693538666,textual,False
+122,1005ipopayments,Expense,1006ipopayments,Expense area,0.347563624382019,textual,False
+123,1005ipopayments,Expense,1008ipopayments,Supplier,0.3471958637237549,textual,False
+124,1004ipopayments,Supplier Name,1007ipopayments,Department family,0.3445193767547607,textual,False
+125,1004ipopayments,Supplier Name,1009ipopayments,Department family,0.3445193767547607,textual,False
+126,1006ipopayments,Vendor Name,1009ipopayments,Expense type,0.3387070298194885,textual,False
+127,1005ipopayments,Expense,1007ipopayments,Expense area,0.3386603593826294,textual,False
+128,1005ipopayments,Expense,1009ipopayments,Supplier,0.3368518948554992,textual,False
+129,1006ipopayments,Vendor Name,1007ipopayments,Expense type,0.3364026546478271,textual,False
+130,1005ipopayments,Expense,1008ipopayments,Expense Office,0.3359299302101135,textual,False
+131,1006ipopayments,Expense area,1009ipopayments,Expense type,0.335647702217102,textual,False
+132,1008ipopayments,Supplier,1009ipopayments,Expense type,0.3338927626609802,textual,False
+133,1005ipopayments,Vendor,1009ipopayments,Expense type,0.3333437144756317,textual,False
+134,1005ipopayments,Expense,1009ipopayments,Expense area,0.3329830467700958,textual,False
+135,1004ipopayments,Transaction ID,1008ipopayments,Supplier,0.3329334855079651,textual,False
+136,1006ipopayments,Expense type,1008ipopayments,Supplier,0.3325795531272888,textual,False
+137,1005ipopayments,Vendor,1006ipopayments,Expense type,0.3319631218910217,textual,False
+138,1007ipopayments,Expense type,1008ipopayments,Supplier,0.3316975831985473,textual,False
+139,1006ipopayments,Expense area,1007ipopayments,Expense type,0.3316007852554321,textual,False
+140,1005ipopayments,Expense,1006ipopayments,Transaction number,0.3314827680587768,textual,False
+141,1005ipopayments,Vendor,1007ipopayments,Expense type,0.3311040997505188,textual,False
+142,1004ipopayments,Transaction ID,1005ipopayments,Vendor,0.330021470785141,textual,False
+143,1005ipopayments,ExpenseCategory,1008ipopayments,Expense Category,0.3289191424846649,textual,False
+144,1005ipopayments,Expense,1008ipopayments,Transaction number,0.327462375164032,textual,False
+145,1007ipopayments,Expense area,1009ipopayments,Expense type,0.3267301917076111,textual,False
+146,1004ipopayments,Supplier Name,1008ipopayments,Department Category,0.326693594455719,textual,False
+147,1008ipopayments,Supplier,1010ipopayments,Transaction ID,0.3266435265541076,textual,False
+148,1005ipopayments,Expense,1009ipopayments,Transaction number,0.3266071677207947,textual,False
+149,1006ipopayments,Expense type,1007ipopayments,Expense area,0.3261198997497558,textual,False
+150,1004ipopayments,Category,1008ipopayments,Entity Category,0.3260808885097503,textual,False
+151,1004ipopayments,Transaction ID,1009ipopayments,Supplier,0.325976014137268,textual,False
+152,1007ipopayments,Department family,1009ipopayments,Entity,0.3252524733543396,textual,False
+153,1007ipopayments,Entity,1009ipopayments,Department family,0.3252524733543396,textual,False
+154,1005ipopayments,ExpenseCategory,1010ipopayments,Expense Category,0.3248060941696167,textual,False
+155,1006ipopayments,Expense area,1007ipopayments,Entity,0.3246967792510986,textual,False
+156,1006ipopayments,Expense area,1009ipopayments,Entity,0.3246967792510986,textual,False
+157,1005ipopayments,Vendor,1010ipopayments,Transaction ID,0.3236941695213318,textual,False
+158,1008ipopayments,Department Category,1010ipopayments,Department Primary,0.3236317634582519,textual,False
+159,1006ipopayments,Expense type,1009ipopayments,Supplier,0.3222434222698211,textual,False
+160,1006ipopayments,Transaction number,1008ipopayments,Supplier,0.321687638759613,textual,False
+161,1007ipopayments,Expense type,1009ipopayments,Supplier,0.321370780467987,textual,False
+162,1006ipopayments,Expense type,1009ipopayments,Expense area,0.3204382658004761,textual,False
+163,1005ipopayments,ExpenseCategory,1009ipopayments,Expense type,0.3199504017829895,textual,False
+164,1005ipopayments,Vendor,1008ipopayments,Department Category,0.3197106719017029,textual,False
+165,1009ipopayments,Supplier,1010ipopayments,Transaction ID,0.3196272850036621,textual,False
+166,1007ipopayments,Expense area,1009ipopayments,Entity,0.3193611204624176,textual,False
+167,1005ipopayments,ExpenseCategory,1006ipopayments,Expense type,0.3193218111991882,textual,False
+168,1007ipopayments,Department family,1010ipopayments,Department Primary,0.3184013664722442,textual,False
+169,1009ipopayments,Department family,1010ipopayments,Department Primary,0.3184013664722442,textual,False
+170,1005ipopayments,Vendor,1006ipopayments,Transaction number,0.3182550072669983,textual,False
+171,1006ipopayments,Expense area,1008ipopayments,Expense Category,0.317854106426239,textual,False
+172,1008ipopayments,Supplier,1009ipopayments,Transaction number,0.3173432946205139,textual,False
+173,1006ipopayments,Vendor Name,1008ipopayments,Expense Category,0.3172423243522644,textual,False
+174,1007ipopayments,Expense type,1009ipopayments,Expense area,0.3172298669815063,textual,False
+175,1004ipopayments,Transaction ID,1006ipopayments,Vendor Name,0.3166236877441406,textual,False
+176,1005ipopayments,Vendor,1008ipopayments,Expense Category,0.3159899115562439,textual,False
+177,1005ipopayments,ExpenseCategory,1007ipopayments,Expense type,0.3159846067428589,textual,False
+178,1005ipopayments,Vendor,1008ipopayments,Transaction number,0.315674364566803,textual,False
+179,1006ipopayments,Transaction number,1009ipopayments,Supplier,0.3146204054355621,textual,False
+180,1007ipopayments,Entity,1009ipopayments,Expense area,0.3145232200622558,textual,False
+181,1005ipopayments,Vendor,1009ipopayments,Transaction number,0.3139777183532715,textual,False
+182,1005ipopayments,ExpenseCategory,1010ipopayments,Department Primary,0.3139530420303345,textual,False
+183,1005ipopayments,Expense,1010ipopayments,Transaction ID,0.3139252662658691,textual,False
+184,1004ipopayments,Transaction ID,1005ipopayments,Expense,0.3138990998268127,textual,False
+185,1006ipopayments,Expense area,1010ipopayments,Expense Category,0.3137160539627075,textual,False
+186,1008ipopayments,Department Category,1009ipopayments,Supplier,0.3135517239570617,textual,False
+187,1007ipopayments,Department family,1008ipopayments,Entity Category,0.3125737309455871,textual,False
+188,1008ipopayments,Entity Category,1009ipopayments,Department family,0.3125737309455871,textual,False
+189,1004ipopayments,Category,1008ipopayments,Department Category,0.3123452365398407,textual,False
+190,1008ipopayments,Transaction number,1009ipopayments,Supplier,0.3120679259300232,textual,False
+191,1006ipopayments,Transaction number,1009ipopayments,Expense type,0.3114602565765381,textual,False
+192,1006ipopayments,Vendor Name,1010ipopayments,Transaction ID,0.3104991018772125,textual,False
+193,1006ipopayments,Vendor Name,1010ipopayments,Expense Category,0.310462474822998,textual,False
+194,1005ipopayments,Vendor,1010ipopayments,Expense Category,0.309129923582077,textual,False
+195,1007ipopayments,Expense area,1008ipopayments,Expense Category,0.3089747428894043,textual,False
+196,1004ipopayments,Category,1008ipopayments,Expense Category,0.3082403838634491,textual,False
+197,1006ipopayments,Transaction number,1007ipopayments,Expense type,0.3081415295600891,textual,False
+198,1006ipopayments,Expense area,1008ipopayments,Amount,0.3076258897781372,textual,False
+199,1008ipopayments,Transaction number,1009ipopayments,Expense type,0.3074621558189392,textual,False
+200,1008ipopayments,Entity Category,1010ipopayments,Department Secondary,0.3071853518486023,textual,False
+201,1004ipopayments,Title,1008ipopayments,Supplier,0.3069860935211181,textual,False
+202,1006ipopayments,Expense type,1008ipopayments,Transaction number,0.3059815764427185,textual,False
+203,1009ipopayments,Expense type,1010ipopayments,Transaction ID,0.3052330613136291,textual,False
+204,1004ipopayments,Transaction ID,1009ipopayments,Expense type,0.3052233457565307,textual,False
+205,1006ipopayments,Expense type,1009ipopayments,Transaction number,0.3051337599754333,textual,False
+206,1007ipopayments,Expense area,1010ipopayments,Expense Category,0.3049092292785644,textual,False
+207,1006ipopayments,Expense area,1010ipopayments,Transaction Amount,0.3044523298740387,textual,False
+208,1004ipopayments,Category,1010ipopayments,Expense Category,0.3041662573814392,textual,False
+209,1007ipopayments,Expense type,1008ipopayments,Transaction number,0.3041491508483886,textual,False
+210,1005ipopayments,ExpenseCategory,1008ipopayments,Entity Category,0.303942322731018,textual,False
+211,1006ipopayments,Expense type,1010ipopayments,Transaction ID,0.3037525415420532,textual,False
+212,1006ipopayments,Transaction number,1008ipopayments,Expense Category,0.3037152886390686,textual,False
+213,1004ipopayments,Transaction ID,1006ipopayments,Expense type,0.3037071526050567,textual,False
+214,1007ipopayments,Entity,1008ipopayments,Expense Office,0.3034161031246185,textual,False
+215,1008ipopayments,Expense Office,1009ipopayments,Entity,0.3034161031246185,textual,False
+216,1007ipopayments,Expense area,1008ipopayments,Amount,0.3033190071582794,textual,False
+217,1008ipopayments,Expense Category,1009ipopayments,Expense area,0.3033064007759094,textual,False
+218,1007ipopayments,Expense type,1009ipopayments,Transaction number,0.3033040165901184,textual,False
+219,1005ipopayments,DeptName,1008ipopayments,Entity Category,0.303176999092102,textual,False
+220,1004ipopayments,Transaction Total,1006ipopayments,Expense area,0.3024932742118835,textual,False
+221,1004ipopayments,Supplier Name,1009ipopayments,Expense type,0.3021101057529449,textual,False
+222,1005ipopayments,Expense,1006ipopayments,Vendor Name,0.3020216822624206,textual,False
+223,1007ipopayments,Expense type,1010ipopayments,Transaction ID,0.3019353151321411,textual,False
+224,1004ipopayments,Transaction ID,1007ipopayments,Expense type,0.3019062280654907,textual,False
+225,1008ipopayments,Amount,1009ipopayments,Expense area,0.3018036484718323,textual,False
+226,1004ipopayments,Title,1005ipopayments,Vendor,0.3017172217369079,textual,False
+227,1006ipopayments,Expense area,1008ipopayments,Transaction number,0.3013600707054138,textual,False
+228,1008ipopayments,Supplier,1010ipopayments,Expense Category,0.3009945154190063,textual,False
+229,1006ipopayments,Expense area,1007ipopayments,Department family,0.3008159399032593,textual,False
+230,1006ipopayments,Expense area,1009ipopayments,Department family,0.3008159399032593,textual,False
+231,1004ipopayments,Supplier Name,1006ipopayments,Expense type,0.3007625341415405,textual,False
+232,1006ipopayments,Transaction number,1010ipopayments,Expense Category,0.300351619720459,textual,False
+233,1007ipopayments,Expense area,1010ipopayments,Transaction Amount,0.3002976477146148,textual,False
+234,1006ipopayments,Expense area,1009ipopayments,Transaction number,0.3000287115573883,textual,False
+235,1006ipopayments,Transaction number,1007ipopayments,Expense area,0.2999579012393951,textual,False
+236,1004ipopayments,Supplier Name,1007ipopayments,Expense type,0.2998759746551513,textual,False
+237,1004ipopayments,Category,1009ipopayments,Expense type,0.2998572587966919,textual,False
+238,1009ipopayments,Expense area,1010ipopayments,Expense Category,0.2993190586566925,textual,False
+239,1004ipopayments,Category,1006ipopayments,Expense type,0.299235463142395,textual,False
+240,1009ipopayments,Expense area,1010ipopayments,Transaction Amount,0.2990544438362121,textual,False
+241,1008ipopayments,Expense Category,1009ipopayments,Transaction number,0.2989010810852051,textual,False
+242,1004ipopayments,Transaction Total,1007ipopayments,Expense area,0.2983462810516357,textual,False
+243,1004ipopayments,Transaction Total,1008ipopayments,Expense Office,0.2983148396015167,textual,False
+244,1005ipopayments,DeptName,1008ipopayments,Supplier,0.2979207932949066,textual,False
+245,1008ipopayments,Expense Office,1010ipopayments,Transaction Amount,0.297843337059021,textual,False
+246,1005ipopayments,ExpenseCategory,1007ipopayments,Department family,0.2974504828453064,textual,False
+247,1005ipopayments,ExpenseCategory,1009ipopayments,Department family,0.2974504828453064,textual,False
+248,1008ipopayments,Expense Category,1009ipopayments,Supplier,0.2973790764808655,textual,False
+249,1005ipopayments,DeptName,1009ipopayments,Date,0.297161340713501,textual,False
+250,1004ipopayments,Transaction Total,1009ipopayments,Expense area,0.2971092462539673,textual,False
+251,1005ipopayments,DeptName,1007ipopayments,Date,0.296869158744812,textual,False
+252,1004ipopayments,Title,1009ipopayments,Supplier,0.2966410219669342,textual,False
+253,1005ipopayments,ExpenseCategory,1007ipopayments,Entity,0.2964623570442199,textual,False
+254,1005ipopayments,ExpenseCategory,1009ipopayments,Entity,0.2964623570442199,textual,False
+255,1008ipopayments,Expense Office,1009ipopayments,Expense type,0.2963918447494507,textual,False
+256,1008ipopayments,Transaction number,1010ipopayments,Expense Category,0.296373188495636,textual,False
+257,1006ipopayments,Expense area,1010ipopayments,Department Primary,0.2963149547576904,textual,False
+258,1004ipopayments,Category,1007ipopayments,Expense type,0.2959287166595459,textual,False
+259,1006ipopayments,Expense type,1008ipopayments,Expense Office,0.2957683801651001,textual,False
+260,1005ipopayments,DeptName,1008ipopayments,Date,0.2957603931427002,textual,False
+261,1007ipopayments,Expense area,1009ipopayments,Department family,0.2957323789596557,textual,False
+262,1007ipopayments,Expense area,1008ipopayments,Transaction number,0.2957251667976379,textual,False
+263,1009ipopayments,Transaction number,1010ipopayments,Expense Category,0.2955269813537597,textual,False
+264,1004ipopayments,Category,1010ipopayments,Department Primary,0.2954325377941131,textual,False
+265,1005ipopayments,DeptName,1006ipopayments,Date,0.2952791452407837,textual,False
+266,1005ipopayments,DeptName,1009ipopayments,Supplier,0.2951758503913879,textual,False
+267,1007ipopayments,Expense area,1009ipopayments,Transaction number,0.2944087088108063,textual,False
+268,1005ipopayments,Vendor,1010ipopayments,Transaction Amount,0.2943167388439178,textual,False
+269,1006ipopayments,Transaction number,1009ipopayments,Expense area,0.2942180633544922,textual,False
+270,1006ipopayments,Expense area,1009ipopayments,Amount,0.2940261662006378,textual,False
+271,1006ipopayments,Expense area,1007ipopayments,Amount,0.293943852186203,textual,False
+272,1007ipopayments,Department family,1009ipopayments,Expense area,0.293536514043808,textual,False
+273,1007ipopayments,Expense type,1008ipopayments,Expense Office,0.2925238311290741,textual,False
+274,1006ipopayments,Expense area,1008ipopayments,Entity Category,0.2919029295444488,textual,False
+275,1006ipopayments,Transaction number,1008ipopayments,Expense Office,0.2910325825214386,textual,False
+276,1007ipopayments,Expense area,1010ipopayments,Department Primary,0.290979266166687,textual,False
+277,1004ipopayments,Transaction Total,1005ipopayments,Vendor,0.2908706665039062,textual,False
+278,1008ipopayments,Supplier,1010ipopayments,Transaction Amount,0.2907544374465942,textual,False
+279,1009ipopayments,Supplier,1010ipopayments,Expense Category,0.2906504273414612,textual,False
+280,1004ipopayments,Supplier Name,1010ipopayments,Transaction ID,0.2901658117771148,textual,False
+281,1008ipopayments,Transaction number,1009ipopayments,Expense area,0.2899805009365082,textual,False
+282,1007ipopayments,Expense area,1009ipopayments,Amount,0.2898809313774109,textual,False
+283,1004ipopayments,Transaction ID,1008ipopayments,Expense Category,0.2898550927639007,textual,False
+284,1008ipopayments,Expense Category,1010ipopayments,Transaction ID,0.2898138761520386,textual,False
+285,1005ipopayments,ExpenseCategory,1006ipopayments,Transaction number,0.2893083393573761,textual,False
+286,1004ipopayments,Title,1010ipopayments,Transaction ID,0.2890166044235229,textual,False
+287,1007ipopayments,Department family,1008ipopayments,Expense Office,0.2888064086437225,textual,False
+288,1008ipopayments,Expense Office,1009ipopayments,Department family,0.2888064086437225,textual,False
+289,1008ipopayments,Amount,1009ipopayments,Supplier,0.28865447640419,textual,False
+290,1007ipopayments,Amount,1009ipopayments,Expense area,0.2885605096817016,textual,False
+291,1005ipopayments,Vendor,1008ipopayments,Amount,0.2884063720703125,textual,False
+292,1004ipopayments,Transaction Total,1008ipopayments,Supplier,0.2877366542816162,textual,False
+293,1007ipopayments,Department family,1009ipopayments,Date,0.286901593208313,textual,False
+294,1007ipopayments,Date,1009ipopayments,Department family,0.2866093814373016,textual,False
+295,1004ipopayments,Title,1006ipopayments,Expense area,0.2865752279758453,textual,False
+296,1007ipopayments,Expense area,1008ipopayments,Entity Category,0.2865672707557678,textual,False
+297,1004ipopayments,Transaction ID,1010ipopayments,Expense Category,0.2864310145378113,textual,False
+298,1005ipopayments,Date,1007ipopayments,Department family,0.2862973809242248,textual,False
+299,1005ipopayments,Date,1009ipopayments,Department family,0.2862973809242248,textual,False
+300,1009ipopayments,Expense area,1010ipopayments,Department Primary,0.2861413955688476,textual,False
+301,1009ipopayments,Supplier,1010ipopayments,Transaction Amount,0.2857505083084106,textual,False
+302,1007ipopayments,Department family,1008ipopayments,Date,0.2855006456375122,textual,False
+303,1008ipopayments,Date,1009ipopayments,Department family,0.2855006456375122,textual,False
+304,1008ipopayments,Expense Office,1009ipopayments,Transaction number,0.2854825258255005,textual,False
+305,1008ipopayments,Expense Office,1010ipopayments,Expense Category,0.2851166725158691,textual,False
+306,1005ipopayments,ExpenseCategory,1008ipopayments,Transaction number,0.2850687503814697,textual,False
+307,1006ipopayments,Date,1007ipopayments,Department family,0.2850193679332733,textual,False
+308,1006ipopayments,Date,1009ipopayments,Department family,0.2850193679332733,textual,False
+309,1004ipopayments,Transaction ID,1006ipopayments,Expense area,0.283774733543396,textual,False
+310,1005ipopayments,ExpenseCategory,1009ipopayments,Transaction number,0.2837401330471039,textual,False
+311,1007ipopayments,Entity,1008ipopayments,Department Category,0.2833798825740814,textual,False
+312,1008ipopayments,Department Category,1009ipopayments,Entity,0.2833798825740814,textual,False
+313,1008ipopayments,Expense Office,1010ipopayments,Department Primary,0.2832311987876892,textual,False
+314,1006ipopayments,Expense area,1010ipopayments,Transaction ID,0.2828771770000458,textual,False
+315,1004ipopayments,Transaction Total,1009ipopayments,Supplier,0.2827295064926147,textual,False
+316,1008ipopayments,Entity Category,1009ipopayments,Expense area,0.2817293703556061,textual,False
+317,1005ipopayments,DeptName,1010ipopayments,Department Primary,0.2815810441970825,textual,False
+318,1005ipopayments,ExpenseCategory,1008ipopayments,Amount,0.2807192206382751,textual,False
+319,1004ipopayments,Category,1005ipopayments,DeptName,0.280459851026535,textual,False
+320,1004ipopayments,VAT registration number,1006ipopayments,Vendor Name,0.2804270684719085,textual,False
+321,1006ipopayments,Vendor Name,1007ipopayments,VAT registration number,0.2804270684719085,textual,False
+322,1006ipopayments,Vendor Name,1009ipopayments,VAT registration number,0.2804270684719085,textual,False
+323,1006ipopayments,Vendor Name,1010ipopayments,VAT registration number,0.2804270684719085,textual,False
+324,1008ipopayments,Department Category,1009ipopayments,Date,0.2796002030372619,textual,False
+325,1007ipopayments,Date,1008ipopayments,Department Category,0.2793079912662506,textual,False
+326,1005ipopayments,Date,1008ipopayments,Department Category,0.2789959907531738,textual,False
+327,1004ipopayments,Category,1007ipopayments,Entity,0.2789874076843261,textual,False
+328,1004ipopayments,Category,1009ipopayments,Entity,0.2789874076843261,textual,False
+329,1006ipopayments,Vendor Name,1008ipopayments,Transaction number,0.2788369953632355,textual,False
+330,1007ipopayments,Amount,1008ipopayments,Supplier,0.2784064412117004,textual,False
+331,1004ipopayments,Supplier Name,1008ipopayments,Expense Category,0.2783361673355102,textual,False
+332,1005ipopayments,ExpenseCategory,1010ipopayments,Transaction Amount,0.2782426476478576,textual,False
+333,1008ipopayments,Supplier,1009ipopayments,Amount,0.2782005667686462,textual,False
+334,1004ipopayments,Transaction ID,1007ipopayments,Expense area,0.2781904935836792,textual,False
+335,1004ipopayments,Title,1007ipopayments,Expense area,0.2777824103832245,textual,False
+336,1006ipopayments,Date,1008ipopayments,Department Category,0.2777179777622223,textual,False
+337,1004ipopayments,Transaction Total,1005ipopayments,ExpenseCategory,0.2775556147098541,textual,False
+338,1007ipopayments,Expense area,1010ipopayments,Transaction ID,0.2772703766822815,textual,False
+339,1006ipopayments,Vendor Name,1009ipopayments,Transaction number,0.277073323726654,textual,False
+340,1004ipopayments,Title,1005ipopayments,Date,0.276994526386261,textual,False
+341,1006ipopayments,Transaction number,1008ipopayments,VAT number,0.2763824164867401,textual,False
+342,1005ipopayments,ExpenseCategory,1008ipopayments,Department Category,0.2761310338973999,textual,False
+343,1004ipopayments,Title,1006ipopayments,Date,0.276106595993042,textual,False
+344,1004ipopayments,Title,1007ipopayments,Date,0.2758098840713501,textual,False
+345,1004ipopayments,Title,1008ipopayments,Date,0.2756951451301574,textual,False
+346,1004ipopayments,Transaction Total,1005ipopayments,Expense,0.2751144170761108,textual,False
+347,1004ipopayments,Title,1009ipopayments,Date,0.2750358581542969,textual,False
+348,1005ipopayments,Expense,1010ipopayments,Transaction Amount,0.2738853096961975,textual,False
+349,1007ipopayments,Amount,1009ipopayments,Supplier,0.2733977735042572,textual,False
+350,1005ipopayments,Vendor,1007ipopayments,Amount,0.2732888460159302,textual,False
+351,1006ipopayments,Vendor Name,1008ipopayments,Amount,0.2732138037681579,textual,False
+352,1005ipopayments,Vendor,1009ipopayments,Amount,0.2730885744094848,textual,False
+353,1005ipopayments,Vendor,1006ipopayments,Expense area,0.2730607390403747,textual,False
+354,1007ipopayments,Entity,1008ipopayments,Supplier,0.2726930677890777,textual,False
+355,1008ipopayments,Supplier,1009ipopayments,Entity,0.2726930677890777,textual,False
+356,1008ipopayments,VAT number,1009ipopayments,Transaction number,0.2724022567272186,textual,False
+357,1004ipopayments,Transaction ID,1009ipopayments,Expense area,0.2723923325538635,textual,False
+358,1004ipopayments,Title,1009ipopayments,Expense area,0.2722460925579071,textual,False
+359,1008ipopayments,Expense Office,1009ipopayments,Amount,0.2722006440162658,textual,False
+360,1007ipopayments,Amount,1008ipopayments,Expense Office,0.2721186280250549,textual,False
+361,1004ipopayments,Supplier Name,1010ipopayments,Expense Category,0.2716110348701477,textual,False
+362,1004ipopayments,Title,1005ipopayments,ExpenseCategory,0.2715473771095276,textual,False
+363,1009ipopayments,Expense area,1010ipopayments,Transaction ID,0.2715181112289428,textual,False
+364,1005ipopayments,Vendor,1007ipopayments,Entity,0.2705917060375213,textual,False
+365,1005ipopayments,Vendor,1009ipopayments,Entity,0.2705917060375213,textual,False
+366,1007ipopayments,Entity,1009ipopayments,Supplier,0.2702316343784332,textual,False
+367,1004ipopayments,Transaction ID,1008ipopayments,Expense Office,0.2694315612316131,textual,False
+368,1008ipopayments,Expense Office,1010ipopayments,Transaction ID,0.268522560596466,textual,False
+369,1005ipopayments,Vendor,1007ipopayments,Expense area,0.2682086825370788,textual,False
+370,1004ipopayments,Title,1006ipopayments,Transaction number,0.2678455114364624,textual,False
+371,1005ipopayments,ExpenseCategory,1009ipopayments,Amount,0.2672796249389648,textual,False
+372,1005ipopayments,ExpenseCategory,1007ipopayments,Amount,0.2671936154365539,textual,False
+373,1004ipopayments,Category,1007ipopayments,Department family,0.2669457197189331,textual,False
+374,1004ipopayments,Category,1009ipopayments,Department family,0.2669457197189331,textual,False
+375,1006ipopayments,Expense area,1008ipopayments,Supplier,0.2662103176116943,textual,False
+376,1004ipopayments,Supplier Name,1005ipopayments,Expense,0.2659436762332916,textual,False
+377,1004ipopayments,Title,1007ipopayments,VAT registration number,0.2656362056732178,textual,False
+378,1004ipopayments,Title,1009ipopayments,VAT registration number,0.2656362056732178,textual,False
+379,1004ipopayments,Title,1010ipopayments,VAT registration number,0.2656362056732178,textual,False
+380,1007ipopayments,Entity,1010ipopayments,Department Secondary,0.265530526638031,textual,False
+381,1009ipopayments,Entity,1010ipopayments,Department Secondary,0.265530526638031,textual,False
+382,1005ipopayments,Date,1006ipopayments,Expense type,0.2649640440940857,textual,False
+383,1005ipopayments,Expense,1008ipopayments,Amount,0.2649365067481994,textual,False
+384,1005ipopayments,DeptName,1007ipopayments,Entity,0.2643816173076629,textual,False
+385,1005ipopayments,DeptName,1009ipopayments,Entity,0.2643816173076629,textual,False
+386,1005ipopayments,Date,1009ipopayments,Expense type,0.2643118798732757,textual,False
+387,1006ipopayments,Vendor Name,1007ipopayments,Entity,0.2638855576515198,textual,False
+388,1006ipopayments,Vendor Name,1009ipopayments,Entity,0.2638855576515198,textual,False
+389,1004ipopayments,Title,1008ipopayments,Transaction number,0.2638734579086303,textual,False
+390,1006ipopayments,Expense type,1007ipopayments,Date,0.2637823224067688,textual,False
+391,1006ipopayments,Expense type,1008ipopayments,Date,0.2636547684669494,textual,False
+392,1008ipopayments,VAT number,1009ipopayments,Expense type,0.2635331451892853,textual,False
+393,1004ipopayments,Transaction ID,1005ipopayments,ExpenseCategory,0.2634585201740265,textual,False
+394,1005ipopayments,Date,1007ipopayments,Expense type,0.2634113729000091,textual,False
+395,1006ipopayments,Date,1009ipopayments,Expense type,0.2634000182151794,textual,False
+396,1005ipopayments,Vendor,1009ipopayments,Expense area,0.2631964087486267,textual,False
+397,1007ipopayments,Date,1009ipopayments,Expense type,0.2631454467773437,textual,False
+398,1004ipopayments,Title,1009ipopayments,Transaction number,0.2630375623703003,textual,False
+399,1006ipopayments,Expense type,1009ipopayments,Date,0.2630305290222168,textual,False
+400,1008ipopayments,Date,1009ipopayments,Expense type,0.2629769444465637,textual,False
+401,1004ipopayments,Supplier Name,1007ipopayments,VAT registration number,0.2629429996013641,textual,False
+402,1004ipopayments,Supplier Name,1009ipopayments,VAT registration number,0.2629429996013641,textual,False
+403,1004ipopayments,Supplier Name,1010ipopayments,VAT registration number,0.2629429996013641,textual,False
+404,1004ipopayments,VAT registration number,1009ipopayments,Expense type,0.262677252292633,textual,False
+405,1007ipopayments,VAT registration number,1009ipopayments,Expense type,0.262677252292633,textual,False
+406,1009ipopayments,Expense type,1010ipopayments,VAT registration number,0.262677252292633,textual,False
+407,1006ipopayments,Expense type,1008ipopayments,VAT number,0.2625592947006225,textual,False
+408,1006ipopayments,Date,1007ipopayments,Expense type,0.2625241279602051,textual,False
+409,1005ipopayments,ExpenseCategory,1010ipopayments,Transaction ID,0.2625070512294769,textual,False
+410,1007ipopayments,Expense type,1008ipopayments,Date,0.2621161937713623,textual,False
+411,1006ipopayments,Expense area,1009ipopayments,Supplier,0.26204314827919,textual,False
+412,1004ipopayments,Supplier Name,1006ipopayments,Transaction number,0.2618284821510315,textual,False
+413,1004ipopayments,VAT registration number,1006ipopayments,Expense type,0.2617034316062927,textual,False
+414,1006ipopayments,Expense type,1007ipopayments,VAT registration number,0.2617034316062927,textual,False
+415,1006ipopayments,Expense type,1009ipopayments,VAT registration number,0.2617034316062927,textual,False
+416,1006ipopayments,Expense type,1010ipopayments,VAT registration number,0.2617034316062927,textual,False
+417,1007ipopayments,Expense type,1009ipopayments,Date,0.2614754736423492,textual,False
+418,1007ipopayments,Expense area,1008ipopayments,Supplier,0.2614300847053528,textual,False
+419,1007ipopayments,Expense type,1008ipopayments,VAT number,0.2613477110862732,textual,False
+420,1006ipopayments,Vendor Name,1009ipopayments,Date,0.2606633305549621,textual,False
+421,1004ipopayments,VAT registration number,1007ipopayments,Expense type,0.2604918181896209,textual,False
+422,1007ipopayments,Expense type,1009ipopayments,VAT registration number,0.2604918181896209,textual,False
+423,1007ipopayments,Expense type,1010ipopayments,VAT registration number,0.2604918181896209,textual,False
+424,1008ipopayments,Amount,1009ipopayments,Expense type,0.2601287364959717,textual,False
+425,1004ipopayments,Transaction ID,1007ipopayments,VAT registration number,0.2597917318344116,textual,False
+426,1004ipopayments,Transaction ID,1009ipopayments,VAT registration number,0.2597917318344116,textual,False
+427,1004ipopayments,Transaction ID,1010ipopayments,VAT registration number,0.2597917318344116,textual,False
+428,1006ipopayments,Expense type,1008ipopayments,Amount,0.2596127986907959,textual,False
+429,1004ipopayments,Supplier Name,1008ipopayments,Transaction number,0.2592804431915283,textual,False
+430,1004ipopayments,VAT registration number,1010ipopayments,Transaction ID,0.2586179673671722,textual,False
+431,1007ipopayments,VAT registration number,1010ipopayments,Transaction ID,0.2586179673671722,textual,False
+432,1009ipopayments,VAT registration number,1010ipopayments,Transaction ID,0.2586179673671722,textual,False
+433,1005ipopayments,Date,1006ipopayments,Vendor Name,0.2581730484962463,textual,False
+434,1007ipopayments,Expense type,1008ipopayments,Amount,0.2581563591957092,textual,False
+435,1004ipopayments,Category,1005ipopayments,OfficeName,0.2581372857093811,textual,False
+436,1006ipopayments,Vendor Name,1007ipopayments,Date,0.2581217885017395,textual,False
+437,1004ipopayments,Category,1007ipopayments,Date,0.2579717636108398,textual,False
+438,1006ipopayments,Vendor Name,1008ipopayments,Date,0.2578834295272827,textual,False
+439,1005ipopayments,Vendor,1008ipopayments,Expense Office,0.2577144801616668,textual,False
+440,1006ipopayments,Vendor Name,1007ipopayments,Amount,0.2576671838760376,textual,False
+441,1009ipopayments,Date,1010ipopayments,Department Secondary,0.2575722336769104,textual,False
+442,1004ipopayments,Supplier Name,1009ipopayments,Transaction number,0.2575230598449707,textual,False
+443,1006ipopayments,Vendor Name,1009ipopayments,Amount,0.2574674785137176,textual,False
+444,1005ipopayments,OfficeName,1006ipopayments,Vendor Name,0.2574018836021423,textual,False
+445,1007ipopayments,Expense area,1009ipopayments,Supplier,0.2573637664318084,textual,False
+446,1004ipopayments,Supplier Name,1008ipopayments,Amount,0.2568959593772888,textual,False
+447,1006ipopayments,Expense area,1008ipopayments,Department Category,0.2568930983543396,textual,False
+448,1004ipopayments,Category,1009ipopayments,Date,0.2564838528633117,textual,False
+449,1008ipopayments,Supplier,1009ipopayments,Expense area,0.2563706636428833,textual,False
+450,1004ipopayments,Category,1008ipopayments,Date,0.2562965154647827,textual,False
+451,1004ipopayments,Category,1006ipopayments,Date,0.2559651732444763,textual,False
+452,1007ipopayments,Date,1010ipopayments,Department Secondary,0.2559457123279571,textual,False
+453,1004ipopayments,Category,1005ipopayments,Date,0.2559390366077423,textual,False
+454,1005ipopayments,OfficeName,1008ipopayments,Department Category,0.2558596134185791,textual,False
+455,1005ipopayments,Date,1010ipopayments,Department Secondary,0.2552694082260132,textual,False
+456,1005ipopayments,OfficeName,1007ipopayments,Department family,0.2552527785301208,textual,False
+457,1005ipopayments,OfficeName,1009ipopayments,Department family,0.2552527785301208,textual,False
+458,1008ipopayments,Date,1010ipopayments,Department Secondary,0.2550902962684631,textual,False
+459,1008ipopayments,VAT number,1010ipopayments,Expense Category,0.2548070549964905,textual,False
+460,1006ipopayments,Date,1010ipopayments,Department Secondary,0.2545053660869598,textual,False
+461,1004ipopayments,Category,1005ipopayments,Expense,0.2540690898895263,textual,False
+462,1005ipopayments,OfficeName,1010ipopayments,Department Secondary,0.253738522529602,textual,False
+463,1007ipopayments,Expense area,1008ipopayments,Department Category,0.2518095374107361,textual,False
+464,1005ipopayments,Expense,1007ipopayments,Amount,0.2510134577751159,textual,False
+465,1005ipopayments,Expense,1009ipopayments,Amount,0.2506997883319855,textual,False
+466,1004ipopayments,VAT registration number,1008ipopayments,Expense Category,0.2505955100059509,textual,False
+467,1007ipopayments,VAT registration number,1008ipopayments,Expense Category,0.2505955100059509,textual,False
+468,1008ipopayments,Expense Category,1009ipopayments,VAT registration number,0.2505955100059509,textual,False
+469,1008ipopayments,Expense Category,1010ipopayments,VAT registration number,0.2505955100059509,textual,False
+470,1006ipopayments,Expense area,1007ipopayments,Date,0.2503054440021515,textual,False
+471,1004ipopayments,Supplier Name,1005ipopayments,OfficeName,0.2500065863132477,textual,False
+472,1008ipopayments,Department Category,1009ipopayments,Expense area,0.2496136724948883,textual,False
+473,1004ipopayments,Category,1008ipopayments,Amount,0.2495006620883941,textual,False
+474,1006ipopayments,Vendor Name,1008ipopayments,VAT number,0.2489612847566604,textual,False
+475,1006ipopayments,Vendor Name,1008ipopayments,Entity Category,0.2489417642354965,textual,False
+476,1006ipopayments,Expense area,1009ipopayments,Date,0.2487654685974121,textual,False
+477,1004ipopayments,Category,1006ipopayments,Vendor Name,0.2486863583326339,textual,False
+478,1006ipopayments,Expense area,1008ipopayments,Date,0.2486350536346435,textual,False
+479,1005ipopayments,Date,1006ipopayments,Expense area,0.2483368217945099,textual,False
+480,1004ipopayments,VAT registration number,1005ipopayments,Date,0.2482133507728576,textual,False
+481,1005ipopayments,Date,1007ipopayments,VAT registration number,0.2482133507728576,textual,False
+482,1005ipopayments,Date,1009ipopayments,VAT registration number,0.2482133507728576,textual,False
+483,1005ipopayments,Date,1010ipopayments,VAT registration number,0.2482133507728576,textual,False
+484,1004ipopayments,VAT registration number,1007ipopayments,Date,0.2479163259267807,textual,False
+485,1007ipopayments,Date,1009ipopayments,VAT registration number,0.2479163259267807,textual,False
+486,1007ipopayments,Date,1010ipopayments,VAT registration number,0.2479163259267807,textual,False
+487,1004ipopayments,Transaction ID,1008ipopayments,VAT number,0.2471790015697479,textual,False
+488,1004ipopayments,Title,1008ipopayments,Expense Office,0.2470808327198028,textual,False
+489,1004ipopayments,VAT registration number,1009ipopayments,Date,0.2467753887176513,textual,False
+490,1007ipopayments,VAT registration number,1009ipopayments,Date,0.2467753887176513,textual,False
+491,1009ipopayments,Date,1010ipopayments,VAT registration number,0.2467753887176513,textual,False
+492,1004ipopayments,VAT registration number,1008ipopayments,Date,0.2466696798801422,textual,False
+493,1007ipopayments,VAT registration number,1008ipopayments,Date,0.2466696798801422,textual,False
+494,1008ipopayments,Date,1009ipopayments,VAT registration number,0.2466696798801422,textual,False
+495,1008ipopayments,Date,1010ipopayments,VAT registration number,0.2466696798801422,textual,False
+496,1004ipopayments,VAT registration number,1006ipopayments,Date,0.2466079294681549,textual,False
+497,1006ipopayments,Date,1007ipopayments,VAT registration number,0.2466079294681549,textual,False
+498,1006ipopayments,Date,1009ipopayments,VAT registration number,0.2466079294681549,textual,False
+499,1006ipopayments,Date,1010ipopayments,VAT registration number,0.2466079294681549,textual,False
+500,1004ipopayments,VAT registration number,1006ipopayments,Transaction number,0.2463735938072204,textual,False
+501,1006ipopayments,Transaction number,1007ipopayments,VAT registration number,0.2463735938072204,textual,False
+502,1006ipopayments,Transaction number,1009ipopayments,VAT registration number,0.2463735938072204,textual,False
+503,1006ipopayments,Transaction number,1010ipopayments,VAT registration number,0.2463735938072204,textual,False
+504,1007ipopayments,Amount,1009ipopayments,Expense type,0.2461771070957183,textual,False
+505,1004ipopayments,VAT registration number,1010ipopayments,Expense Category,0.2460308820009231,textual,False
+506,1007ipopayments,VAT registration number,1010ipopayments,Expense Category,0.2460308820009231,textual,False
+507,1009ipopayments,VAT registration number,1010ipopayments,Expense Category,0.2460308820009231,textual,False
+508,1008ipopayments,VAT number,1010ipopayments,Transaction ID,0.2460052222013473,textual,False
+509,1004ipopayments,Supplier Name,1009ipopayments,Date,0.2460050284862518,textual,False
+510,1006ipopayments,Expense type,1007ipopayments,Amount,0.2457790970802307,textual,False
+511,1006ipopayments,Expense type,1009ipopayments,Amount,0.2454614341259002,textual,False
+512,1006ipopayments,Transaction number,1008ipopayments,Amount,0.244873821735382,textual,False
+513,1004ipopayments,Supplier Name,1007ipopayments,Entity,0.2442814409732818,textual,False
+514,1004ipopayments,Supplier Name,1009ipopayments,Entity,0.2442814409732818,textual,False
+515,1007ipopayments,Expense type,1009ipopayments,Amount,0.2440284788608551,textual,False
+516,1007ipopayments,Date,1009ipopayments,Expense area,0.2437914907932281,textual,False
+517,1007ipopayments,Expense area,1009ipopayments,Date,0.243673026561737,textual,False
+518,1007ipopayments,Expense area,1008ipopayments,Date,0.2435065805912017,textual,False
+519,1004ipopayments,Supplier Name,1007ipopayments,Date,0.24334117770195,textual,False
+520,1004ipopayments,Supplier Name,1005ipopayments,Date,0.2433249652385711,textual,False
+521,1004ipopayments,VAT registration number,1008ipopayments,Transaction number,0.2432603240013122,textual,False
+522,1007ipopayments,VAT registration number,1008ipopayments,Transaction number,0.2432603240013122,textual,False
+523,1008ipopayments,Transaction number,1009ipopayments,VAT registration number,0.2432603240013122,textual,False
+524,1008ipopayments,Transaction number,1010ipopayments,VAT registration number,0.2432603240013122,textual,False
+525,1006ipopayments,Date,1007ipopayments,Expense area,0.2431637197732925,textual,False
+526,1005ipopayments,Date,1007ipopayments,Expense area,0.2431346774101257,textual,False
+527,1004ipopayments,Supplier Name,1008ipopayments,Date,0.243131548166275,textual,False
+528,1006ipopayments,Vendor Name,1010ipopayments,Transaction Amount,0.2430850565433502,textual,False
+529,1004ipopayments,Supplier Name,1006ipopayments,Date,0.2426829934120178,textual,False
+530,1004ipopayments,Title,1008ipopayments,VAT number,0.2426787912845611,textual,False
+531,1008ipopayments,Expense Category,1010ipopayments,Department Secondary,0.2424871623516082,textual,False
+532,1005ipopayments,Expense,1008ipopayments,VAT number,0.2424057424068451,textual,False
+533,1004ipopayments,VAT registration number,1009ipopayments,Transaction number,0.2423934340476989,textual,False
+534,1007ipopayments,VAT registration number,1009ipopayments,Transaction number,0.2423934340476989,textual,False
+535,1009ipopayments,Transaction number,1010ipopayments,VAT registration number,0.2423934340476989,textual,False
+536,1008ipopayments,Date,1009ipopayments,Expense area,0.2421428561210632,textual,False
+537,1008ipopayments,Expense Office,1009ipopayments,Supplier,0.2418143451213836,textual,False
+538,1006ipopayments,Date,1009ipopayments,Expense area,0.2418120354413986,textual,False
+539,1005ipopayments,Date,1009ipopayments,Expense area,0.2417661547660827,textual,False
+540,1004ipopayments,Supplier Name,1007ipopayments,Amount,0.2416350096464157,textual,False
+541,1009ipopayments,Expense type,1010ipopayments,Transaction Amount,0.241576999425888,textual,False
+542,1004ipopayments,Supplier Name,1009ipopayments,Amount,0.2414390295743942,textual,False
+543,1006ipopayments,Expense type,1010ipopayments,Transaction Amount,0.2411836981773376,textual,False
+544,1008ipopayments,Amount,1009ipopayments,Transaction number,0.2408331632614135,textual,False
+545,1006ipopayments,Expense type,1007ipopayments,Department family,0.2402167320251464,textual,False
+546,1006ipopayments,Expense type,1009ipopayments,Department family,0.2402167320251464,textual,False
+547,1007ipopayments,Department family,1009ipopayments,Expense type,0.2398722171783447,textual,False
+548,1007ipopayments,Expense type,1010ipopayments,Transaction Amount,0.2397520393133163,textual,False
+549,1008ipopayments,Department Category,1010ipopayments,Expense Category,0.2396445870399475,textual,False
+550,1007ipopayments,Expense type,1009ipopayments,Department family,0.2383712828159332,textual,False
+551,1004ipopayments,VAT registration number,1008ipopayments,Supplier,0.2379379719495773,textual,False
+552,1007ipopayments,VAT registration number,1008ipopayments,Supplier,0.2379379719495773,textual,False
+553,1008ipopayments,Supplier,1009ipopayments,VAT registration number,0.2379379719495773,textual,False
+554,1008ipopayments,Supplier,1010ipopayments,VAT registration number,0.2379379719495773,textual,False
+555,1005ipopayments,Date,1008ipopayments,Expense Category,0.2378961145877838,textual,False
+556,1005ipopayments,ExpenseCategory,1010ipopayments,Department Secondary,0.2376504838466644,textual,False
+557,1005ipopayments,ExpenseCategory,1008ipopayments,Supplier,0.2373281270265579,textual,False
+558,1004ipopayments,Transaction Total,1009ipopayments,Expense type,0.2371066212654113,textual,False
+559,1006ipopayments,Date,1008ipopayments,Expense Category,0.2369687855243683,textual,False
+560,1005ipopayments,Date,1010ipopayments,Expense Category,0.2368430495262146,textual,False
+561,1007ipopayments,Date,1008ipopayments,Expense Category,0.2367258369922638,textual,False
+562,1004ipopayments,Transaction Total,1006ipopayments,Expense type,0.236705332994461,textual,False
+563,1005ipopayments,Vendor,1008ipopayments,VAT number,0.2363211214542389,textual,False
+564,1004ipopayments,Category,1009ipopayments,Amount,0.2361553907394409,textual,False
+565,1004ipopayments,Transaction Total,1006ipopayments,Vendor Name,0.2360974252223968,textual,False
+566,1004ipopayments,Category,1007ipopayments,Amount,0.2360723167657852,textual,False
+567,1006ipopayments,Date,1010ipopayments,Expense Category,0.2359724044799804,textual,False
+568,1008ipopayments,Expense Category,1009ipopayments,Date,0.2359654903411865,textual,False
+569,1004ipopayments,Category,1010ipopayments,Department Secondary,0.2357044517993927,textual,False
+570,1007ipopayments,Date,1010ipopayments,Expense Category,0.2356767058372497,textual,False
+571,1008ipopayments,Date,1010ipopayments,Expense Category,0.2355509102344513,textual,False
+572,1004ipopayments,Title,1008ipopayments,Amount,0.235470712184906,textual,False
+573,1004ipopayments,Transaction Total,1007ipopayments,Expense type,0.2352748215198516,textual,False
+574,1005ipopayments,Expense,1007ipopayments,Department family,0.2352092266082763,textual,False
+575,1005ipopayments,Expense,1009ipopayments,Department family,0.2352092266082763,textual,False
+576,1009ipopayments,Date,1010ipopayments,Expense Category,0.2348926961421966,textual,False
+577,1005ipopayments,ExpenseCategory,1008ipopayments,VAT number,0.2348716855049133,textual,False
+578,1004ipopayments,VAT registration number,1005ipopayments,Vendor,0.234713077545166,textual,False
+579,1005ipopayments,Vendor,1007ipopayments,VAT registration number,0.234713077545166,textual,False
+580,1005ipopayments,Vendor,1009ipopayments,VAT registration number,0.234713077545166,textual,False
+581,1005ipopayments,Vendor,1010ipopayments,VAT registration number,0.234713077545166,textual,False
+582,1006ipopayments,Expense area,1008ipopayments,VAT number,0.234337568283081,textual,False
+583,1008ipopayments,Amount,1010ipopayments,Expense Category,0.2339594960212707,textual,False
+584,1006ipopayments,Date,1008ipopayments,Amount,0.2339440286159515,textual,False
+585,1007ipopayments,Date,1008ipopayments,Amount,0.2339255362749099,textual,False
+586,1004ipopayments,Category,1010ipopayments,Transaction ID,0.233393907546997,textual,False
+587,1005ipopayments,ExpenseCategory,1009ipopayments,Supplier,0.2332833558320999,textual,False
+588,1005ipopayments,ExpenseCategory,1007ipopayments,Date,0.2331245243549347,textual,False
+589,1006ipopayments,Vendor Name,1007ipopayments,Expense area,0.2328777611255645,textual,False
+590,1004ipopayments,VAT registration number,1009ipopayments,Supplier,0.2328685224056244,textual,False
+591,1007ipopayments,VAT registration number,1009ipopayments,Supplier,0.2328685224056244,textual,False
+592,1009ipopayments,Supplier,1010ipopayments,VAT registration number,0.2328685224056244,textual,False
+593,1008ipopayments,Amount,1009ipopayments,Date,0.232572853565216,textual,False
+594,1005ipopayments,Date,1008ipopayments,Amount,0.2322121560573578,textual,False
+595,1005ipopayments,ExpenseCategory,1009ipopayments,Date,0.2316205203533172,textual,False
+596,1005ipopayments,Expense,1006ipopayments,Date,0.2315752804279327,textual,False
+597,1005ipopayments,ExpenseCategory,1008ipopayments,Date,0.2314402461051941,textual,False
+598,1005ipopayments,Expense,1007ipopayments,Date,0.2312675714492797,textual,False
+599,1005ipopayments,Expense,1008ipopayments,Date,0.2311544716358184,textual,False
+600,1005ipopayments,ExpenseCategory,1006ipopayments,Date,0.2311272919178009,textual,False
+601,1007ipopayments,Department family,1008ipopayments,Expense Category,0.2310432642698288,textual,False
+602,1008ipopayments,Expense Category,1009ipopayments,Department family,0.2310432642698288,textual,False
+603,1005ipopayments,Expense,1009ipopayments,Date,0.2305118143558502,textual,False
+604,1004ipopayments,Supplier Name,1008ipopayments,VAT number,0.229855865240097,textual,False
+605,1005ipopayments,Date,1008ipopayments,VAT number,0.2290824055671692,textual,False
+606,1004ipopayments,Category,1006ipopayments,Transaction number,0.2289824187755584,textual,False
+607,1007ipopayments,Date,1008ipopayments,VAT number,0.2287853956222534,textual,False
+608,1008ipopayments,VAT number,1009ipopayments,Supplier,0.228371262550354,textual,False
+609,1007ipopayments,Department family,1010ipopayments,Expense Category,0.2279567420482635,textual,False
+610,1009ipopayments,Department family,1010ipopayments,Expense Category,0.2279567420482635,textual,False
+611,1006ipopayments,Vendor Name,1009ipopayments,Expense area,0.2277010083198547,textual,False
+612,1008ipopayments,VAT number,1009ipopayments,Date,0.2276444733142852,textual,False
+613,1007ipopayments,Expense area,1008ipopayments,VAT number,0.2276331782341003,textual,False
+614,1006ipopayments,Date,1008ipopayments,VAT number,0.2274769991636276,textual,False
+615,1006ipopayments,Transaction number,1007ipopayments,Date,0.2273597121238708,mixed,False
+616,1004ipopayments,Supplier Name,1010ipopayments,Transaction Amount,0.2270730435848236,textual,False
+617,1008ipopayments,Supplier,1009ipopayments,Date,0.2268564403057098,textual,False
+618,1005ipopayments,Date,1006ipopayments,Transaction number,0.2261607944965362,mixed,False
+619,1004ipopayments,Transaction Total,1006ipopayments,Transaction number,0.2256218791007995,textual,False
+620,1006ipopayments,Transaction number,1010ipopayments,Transaction Amount,0.2253497540950775,textual,False
+621,1004ipopayments,Title,1005ipopayments,DeptName,0.225291222333908,textual,False
+622,1004ipopayments,Supplier Name,1008ipopayments,Entity Category,0.2248327732086181,textual,False
+623,1004ipopayments,Category,1008ipopayments,Transaction number,0.2247314602136612,textual,False
+624,1004ipopayments,VAT registration number,1005ipopayments,Expense,0.2246732413768768,textual,False
+625,1005ipopayments,Expense,1007ipopayments,VAT registration number,0.2246732413768768,textual,False
+626,1005ipopayments,Expense,1009ipopayments,VAT registration number,0.2246732413768768,textual,False
+627,1005ipopayments,Expense,1010ipopayments,VAT registration number,0.2246732413768768,textual,False
+628,1005ipopayments,Date,1008ipopayments,Supplier,0.2241730690002441,textual,False
+629,1007ipopayments,Date,1008ipopayments,Supplier,0.2241563498973846,textual,False
+630,1006ipopayments,Transaction number,1008ipopayments,Date,0.2241520583629608,mixed,False
+631,1006ipopayments,Date,1008ipopayments,Supplier,0.2235591113567352,textual,False
+632,1005ipopayments,ExpenseCategory,1006ipopayments,Vendor Name,0.2234947830438614,textual,False
+633,1004ipopayments,Transaction Total,1008ipopayments,Transaction number,0.223456472158432,textual,False
+634,1008ipopayments,Expense Category,1010ipopayments,Transaction Amount,0.2234108746051788,textual,False
+635,1004ipopayments,Category,1009ipopayments,Transaction number,0.223409429192543,textual,False
+636,1008ipopayments,Transaction number,1010ipopayments,Transaction Amount,0.2231826782226562,textual,False
+637,1004ipopayments,VAT registration number,1008ipopayments,Amount,0.2228220105171203,textual,False
+638,1007ipopayments,VAT registration number,1008ipopayments,Amount,0.2228220105171203,textual,False
+639,1008ipopayments,Amount,1009ipopayments,VAT registration number,0.2228220105171203,textual,False
+640,1008ipopayments,Amount,1010ipopayments,VAT registration number,0.2228220105171203,textual,False
+641,1006ipopayments,Expense type,1010ipopayments,Department Secondary,0.2228172421455383,textual,False
+642,1007ipopayments,Amount,1008ipopayments,Expense Category,0.2228031754493713,textual,False
+643,1009ipopayments,Expense type,1010ipopayments,Department Secondary,0.222722440958023,textual,False
+644,1008ipopayments,VAT number,1009ipopayments,Expense area,0.2225376069545745,textual,False
+645,1008ipopayments,Expense Category,1009ipopayments,Amount,0.2224832475185394,textual,False
+646,1005ipopayments,Vendor,1008ipopayments,Entity Category,0.2223578691482544,textual,False
+647,1006ipopayments,Transaction number,1009ipopayments,Date,0.2223198115825653,mixed,False
+648,1004ipopayments,Transaction ID,1008ipopayments,Amount,0.2223007678985595,textual,False
+649,1007ipopayments,Date,1010ipopayments,Transaction ID,0.2217349410057068,mixed,False
+650,1004ipopayments,Transaction Total,1009ipopayments,Transaction number,0.221635952591896,textual,False
+651,1004ipopayments,Title,1007ipopayments,Amount,0.2216242551803589,textual,False
+652,1007ipopayments,Expense type,1010ipopayments,Department Secondary,0.2214994132518768,textual,False
+653,1004ipopayments,Category,1010ipopayments,Transaction Amount,0.2214482426643371,textual,False
+654,1009ipopayments,Transaction number,1010ipopayments,Transaction Amount,0.2213649302721023,textual,False
+655,1004ipopayments,Title,1009ipopayments,Amount,0.2212976217269897,textual,False
+656,1006ipopayments,Date,1007ipopayments,Amount,0.2212959229946136,textual,False
+657,1006ipopayments,Date,1009ipopayments,Amount,0.2210062444210052,textual,False
+658,1007ipopayments,Date,1009ipopayments,Amount,0.2208287715911865,textual,False
+659,1005ipopayments,Vendor,1010ipopayments,Department Primary,0.2206202447414398,textual,False
+660,1005ipopayments,Date,1010ipopayments,Transaction ID,0.2205555140972137,mixed,False
+661,1007ipopayments,Amount,1008ipopayments,VAT number,0.2202147543430328,textual,False
+662,1006ipopayments,Vendor Name,1010ipopayments,Department Primary,0.2201204448938369,textual,False
+663,1007ipopayments,Amount,1009ipopayments,Date,0.2201030254364013,textual,False
+664,1007ipopayments,Amount,1010ipopayments,Expense Category,0.2200384140014648,textual,False
+665,1008ipopayments,VAT number,1009ipopayments,Amount,0.2200269252061844,textual,False
+666,1004ipopayments,Transaction ID,1007ipopayments,Date,0.2198951989412307,mixed,False
+667,1009ipopayments,Amount,1010ipopayments,Expense Category,0.2197203189134597,textual,False
+668,1004ipopayments,Category,1007ipopayments,VAT registration number,0.2194790840148925,textual,False
+669,1004ipopayments,Category,1009ipopayments,VAT registration number,0.2194790840148925,textual,False
+670,1004ipopayments,Category,1010ipopayments,VAT registration number,0.2194790840148925,textual,False
+671,1005ipopayments,Date,1007ipopayments,Amount,0.2194516658782959,textual,False
+672,1006ipopayments,Date,1010ipopayments,Transaction ID,0.2193121314048767,mixed,False
+673,1005ipopayments,Date,1009ipopayments,Amount,0.2191649377346038,textual,False
+674,1004ipopayments,Transaction Total,1008ipopayments,Expense Category,0.2187831699848175,textual,False
+675,1004ipopayments,Transaction ID,1005ipopayments,Date,0.2186977267265319,mixed,False
+676,1008ipopayments,Date,1010ipopayments,Transaction ID,0.218610018491745,mixed,False
+677,1004ipopayments,VAT registration number,1008ipopayments,Entity Category,0.2185923159122467,textual,False
+678,1007ipopayments,VAT registration number,1008ipopayments,Entity Category,0.2185923159122467,textual,False
+679,1008ipopayments,Entity Category,1009ipopayments,VAT registration number,0.2185923159122467,textual,False
+680,1008ipopayments,Entity Category,1010ipopayments,VAT registration number,0.2185923159122467,textual,False
+681,1006ipopayments,Expense type,1008ipopayments,Department Category,0.2184966504573822,textual,False
+682,1008ipopayments,Amount,1010ipopayments,Transaction ID,0.2184221297502517,textual,False
+683,1005ipopayments,DeptName,1006ipopayments,Expense area,0.2182970941066742,textual,False
+684,1004ipopayments,Transaction ID,1007ipopayments,Entity,0.2182215303182602,textual,False
+685,1004ipopayments,Transaction ID,1009ipopayments,Entity,0.2182215303182602,textual,False
+686,1008ipopayments,Department Category,1009ipopayments,Expense type,0.2181521356105804,textual,False
+687,1007ipopayments,Entity,1010ipopayments,Transaction ID,0.2181480973958969,textual,False
+688,1009ipopayments,Entity,1010ipopayments,Transaction ID,0.2181480973958969,textual,False
+689,1007ipopayments,Date,1008ipopayments,Expense Office,0.2179069221019745,textual,False
+690,1007ipopayments,Amount,1008ipopayments,Date,0.2178216576576233,textual,False
+691,1008ipopayments,Date,1009ipopayments,Amount,0.2175262868404388,textual,False
+692,1004ipopayments,Transaction ID,1006ipopayments,Date,0.2174790203571319,mixed,False
+693,1007ipopayments,Date,1009ipopayments,Supplier,0.2174673676490783,textual,False
+694,1005ipopayments,Date,1009ipopayments,Supplier,0.2174596786499023,textual,False
+695,1008ipopayments,Date,1009ipopayments,Supplier,0.2172871232032776,textual,False
+696,1004ipopayments,VAT registration number,1006ipopayments,Expense area,0.2172864228487014,textual,False
+697,1006ipopayments,Expense area,1007ipopayments,VAT registration number,0.2172864228487014,textual,False
+698,1006ipopayments,Expense area,1009ipopayments,VAT registration number,0.2172864228487014,textual,False
+699,1006ipopayments,Expense area,1010ipopayments,VAT registration number,0.2172864228487014,textual,False
+700,1007ipopayments,Date,1008ipopayments,Transaction number,0.2171598672866821,mixed,False
+701,1006ipopayments,Date,1009ipopayments,Supplier,0.2168323099613189,textual,False
+702,1004ipopayments,Transaction ID,1008ipopayments,Date,0.2167967110872268,mixed,False
+703,1009ipopayments,Date,1010ipopayments,Transaction ID,0.2167584300041198,mixed,False
+704,1007ipopayments,Expense type,1008ipopayments,Department Category,0.2166512012481689,textual,False
+705,1008ipopayments,Expense Office,1009ipopayments,Date,0.2164137065410614,textual,False
+706,1006ipopayments,Expense area,1010ipopayments,Department Secondary,0.2160477936267852,textual,False
+707,1006ipopayments,Transaction number,1007ipopayments,Amount,0.2160430699586868,textual,False
+708,1004ipopayments,Transaction Total,1010ipopayments,Expense Category,0.2160299718379974,textual,False
+709,1005ipopayments,Date,1008ipopayments,Transaction number,0.2159413695335388,mixed,False
+710,1006ipopayments,Date,1008ipopayments,Expense Office,0.2158995270729065,textual,False
+711,1005ipopayments,Date,1008ipopayments,Expense Office,0.2158855199813842,textual,False
+712,1006ipopayments,Transaction number,1009ipopayments,Amount,0.2157350331544876,textual,False
+713,1008ipopayments,Entity Category,1009ipopayments,Supplier,0.2155239880084991,textual,False
+714,1004ipopayments,Transaction ID,1009ipopayments,Date,0.2150280177593231,mixed,False
+715,1004ipopayments,VAT registration number,1007ipopayments,Entity,0.2148513495922088,textual,False
+716,1004ipopayments,VAT registration number,1009ipopayments,Entity,0.2148513495922088,textual,False
+717,1007ipopayments,Entity,1009ipopayments,VAT registration number,0.2148513495922088,textual,False
+718,1007ipopayments,Entity,1010ipopayments,VAT registration number,0.2148513495922088,textual,False
+719,1007ipopayments,VAT registration number,1009ipopayments,Entity,0.2148513495922088,textual,False
+720,1009ipopayments,Entity,1010ipopayments,VAT registration number,0.2148513495922088,textual,False
+721,1006ipopayments,Date,1008ipopayments,Transaction number,0.2147211730480194,mixed,False
+722,1004ipopayments,VAT registration number,1005ipopayments,OfficeName,0.214682400226593,textual,False
+723,1005ipopayments,OfficeName,1007ipopayments,VAT registration number,0.214682400226593,textual,False
+724,1005ipopayments,OfficeName,1009ipopayments,VAT registration number,0.214682400226593,textual,False
+725,1005ipopayments,OfficeName,1010ipopayments,VAT registration number,0.214682400226593,textual,False
+726,1007ipopayments,Date,1009ipopayments,Transaction number,0.2143292725086212,mixed,False
+727,1004ipopayments,Title,1007ipopayments,Department family,0.2140061557292938,textual,False
+728,1004ipopayments,Title,1009ipopayments,Department family,0.2140061557292938,textual,False
+729,1007ipopayments,Amount,1008ipopayments,Transaction number,0.2138761729001999,textual,False
+730,1008ipopayments,VAT number,1010ipopayments,Department Primary,0.2137048840522766,textual,False
+731,1008ipopayments,Transaction number,1009ipopayments,Amount,0.2135720551013946,textual,False
+732,1005ipopayments,DeptName,1007ipopayments,Expense area,0.2132135331630706,textual,False
+733,1005ipopayments,Date,1009ipopayments,Transaction number,0.2131236344575882,mixed,False
+734,1008ipopayments,Supplier,1010ipopayments,Department Primary,0.2127281427383422,textual,False
+735,1004ipopayments,Transaction ID,1007ipopayments,Department family,0.2127161622047424,textual,False
+736,1004ipopayments,Transaction ID,1009ipopayments,Department family,0.2127161622047424,textual,False
+737,1004ipopayments,VAT registration number,1005ipopayments,ExpenseCategory,0.2123657912015915,textual,False
+738,1005ipopayments,ExpenseCategory,1007ipopayments,VAT registration number,0.2123657912015915,textual,False
+739,1005ipopayments,ExpenseCategory,1009ipopayments,VAT registration number,0.2123657912015915,textual,False
+740,1005ipopayments,ExpenseCategory,1010ipopayments,VAT registration number,0.2123657912015915,textual,False
+741,1008ipopayments,Transaction number,1009ipopayments,Date,0.212171196937561,mixed,False
+742,1007ipopayments,Amount,1009ipopayments,Transaction number,0.2120553255081176,textual,False
+743,1006ipopayments,Date,1009ipopayments,Transaction number,0.2119072675704956,mixed,False
+744,1004ipopayments,Title,1008ipopayments,Department Category,0.2118663787841797,textual,False
+745,1004ipopayments,Supplier Name,1006ipopayments,Expense area,0.2114103734493255,textual,False
+746,1008ipopayments,Date,1009ipopayments,Transaction number,0.2111780345439911,mixed,False
+747,1007ipopayments,Department family,1010ipopayments,Transaction ID,0.211055725812912,textual,False
+748,1009ipopayments,Department family,1010ipopayments,Transaction ID,0.211055725812912,textual,False
+749,1007ipopayments,Expense area,1010ipopayments,Department Secondary,0.211035817861557,textual,False
+750,1005ipopayments,DeptName,1009ipopayments,Expense area,0.2110176682472229,textual,False
+751,1006ipopayments,Transaction number,1007ipopayments,Department family,0.2109219133853912,textual,False
+752,1006ipopayments,Transaction number,1009ipopayments,Department family,0.2109219133853912,textual,False
+753,1004ipopayments,VAT registration number,1007ipopayments,Expense area,0.2105820477008819,textual,False
+754,1007ipopayments,Expense area,1009ipopayments,VAT registration number,0.2105820477008819,textual,False
+755,1007ipopayments,Expense area,1010ipopayments,VAT registration number,0.2105820477008819,textual,False
+756,1009ipopayments,Supplier,1010ipopayments,Department Primary,0.2102667093276977,textual,False
+757,1005ipopayments,OfficeName,1006ipopayments,Expense area,0.2101143300533294,textual,False
+758,1004ipopayments,Transaction ID,1010ipopayments,Transaction Amount,0.2098582684993744,textual,False
+759,1005ipopayments,Vendor,1009ipopayments,Date,0.2093883752822876,textual,False
+760,1004ipopayments,VAT registration number,1010ipopayments,Department Primary,0.20875284075737,textual,False
+761,1007ipopayments,VAT registration number,1010ipopayments,Department Primary,0.20875284075737,textual,False
+762,1009ipopayments,VAT registration number,1010ipopayments,Department Primary,0.20875284075737,textual,False
+763,1007ipopayments,Entity,1008ipopayments,VAT number,0.208157330751419,textual,False
+764,1008ipopayments,VAT number,1009ipopayments,Entity,0.208157330751419,textual,False
+765,1004ipopayments,VAT registration number,1007ipopayments,Amount,0.2081293165683746,textual,False
+766,1007ipopayments,Amount,1009ipopayments,VAT registration number,0.2081293165683746,textual,False
+767,1007ipopayments,Amount,1010ipopayments,VAT registration number,0.2081293165683746,textual,False
+768,1004ipopayments,Category,1008ipopayments,VAT number,0.2080359607934951,textual,False
+769,1007ipopayments,Department family,1008ipopayments,Amount,0.2079924196004867,textual,False
+770,1008ipopayments,Amount,1009ipopayments,Department family,0.2079924196004867,textual,False
+771,1007ipopayments,Department family,1010ipopayments,Transaction Amount,0.2079575061798095,textual,False
+772,1009ipopayments,Department family,1010ipopayments,Transaction Amount,0.2079575061798095,textual,False
+773,1004ipopayments,VAT registration number,1009ipopayments,Amount,0.2079414874315261,textual,False
+774,1007ipopayments,VAT registration number,1009ipopayments,Amount,0.2079414874315261,textual,False
+775,1009ipopayments,Amount,1010ipopayments,VAT registration number,0.2079414874315261,textual,False
+776,1009ipopayments,Expense area,1010ipopayments,Department Secondary,0.2079152017831802,textual,False
+777,1004ipopayments,Transaction Total,1008ipopayments,VAT number,0.2076078206300735,textual,False
+778,1008ipopayments,VAT number,1010ipopayments,Transaction Amount,0.2071426510810852,textual,False
+779,1005ipopayments,Vendor,1007ipopayments,Date,0.2068040668964386,textual,False
+780,1004ipopayments,Supplier Name,1007ipopayments,Expense area,0.206737995147705,textual,False
+781,1005ipopayments,Vendor,1008ipopayments,Date,0.2066714167594909,textual,False
+782,1005ipopayments,Vendor,1006ipopayments,Date,0.2062267959117889,textual,False
+783,1007ipopayments,Department family,1008ipopayments,Transaction number,0.2062153369188308,textual,False
+784,1008ipopayments,Transaction number,1009ipopayments,Department family,0.2062153369188308,textual,False
+785,1004ipopayments,Transaction Total,1007ipopayments,Department family,0.205521821975708,textual,False
+786,1004ipopayments,Transaction Total,1009ipopayments,Department family,0.205521821975708,textual,False
+787,1004ipopayments,VAT registration number,1009ipopayments,Expense area,0.2054864764213562,textual,False
+788,1007ipopayments,VAT registration number,1009ipopayments,Expense area,0.2054864764213562,textual,False
+789,1009ipopayments,Expense area,1010ipopayments,VAT registration number,0.2054864764213562,textual,False
+790,1004ipopayments,Category,1005ipopayments,Vendor,0.2049818038940429,textual,False
+791,1004ipopayments,Title,1010ipopayments,Department Secondary,0.2049062252044677,textual,False
+792,1005ipopayments,OfficeName,1007ipopayments,Expense area,0.2047786712646484,textual,False
+793,1006ipopayments,Transaction number,1007ipopayments,Entity,0.2047276198863983,textual,False
+794,1006ipopayments,Transaction number,1009ipopayments,Entity,0.2047276198863983,textual,False
+795,1007ipopayments,Department family,1009ipopayments,Transaction number,0.2043623030185699,textual,False
+796,1004ipopayments,Category,1008ipopayments,Supplier,0.2041178047657013,textual,False
+797,1004ipopayments,Transaction Total,1010ipopayments,Transaction ID,0.2028083354234695,textual,False
+798,1006ipopayments,Vendor Name,1008ipopayments,Expense Office,0.2025026082992553,textual,False
+799,1007ipopayments,Entity,1008ipopayments,Transaction number,0.2018638700246811,textual,False
+800,1008ipopayments,Transaction number,1009ipopayments,Entity,0.2018638700246811,textual,False
+801,1004ipopayments,Supplier Name,1009ipopayments,Expense area,0.2017396390438079,textual,False
+802,1004ipopayments,VAT registration number,1005ipopayments,DeptName,0.2013392746448516,textual,False
+803,1005ipopayments,DeptName,1007ipopayments,VAT registration number,0.2013392746448516,textual,False
+804,1005ipopayments,DeptName,1009ipopayments,VAT registration number,0.2013392746448516,textual,False
+805,1005ipopayments,DeptName,1010ipopayments,VAT registration number,0.2013392746448516,textual,False
+806,1006ipopayments,Date,1010ipopayments,Transaction Amount,0.2011598795652389,textual,False
+807,1007ipopayments,Date,1010ipopayments,Transaction Amount,0.2009720057249069,textual,False
+808,1007ipopayments,Entity,1009ipopayments,Transaction number,0.2008659988641739,textual,False
+809,1004ipopayments,Supplier Name,1010ipopayments,Department Primary,0.2001737654209137,textual,False
+810,1004ipopayments,Category,1009ipopayments,Supplier,0.2000772655010223,textual,False
+811,1004ipopayments,Supplier Name,1005ipopayments,ExpenseCategory,0.2000658214092254,textual,False
+812,1009ipopayments,Date,1010ipopayments,Transaction Amount,0.1999535709619522,textual,False
+813,1005ipopayments,OfficeName,1009ipopayments,Expense area,0.1999407708644867,textual,False
+814,1004ipopayments,Title,1010ipopayments,Transaction Amount,0.1996676623821258,textual,False
+815,1005ipopayments,Date,1010ipopayments,Transaction Amount,0.1993190944194793,textual,False
+816,1008ipopayments,Entity Category,1010ipopayments,Expense Category,0.1978400945663452,textual,False
+817,1008ipopayments,Date,1010ipopayments,Transaction Amount,0.1976719498634338,textual,False
+818,1008ipopayments,Expense Category,1010ipopayments,Department Primary,0.197246104478836,textual,False
+819,1007ipopayments,Department family,1009ipopayments,Amount,0.1970922648906707,textual,False
+820,1007ipopayments,Amount,1009ipopayments,Department family,0.1970628798007965,textual,False
+821,1005ipopayments,Expense,1007ipopayments,Entity,0.1964758485555648,textual,False
+822,1005ipopayments,Expense,1009ipopayments,Entity,0.1964758485555648,textual,False
+823,1004ipopayments,Transaction Total,1006ipopayments,Date,0.1963033229112625,textual,False
+824,1004ipopayments,Transaction Total,1007ipopayments,Date,0.1961191296577453,textual,False
+825,1007ipopayments,Department family,1008ipopayments,VAT number,0.1958754360675811,textual,False
+826,1008ipopayments,VAT number,1009ipopayments,Department family,0.1958754360675811,textual,False
+827,1004ipopayments,Transaction Total,1009ipopayments,Date,0.1951005458831787,textual,False
+828,1008ipopayments,Expense Office,1010ipopayments,Department Secondary,0.1946496367454528,textual,False
+829,1004ipopayments,Transaction Total,1005ipopayments,Date,0.1944598257541656,textual,False
+830,1005ipopayments,DeptName,1008ipopayments,Expense Category,0.1943774968385696,textual,False
+831,1004ipopayments,VAT registration number,1010ipopayments,Department Secondary,0.1942144781351089,textual,False
+832,1007ipopayments,VAT registration number,1010ipopayments,Department Secondary,0.1942144781351089,textual,False
+833,1009ipopayments,VAT registration number,1010ipopayments,Department Secondary,0.1942144781351089,textual,False
+834,1004ipopayments,Transaction ID,1007ipopayments,Amount,0.1934878379106521,textual,False
+835,1004ipopayments,Transaction ID,1009ipopayments,Amount,0.1931859999895095,textual,False
+836,1004ipopayments,VAT registration number,1007ipopayments,Department family,0.1931044161319732,textual,False
+837,1004ipopayments,VAT registration number,1009ipopayments,Department family,0.1931044161319732,textual,False
+838,1007ipopayments,Department family,1009ipopayments,VAT registration number,0.1931044161319732,textual,False
+839,1007ipopayments,Department family,1010ipopayments,VAT registration number,0.1931044161319732,textual,False
+840,1007ipopayments,VAT registration number,1009ipopayments,Department family,0.1931044161319732,textual,False
+841,1009ipopayments,Department family,1010ipopayments,VAT registration number,0.1931044161319732,textual,False
+842,1008ipopayments,Amount,1010ipopayments,Department Secondary,0.1928262114524841,textual,False
+843,1004ipopayments,Transaction Total,1008ipopayments,Date,0.1928164511919021,textual,False
+844,1005ipopayments,DeptName,1006ipopayments,Expense type,0.192072331905365,textual,False
+845,1008ipopayments,VAT number,1010ipopayments,Department Secondary,0.1917908638715744,textual,False
+846,1005ipopayments,DeptName,1009ipopayments,Expense type,0.1917278170585632,textual,False
+847,1004ipopayments,VAT registration number,1010ipopayments,Transaction Amount,0.1916577517986297,textual,False
+848,1007ipopayments,VAT registration number,1010ipopayments,Transaction Amount,0.1916577517986297,textual,False
+849,1009ipopayments,VAT registration number,1010ipopayments,Transaction Amount,0.1916577517986297,textual,False
+850,1005ipopayments,DeptName,1008ipopayments,Expense Office,0.1916221678256988,textual,False
+851,1005ipopayments,DeptName,1010ipopayments,Expense Category,0.1912909746170044,textual,False
+852,1005ipopayments,DeptName,1007ipopayments,Expense type,0.1902268677949905,textual,False
+853,1004ipopayments,VAT registration number,1008ipopayments,Department Category,0.1897143423557281,textual,False
+854,1007ipopayments,VAT registration number,1008ipopayments,Department Category,0.1897143423557281,textual,False
+855,1008ipopayments,Department Category,1009ipopayments,VAT registration number,0.1897143423557281,textual,False
+856,1008ipopayments,Department Category,1010ipopayments,VAT registration number,0.1897143423557281,textual,False
+857,1006ipopayments,Expense type,1007ipopayments,Entity,0.1897081434726715,textual,False
+858,1006ipopayments,Expense type,1009ipopayments,Entity,0.1897081434726715,textual,False
+859,1007ipopayments,Amount,1010ipopayments,Transaction ID,0.189676821231842,textual,False
+860,1009ipopayments,Amount,1010ipopayments,Transaction ID,0.1893758326768875,textual,False
+861,1007ipopayments,Entity,1009ipopayments,Expense type,0.1887322068214416,textual,False
+862,1004ipopayments,Transaction Total,1007ipopayments,VAT registration number,0.1879760771989822,textual,False
+863,1004ipopayments,Transaction Total,1009ipopayments,VAT registration number,0.1879760771989822,textual,False
+864,1004ipopayments,Transaction Total,1010ipopayments,VAT registration number,0.1879760771989822,textual,False
+865,1006ipopayments,Expense type,1008ipopayments,Entity Category,0.1863625347614288,textual,False
+866,1007ipopayments,Expense type,1009ipopayments,Entity,0.1858512908220291,textual,False
+867,1008ipopayments,Entity Category,1009ipopayments,Expense type,0.1853865981101989,textual,False
+868,1004ipopayments,VAT registration number,1008ipopayments,Expense Office,0.1844570636749267,textual,False
+869,1007ipopayments,VAT registration number,1008ipopayments,Expense Office,0.1844570636749267,textual,False
+870,1008ipopayments,Expense Office,1009ipopayments,VAT registration number,0.1844570636749267,textual,False
+871,1008ipopayments,Expense Office,1010ipopayments,VAT registration number,0.1844570636749267,textual,False
+872,1006ipopayments,Transaction number,1010ipopayments,Department Primary,0.1840162873268127,textual,False
+873,1007ipopayments,Entity,1008ipopayments,Amount,0.1833442002534866,textual,False
+874,1008ipopayments,Amount,1009ipopayments,Entity,0.1833442002534866,textual,False
+875,1007ipopayments,Expense type,1008ipopayments,Entity Category,0.1825056821107864,textual,False
+876,1006ipopayments,Transaction number,1010ipopayments,Department Secondary,0.1819947063922882,textual,False
+877,1007ipopayments,Amount,1010ipopayments,Department Secondary,0.1816757172346115,textual,False
+878,1009ipopayments,Amount,1010ipopayments,Department Secondary,0.1816664189100265,textual,False
+879,1008ipopayments,Transaction number,1010ipopayments,Department Primary,0.1811525523662567,textual,False
+880,1005ipopayments,Expense,1010ipopayments,Department Secondary,0.1811095625162124,textual,False
+881,1004ipopayments,Transaction ID,1010ipopayments,Department Secondary,0.1803935766220092,textual,False
+882,1004ipopayments,Transaction ID,1010ipopayments,Department Primary,0.1803142428398132,textual,False
+883,1009ipopayments,Transaction number,1010ipopayments,Department Primary,0.1801546812057495,textual,False
+884,1007ipopayments,Entity,1010ipopayments,Transaction Amount,0.1801002919673919,textual,False
+885,1009ipopayments,Entity,1010ipopayments,Transaction Amount,0.1801002919673919,textual,False
+886,1005ipopayments,Expense,1008ipopayments,Department Category,0.1788686513900756,textual,False
+887,1005ipopayments,Date,1007ipopayments,Entity,0.1783622354269027,textual,False
+888,1005ipopayments,Date,1009ipopayments,Entity,0.1783622354269027,textual,False
+889,1007ipopayments,Date,1009ipopayments,Entity,0.1780948340892791,textual,False
+890,1004ipopayments,Transaction ID,1008ipopayments,Entity Category,0.1780307441949844,textual,False
+891,1008ipopayments,Entity Category,1010ipopayments,Transaction ID,0.1779573112726211,textual,False
+892,1008ipopayments,Transaction number,1010ipopayments,Department Secondary,0.1778975874185562,textual,False
+893,1004ipopayments,Transaction Total,1007ipopayments,Entity,0.1777623742818832,textual,False
+894,1004ipopayments,Transaction Total,1009ipopayments,Entity,0.1777623742818832,textual,False
+895,1007ipopayments,Entity,1009ipopayments,Date,0.177665963768959,textual,False
+896,1007ipopayments,Entity,1008ipopayments,Date,0.1773454844951629,textual,False
+897,1008ipopayments,Date,1009ipopayments,Entity,0.1773454844951629,textual,False
+898,1004ipopayments,Supplier Name,1008ipopayments,Expense Office,0.1762736439704895,textual,False
+899,1006ipopayments,Date,1007ipopayments,Entity,0.1760188192129135,textual,False
+900,1006ipopayments,Date,1009ipopayments,Entity,0.1760188192129135,textual,False
+901,1009ipopayments,Transaction number,1010ipopayments,Department Secondary,0.1760146021842956,textual,False
+902,1006ipopayments,Expense type,1010ipopayments,Department Primary,0.1759753078222274,textual,False
+903,1005ipopayments,DeptName,1008ipopayments,VAT number,0.1754571199417114,textual,False
+904,1004ipopayments,Title,1007ipopayments,Entity,0.1751156002283096,textual,False
+905,1004ipopayments,Title,1009ipopayments,Entity,0.1751156002283096,textual,False
+906,1009ipopayments,Expense type,1010ipopayments,Department Primary,0.1749993711709976,textual,False
+907,1006ipopayments,Transaction number,1008ipopayments,Entity Category,0.1740289628505706,textual,False
+908,1007ipopayments,Amount,1009ipopayments,Entity,0.1725065857172012,textual,False
+909,1007ipopayments,Entity,1009ipopayments,Amount,0.1723975837230682,textual,False
+910,1007ipopayments,Expense type,1010ipopayments,Department Primary,0.172118455171585,textual,False
+911,1005ipopayments,OfficeName,1008ipopayments,Expense Office,0.1721021980047226,textual,False
+912,1004ipopayments,Title,1008ipopayments,Entity Category,0.1718169152736663,textual,False
+913,1005ipopayments,OfficeName,1008ipopayments,Supplier,0.1711737513542175,textual,False
+914,1004ipopayments,Transaction ID,1008ipopayments,Department Category,0.1705394089221954,textual,False
+915,1008ipopayments,Entity Category,1009ipopayments,Transaction number,0.1701673418283462,textual,False
+916,1006ipopayments,Transaction number,1008ipopayments,Department Category,0.1699855327606201,textual,False
+917,1005ipopayments,OfficeName,1008ipopayments,VAT number,0.1696669906377792,textual,False
+918,1005ipopayments,Date,1008ipopayments,Entity Category,0.1694656014442443,textual,False
+919,1007ipopayments,Date,1008ipopayments,Entity Category,0.1691981852054596,textual,False
+920,1005ipopayments,OfficeName,1007ipopayments,Date,0.1688804924488067,textual,False
+921,1008ipopayments,Department Category,1010ipopayments,Transaction ID,0.168878972530365,textual,False
+922,1008ipopayments,Entity Category,1009ipopayments,Date,0.1687693297863006,textual,False
+923,1005ipopayments,OfficeName,1009ipopayments,Supplier,0.168712317943573,textual,False
+924,1005ipopayments,OfficeName,1009ipopayments,Date,0.1684516221284866,textual,False
+925,1005ipopayments,OfficeName,1008ipopayments,Date,0.1681311428546905,textual,False
+926,1006ipopayments,Date,1008ipopayments,Entity Category,0.1671221852302551,textual,False
+927,1005ipopayments,OfficeName,1006ipopayments,Date,0.1668044924736023,textual,False
+928,1004ipopayments,Transaction Total,1010ipopayments,Department Secondary,0.1640912890434265,textual,False
+929,1008ipopayments,Department Category,1009ipopayments,Transaction number,0.1634259223937988,textual,False
+930,1008ipopayments,Department Category,1009ipopayments,Amount,0.1623420417308807,textual,False
+931,1007ipopayments,Amount,1008ipopayments,Department Category,0.1623126715421676,textual,False
+932,1007ipopayments,Entity,1008ipopayments,Expense Category,0.1617329120635986,textual,False
+933,1008ipopayments,Expense Category,1009ipopayments,Entity,0.1617329120635986,textual,False
+934,1004ipopayments,Title,1005ipopayments,OfficeName,0.1610979586839676,textual,False
+935,1007ipopayments,Entity,1010ipopayments,Expense Category,0.1568250209093094,textual,False
+936,1009ipopayments,Entity,1010ipopayments,Expense Category,0.1568250209093094,textual,False
+937,1008ipopayments,Department Category,1010ipopayments,Transaction Amount,0.1557622551918029,textual,False
+938,1005ipopayments,Expense,1010ipopayments,Department Primary,0.1547843962907791,textual,False
+939,1005ipopayments,Date,1010ipopayments,Department Primary,0.1536152064800262,textual,False
+940,1007ipopayments,Date,1010ipopayments,Department Primary,0.1533478051424026,textual,False
+941,1009ipopayments,Date,1010ipopayments,Department Primary,0.1529189348220825,textual,False
+942,1008ipopayments,Date,1010ipopayments,Department Primary,0.1525984555482864,textual,False
+943,1004ipopayments,Transaction Total,1008ipopayments,Department Category,0.1515518575906753,textual,False
+944,1006ipopayments,Date,1010ipopayments,Department Primary,0.151271790266037,textual,False
+945,1004ipopayments,Title,1010ipopayments,Department Primary,0.1491854041814804,textual,False
+946,1008ipopayments,Amount,1010ipopayments,Department Primary,0.1478883028030395,textual,False
+947,1004ipopayments,Transaction ID,1005ipopayments,DeptName,0.1475259214639663,textual,False
+948,1005ipopayments,DeptName,1008ipopayments,Amount,0.1468969136476516,textual,False
+949,1005ipopayments,DeptName,1010ipopayments,Transaction ID,0.1458654850721359,textual,False
+950,1005ipopayments,Expense,1008ipopayments,Entity Category,0.1458336263895034,textual,False
+951,1007ipopayments,Amount,1010ipopayments,Department Primary,0.1370506882667541,textual,False
+952,1009ipopayments,Amount,1010ipopayments,Department Primary,0.1369416862726211,textual,False
+953,1005ipopayments,DeptName,1009ipopayments,Amount,0.1359967589378357,textual,False
+954,1005ipopayments,DeptName,1007ipopayments,Amount,0.1359673738479614,textual,False
+955,1007ipopayments,Amount,1008ipopayments,Entity Category,0.1352983564138412,textual,False
+956,1008ipopayments,Entity Category,1009ipopayments,Amount,0.1351893544197082,textual,False
+957,1004ipopayments,Transaction Total,1010ipopayments,Department Primary,0.1349414438009262,textual,False
+958,1008ipopayments,Entity Category,1010ipopayments,Transaction Amount,0.130962386727333,textual,False
+959,1005ipopayments,DeptName,1006ipopayments,Transaction number,0.1278913617134094,textual,False
+960,1004ipopayments,Transaction Total,1008ipopayments,Entity Category,0.1267420351505279,textual,False
+961,1005ipopayments,OfficeName,1006ipopayments,Expense type,0.1264788955450058,textual,False
+962,1005ipopayments,OfficeName,1009ipopayments,Expense type,0.1255029439926147,textual,False
+963,1005ipopayments,DeptName,1008ipopayments,Transaction number,0.1231848001480102,textual,False
+964,1005ipopayments,OfficeName,1007ipopayments,Expense type,0.1226220428943634,textual,False
+965,1005ipopayments,DeptName,1009ipopayments,Transaction number,0.1213317587971687,textual,False
+966,1004ipopayments,Transaction ID,1005ipopayments,OfficeName,0.1195685714483261,textual,False
+967,1005ipopayments,OfficeName,1010ipopayments,Transaction ID,0.1194951385259628,textual,False
+968,1005ipopayments,DeptName,1010ipopayments,Transaction Amount,0.1158912777900695,textual,False
+969,1004ipopayments,Transaction Total,1005ipopayments,DeptName,0.10989511013031,textual,False
+970,1005ipopayments,OfficeName,1008ipopayments,Expense Category,0.1076188534498214,textual,False
+971,1005ipopayments,OfficeName,1010ipopayments,Expense Category,0.1027109548449516,textual,False
+972,1005ipopayments,OfficeName,1008ipopayments,Amount,0.0884258300065994,textual,False
+973,1005ipopayments,OfficeName,1006ipopayments,Transaction number,0.0878565311431884,textual,False
+974,1005ipopayments,OfficeName,1008ipopayments,Transaction number,0.0849927812814712,textual,False
+975,1005ipopayments,OfficeName,1009ipopayments,Transaction number,0.083994910120964,textual,False
+976,1005ipopayments,OfficeName,1007ipopayments,Amount,0.0775882303714752,textual,False
+977,1005ipopayments,OfficeName,1009ipopayments,Amount,0.0774792209267616,textual,False
+978,1005ipopayments,OfficeName,1010ipopayments,Transaction Amount,0.0490571148693561,textual,False
+979,1004ipopayments,Transaction Total,1005ipopayments,OfficeName,0.042378731071949,textual,False

@@ -1,0 +1,574 @@
+,table_a,column_a,table_b,column_b,similarity,type,correct
+0,500spend_nov2015,Transaction Number,500spend_sep2015,Transaction Number,0.9957671165466307,numerical,True
+1,500spend_nov2015,net_amount,500spend_oct2015,net_amount,0.9926324486732484,numerical,True
+2,500spend_nov2015,Date,500spend_oct2015,Date,0.9924466013908386,mixed,True
+3,500spend_oct2015,net_amount,500spend_sep2016,net_amount,0.9904012680053712,numerical,True
+4,500spend_nov2015,net_amount,500spend_sep2016,net_amount,0.98920476436615,numerical,True
+5,500spend_oct2015,Date,500spend_sep2015,Date,0.9868558645248412,mixed,True
+6,500spend_may2016,Amount,500spend_sep2015,Amount,0.9837534427642822,numerical,True
+7,500spend_nov2015,Date,500spend_sep2015,Date,0.9836019277572632,mixed,True
+8,500spend_may2016,Date,500spend_sep2015,Date,0.9790996313095092,mixed,True
+9,500spend_may2016,Date,500spend_oct2015,Date,0.9789853692054749,mixed,True
+10,500spend_may2016,Date,500spend_nov2015,Date,0.9734459519386292,mixed,True
+11,500spend_jul2016,Service Name,500spend_sep2015,Service Name,0.965307891368866,textual,True
+12,500spend_nov2015,Summary of purpose of expenditure,500spend_oct2015,purpose of expenditure,0.9637433290481568,textual,True
+13,500spend_jul2016,Service Name,500spend_oct2015,Service Name,0.9601080417633056,textual,True
+14,500spend_oct2015,Supplier Name,500spend_sep2015,Supplier Name,0.9534675478935242,textual,True
+15,500spend_nov2015,Service,500spend_sep2015,Service Name,0.9503870606422424,textual,True
+16,500spend_oct2015,Supplier Name,500spend_sep2016,Supplier Name,0.946195900440216,textual,True
+17,500spend_may2016,Description,500spend_sep2015,Description,0.9458152651786804,textual,True
+18,500spend_nov2015,Supplier Name,500spend_oct2015,Supplier Name,0.9424877762794496,textual,True
+19,500spend_sep2015,Supplier Name,500spend_sep2016,Supplier Name,0.9366437196731568,textual,True
+20,500spend_jun2016,Secondary Service,500spend_nov2015,Service,0.9355225563049316,textual,True
+21,500spend_nov2015,Merchant Category,500spend_sep2016,Merchant Category,0.9353209733963012,textual,True
+22,500spend_may2016,Amount,500spend_sep2016,net_amount,0.9262077808380128,numerical,True
+23,500spend_may2016,Amount,500spend_nov2015,net_amount,0.9235391616821288,numerical,True
+24,500spend_oct2015,Service Name,500spend_sep2015,Service Name,0.923337996006012,textual,True
+25,500spend_sep2015,Amount,500spend_sep2016,net_amount,0.9203447699546814,numerical,True
+26,500spend_jul2016,Service Name,500spend_nov2015,Service,0.919491171836853,textual,True
+27,500spend_may2016,Amount,500spend_oct2015,net_amount,0.9180278182029724,numerical,True
+28,500spend_oct2015,net_amount,500spend_sep2015,Amount,0.9130309820175172,numerical,True
+29,500spend_nov2015,net_amount,500spend_sep2015,Amount,0.9121751189231871,numerical,True
+30,500spend_jun2016,Details,500spend_may2016,Description,0.904274880886078,textual,True
+31,500spend_nov2015,Supplier Name,500spend_sep2016,Supplier Name,0.9033643007278442,textual,True
+32,500spend_may2016,Merchant,500spend_sep2015,Supplier Name,0.902597188949585,textual,True
+33,500spend_jun2016,Secondary Service,500spend_sep2015,Service Name,0.898147702217102,textual,True
+34,500spend_jun2016,Details,500spend_sep2015,Description,0.8952603340148926,textual,True
+35,500spend_may2016,Merchant,500spend_sep2016,Supplier Name,0.8931472301483154,textual,True
+36,500spend_jul2016,Supplier,500spend_sep2016,Supplier Name,0.8803732395172119,textual,True
+37,500spend_nov2015,Supplier Name,500spend_sep2015,Supplier Name,0.8710483312606812,textual,True
+38,500spend_jul2016,Category Name,500spend_oct2015,Service Category,0.8660646677017212,textual,True
+39,500spend_jul2016,Service Name,500spend_jun2016,Secondary Service,0.865729033946991,textual,True
+40,500spend_jun2016,Name,500spend_may2016,Merchant,0.865456223487854,textual,True
+41,500spend_jul2016,Supplier,500spend_may2016,Merchant,0.8616418838500977,textual,True
+42,500spend_jul2016,Expense Category,500spend_oct2015,purpose of expenditure,0.8615082502365112,textual,True
+43,500spend_jul2016,Service Name,500spend_jun2016,Details,0.8599952459335327,textual,False
+44,500spend_jun2016,Primary Service,500spend_nov2015,Service,0.8592075109481812,textual,False
+45,500spend_jul2016,Supplier,500spend_sep2015,Supplier Name,0.8590515851974487,textual,True
+46,500spend_jun2016,Details,500spend_nov2015,Summary of purpose of expenditure,0.8573274612426758,textual,True
+47,500spend_jun2016,Primary Service,500spend_oct2015,Service Category,0.8524872064590454,textual,True
+48,500spend_nov2015,Service Category,500spend_oct2015,Service Name,0.8523292541503906,textual,False
+49,500spend_nov2015,Service,500spend_oct2015,Service Name,0.8523030281066895,textual,True
+50,500spend_may2016,Merchant,500spend_oct2015,Supplier Name,0.8511678576469421,textual,True
+51,500spend_jun2016,Name,500spend_sep2016,Supplier Name,0.8510565757751465,textual,True
+52,500spend_jul2016,Service Name,500spend_sep2015,Description,0.8510059118270874,textual,False
+53,500spend_jun2016,Details,500spend_oct2015,purpose of expenditure,0.844720184803009,textual,True
+54,500spend_jul2016,Expense Category,500spend_nov2015,Summary of purpose of expenditure,0.8424661755561829,textual,True
+55,500spend_jul2016,Service Name,500spend_may2016,Description,0.841555118560791,textual,False
+56,500spend_jun2016,Name,500spend_oct2015,Supplier Name,0.8378236293792725,textual,True
+57,500spend_jun2016,Name,500spend_sep2015,Supplier Name,0.8348828554153442,textual,True
+58,500spend_oct2015,Service Category,500spend_sep2016,Merchant Category,0.8331214189529419,textual,True
+59,500spend_jun2016,Primary Service,500spend_sep2015,Service Name,0.8295308947563171,textual,False
+60,500spend_may2016,Description,500spend_nov2015,Summary of purpose of expenditure,0.8277086019515991,textual,True
+61,500spend_jun2016,Details,500spend_nov2015,Service,0.8262292146682739,textual,False
+62,500spend_may2016,Description,500spend_oct2015,purpose of expenditure,0.8229851722717285,textual,True
+63,500spend_nov2015,Merchant Category,500spend_sep2015,Merchant Type,0.8207526206970215,textual,True
+64,500spend_nov2015,Merchant Category,500spend_oct2015,Service Category,0.8182252645492554,textual,True
+65,500spend_jul2016,Category Name,500spend_sep2016,Merchant Category,0.8160569071769714,textual,True
+66,500spend_oct2015,Service Name,500spend_sep2015,Description,0.8155341148376465,textual,False
+67,500spend_jun2016,Secondary Service,500spend_oct2015,Service Name,0.8143053650856018,textual,True
+68,500spend_may2016,Description,500spend_sep2015,Service Name,0.814009964466095,textual,False
+69,500spend_jun2016,Details,500spend_sep2015,Service Name,0.8083729147911072,textual,False
+70,500spend_jul2016,Supplier,500spend_oct2015,Supplier Name,0.801550030708313,textual,True
+71,500spend_sep2015,Merchant Type,500spend_sep2016,Merchant Category,0.8007569313049316,textual,True
+72,500spend_jul2016,Service Name,500spend_nov2015,Service Category,0.8005580902099609,textual,False
+73,500spend_nov2015,Service,500spend_sep2015,Description,0.7993203401565552,textual,False
+74,500spend_may2016,Description,500spend_nov2015,Service,0.7983165979385376,textual,False
+75,500spend_nov2015,Transaction Number,500spend_oct2015,net_amount,0.7942083477973938,numerical,False
+76,500spend_jul2016,Supplier,500spend_jun2016,Name,0.7930086851119995,textual,True
+77,500spend_oct2015,purpose of expenditure,500spend_sep2015,Description,0.7921533584594727,textual,True
+78,500spend_jun2016,Name,500spend_nov2015,Supplier Name,0.7920548915863037,textual,True
+79,500spend_jul2016,Expense Category,500spend_may2016,Description,0.789863109588623,textual,True
+80,500spend_oct2015,net_amount,500spend_sep2015,Transaction Number,0.7892770767211914,numerical,False
+81,500spend_jul2016,Expense Category,500spend_jun2016,Details,0.7891485691070557,textual,True
+82,500spend_jun2016,Details,500spend_oct2015,Service Name,0.7891349792480469,textual,False
+83,500spend_nov2015,Service,500spend_oct2015,Service Category,0.7882300615310669,textual,False
+84,500spend_nov2015,Service,500spend_oct2015,purpose of expenditure,0.7874391674995422,textual,False
+85,500spend_nov2015,net_amount,500spend_sep2015,Transaction Number,0.7838924527168274,numerical,False
+86,500spend_may2016,Description,500spend_oct2015,Service Name,0.7829611301422119,textual,False
+87,500spend_nov2015,Service Category,500spend_sep2015,Service Name,0.7761932611465454,textual,False
+88,500spend_jul2016,Category Name,500spend_jun2016,Primary Service,0.7744994163513184,textual,True
+89,500spend_jun2016,Primary Service,500spend_sep2016,Merchant Category,0.7711842656135559,textual,True
+90,500spend_nov2015,Transaction Number,500spend_sep2016,net_amount,0.7699694633483887,numerical,False
+91,500spend_jul2016,Expense Category,500spend_sep2015,Description,0.769043505191803,textual,True
+92,500spend_nov2015,Summary of purpose of expenditure,500spend_sep2015,Description,0.7679745554924011,textual,True
+93,500spend_may2016,Amount,500spend_nov2015,Transaction Number,0.7663034200668335,numerical,False
+94,500spend_jun2016,Secondary Service,500spend_may2016,Description,0.765959620475769,textual,False
+95,500spend_nov2015,Transaction Number,500spend_sep2015,Amount,0.7656811475753784,numerical,False
+96,500spend_jun2016,Secondary Service,500spend_sep2015,Description,0.762515664100647,textual,False
+97,500spend_may2016,Merchant,500spend_nov2015,Supplier Name,0.7623395919799805,textual,True
+98,500spend_sep2015,Transaction Number,500spend_sep2016,net_amount,0.7623011469841003,numerical,False
+99,500spend_may2016,Amount,500spend_sep2015,Transaction Number,0.7615600228309631,numerical,False
+100,500spend_oct2015,Service Category,500spend_sep2015,Service Name,0.7606287002563477,textual,False
+101,500spend_jul2016,Category Name,500spend_nov2015,Merchant Category,0.7574145793914795,textual,True
+102,500spend_jul2016,Expense Category,500spend_nov2015,Service,0.7546374797821045,textual,False
+103,500spend_jun2016,Secondary Service,500spend_oct2015,purpose of expenditure,0.7543785572052002,textual,False
+104,500spend_jul2016,Service Name,500spend_jun2016,Primary Service,0.7534414529800415,textual,False
+105,500spend_jul2016,Category Name,500spend_sep2015,Service Name,0.7510915994644165,textual,False
+106,500spend_jul2016,Service Name,500spend_oct2015,purpose of expenditure,0.7495612502098083,textual,False
+107,500spend_jul2016,Expense Category,500spend_sep2016,Merchant Category,0.7425612211227417,textual,False
+108,500spend_oct2015,purpose of expenditure,500spend_sep2015,Service Name,0.7414103746414185,textual,False
+109,500spend_nov2015,Organisation Name,500spend_oct2015,Service Name,0.7379619479179382,textual,False
+110,500spend_jun2016,Secondary Service,500spend_nov2015,Summary of purpose of expenditure,0.7361346483230591,textual,False
+111,500spend_jul2016,Service Name,500spend_nov2015,Summary of purpose of expenditure,0.7359997034072876,textual,False
+112,500spend_jul2016,Expense Category,500spend_nov2015,Merchant Category,0.7357445955276489,textual,False
+113,500spend_jul2016,Category Name,500spend_nov2015,Service,0.7349896430969238,textual,False
+114,500spend_jun2016,Secondary Service,500spend_oct2015,Service Category,0.7285046577453613,textual,False
+115,500spend_jul2016,Expense Category,500spend_oct2015,Service Category,0.7201879620552063,textual,False
+116,500spend_nov2015,Service Category,500spend_oct2015,Service Category,0.7185797691345215,textual,False
+117,500spend_jul2016,Expense Category,500spend_sep2015,Service Name,0.7177294492721558,textual,False
+118,500spend_nov2015,Service Category,500spend_sep2015,Description,0.7173957228660583,textual,False
+119,500spend_oct2015,net_amount,500spend_sep2015,Date,0.7110153436660767,textual,False
+120,500spend_jun2016,Primary Service,500spend_sep2015,Description,0.7106869220733643,textual,False
+121,500spend_nov2015,Summary of purpose of expenditure,500spend_sep2015,Service Name,0.7105931043624878,textual,False
+122,500spend_jul2016,Supplier,500spend_nov2015,Supplier Name,0.7074193954467773,textual,True
+123,500spend_sep2015,Description,500spend_sep2016,Merchant Category,0.7060885429382324,textual,False
+124,500spend_jul2016,Expense Category,500spend_jun2016,Secondary Service,0.7058693170547485,textual,False
+125,500spend_may2016,Date,500spend_oct2015,net_amount,0.7055652141571045,textual,False
+126,500spend_jul2016,Category Name,500spend_sep2015,Description,0.7050762176513672,textual,False
+127,500spend_nov2015,Organisation Name,500spend_oct2015,net_amount,0.7030190229415894,textual,False
+128,500spend_may2016,Description,500spend_sep2015,Merchant Type,0.7018334865570068,textual,False
+129,500spend_nov2015,Merchant Category,500spend_sep2015,Description,0.7006787061691284,textual,False
+130,500spend_nov2015,Organisation Name,500spend_sep2016,net_amount,0.6997308135032654,textual,False
+131,500spend_jun2016,Secondary Service,500spend_nov2015,Service Category,0.6978352069854736,textual,False
+132,500spend_nov2015,net_amount,500spend_sep2015,Date,0.6969521641731262,textual,False
+133,500spend_may2016,Description,500spend_nov2015,Merchant Category,0.6969015598297119,textual,False
+134,500spend_jun2016,Primary Service,500spend_oct2015,Service Name,0.6954642534255981,textual,False
+135,500spend_sep2015,Date,500spend_sep2016,net_amount,0.694873571395874,textual,False
+136,500spend_nov2015,net_amount,500spend_oct2015,Date,0.6946185827255249,textual,False
+137,500spend_nov2015,Transaction Number,500spend_oct2015,Date,0.6945075988769531,textual,False
+138,500spend_may2016,Date,500spend_nov2015,Transaction Number,0.694243848323822,textual,False
+139,500spend_jul2016,Service Name,500spend_oct2015,Service Category,0.6932617425918579,textual,False
+140,500spend_nov2015,Transaction Number,500spend_sep2015,Date,0.6919849514961243,textual,False
+141,500spend_nov2015,Date,500spend_oct2015,net_amount,0.6917742490768433,textual,False
+142,500spend_jun2016,Primary Service,500spend_oct2015,purpose of expenditure,0.6912020444869995,textual,False
+143,500spend_jul2016,Category Name,500spend_may2016,Description,0.6911786794662476,textual,False
+144,500spend_may2016,Date,500spend_nov2015,net_amount,0.6911746263504028,textual,False
+145,500spend_nov2015,Supplier Name,500spend_sep2015,Description,0.6910332441329956,textual,False
+146,500spend_may2016,Description,500spend_sep2016,Merchant Category,0.6902384757995605,textual,False
+147,500spend_jun2016,Primary Service,500spend_nov2015,Merchant Category,0.6900767683982849,textual,True
+148,500spend_jul2016,Category Name,500spend_nov2015,Service Category,0.6876767873764038,textual,False
+149,500spend_may2016,Date,500spend_sep2015,Transaction Number,0.6874197721481323,textual,False
+150,500spend_oct2015,Date,500spend_sep2016,net_amount,0.686298131942749,textual,False
+151,500spend_may2016,Date,500spend_sep2016,net_amount,0.6844731569290161,textual,False
+152,500spend_jun2016,Primary Service,500spend_may2016,Description,0.6838394999504089,textual,False
+153,500spend_jul2016,Category Name,500spend_jun2016,Secondary Service,0.6837821006774902,textual,False
+154,500spend_oct2015,Date,500spend_sep2015,Transaction Number,0.6835479736328125,textual,False
+155,500spend_nov2015,Service,500spend_sep2016,Merchant Category,0.683524489402771,textual,False
+156,500spend_may2016,Merchant,500spend_sep2016,Merchant Category,0.6831024885177612,textual,False
+157,500spend_jul2016,Expense Category,500spend_jun2016,Primary Service,0.6823897957801819,textual,False
+158,500spend_jun2016,Name,500spend_sep2015,Description,0.6805666089057922,textual,False
+159,500spend_may2016,Description,500spend_nov2015,Supplier Name,0.6774002313613892,textual,False
+160,500spend_jul2016,Service Name,500spend_nov2015,Organisation Name,0.6751888394355774,textual,False
+161,500spend_nov2015,Date,500spend_sep2016,net_amount,0.6747856140136719,textual,False
+162,500spend_jul2016,Expense Category,500spend_sep2015,Merchant Type,0.6738547682762146,textual,False
+163,500spend_jun2016,Details,500spend_sep2015,Merchant Type,0.6734433770179749,textual,False
+164,500spend_nov2015,Date,500spend_sep2015,Transaction Number,0.6726413369178772,textual,False
+165,500spend_may2016,Description,500spend_nov2015,Service Category,0.6719480752944946,textual,False
+166,500spend_jun2016,Primary Service,500spend_sep2015,Merchant Type,0.6645681858062744,textual,True
+167,500spend_may2016,Amount,500spend_nov2015,Organisation Name,0.6642116904258728,textual,False
+168,500spend_jun2016,Primary Service,500spend_nov2015,Summary of purpose of expenditure,0.6621741056442261,textual,False
+169,500spend_nov2015,Service,500spend_sep2015,Merchant Type,0.6611638069152832,textual,False
+170,500spend_jul2016,Service Name,500spend_sep2015,Merchant Type,0.6604349613189697,textual,False
+171,500spend_jun2016,Details,500spend_nov2015,Merchant Category,0.6596717238426208,textual,False
+172,500spend_oct2015,Service Category,500spend_sep2015,Description,0.6568052768707275,textual,False
+173,500spend_jul2016,Expense Category,500spend_oct2015,Service Name,0.6550899744033813,textual,False
+174,500spend_jul2016,Expense Category,500spend_nov2015,Service Category,0.6541424989700317,textual,False
+175,500spend_may2016,Description,500spend_oct2015,Service Category,0.6540046334266663,textual,False
+176,500spend_nov2015,Summary of purpose of expenditure,500spend_oct2015,Service Name,0.6512015461921692,textual,False
+177,500spend_oct2015,purpose of expenditure,500spend_sep2016,Merchant Category,0.6501066088676453,textual,False
+178,500spend_nov2015,Organisation Name,500spend_sep2015,Amount,0.648853063583374,textual,False
+179,500spend_jun2016,Details,500spend_sep2016,Merchant Category,0.6485220193862915,textual,False
+180,500spend_jun2016,Details,500spend_nov2015,Service Category,0.6463807821273804,textual,False
+181,500spend_sep2015,Service Name,500spend_sep2016,Merchant Category,0.6449663639068604,textual,False
+182,500spend_nov2015,Organisation Name,500spend_sep2015,Date,0.6438909769058228,textual,False
+183,500spend_jul2016,Category Name,500spend_oct2015,Service Name,0.6433367729187012,textual,False
+184,500spend_oct2015,purpose of expenditure,500spend_sep2015,Merchant Type,0.6422141194343567,textual,False
+185,500spend_may2016,Date,500spend_nov2015,Organisation Name,0.6410127282142639,textual,False
+186,500spend_nov2015,Supplier Name,500spend_sep2016,Merchant Category,0.6406821012496948,textual,False
+187,500spend_oct2015,Supplier Name,500spend_sep2015,Description,0.6404604911804199,textual,False
+188,500spend_may2016,Amount,500spend_sep2015,Date,0.6403681039810181,textual,False
+189,500spend_nov2015,Organisation Name,500spend_oct2015,Date,0.6400330066680908,textual,False
+190,500spend_nov2015,Summary of purpose of expenditure,500spend_sep2015,Merchant Type,0.6385930180549622,textual,False
+191,500spend_nov2015,Summary of purpose of expenditure,500spend_sep2016,Merchant Category,0.6384906768798828,textual,False
+192,500spend_jun2016,Details,500spend_nov2015,Supplier Name,0.6373614072799683,textual,False
+193,500spend_nov2015,Merchant Category,500spend_sep2015,Service Name,0.6368991136550903,textual,False
+194,500spend_may2016,Amount,500spend_oct2015,Date,0.6368145942687988,textual,False
+195,500spend_jun2016,Name,500spend_may2016,Description,0.6360409259796143,textual,False
+196,500spend_jul2016,Category Name,500spend_jun2016,Details,0.6336464881896973,textual,False
+197,500spend_may2016,Amount,500spend_nov2015,Date,0.6328974962234497,textual,False
+198,500spend_nov2015,Merchant Category,500spend_oct2015,purpose of expenditure,0.6324586868286133,textual,False
+199,500spend_oct2015,Service Category,500spend_sep2015,Merchant Type,0.632117509841919,textual,True
+200,500spend_jun2016,Name,500spend_nov2015,Organisation Name,0.6319452524185181,textual,False
+201,500spend_jun2016,Name,500spend_sep2015,Service Name,0.6305693984031677,textual,False
+202,500spend_nov2015,Organisation Name,500spend_sep2015,Description,0.629142701625824,textual,False
+203,500spend_jul2016,Service Name,500spend_jun2016,Name,0.6288532614707947,textual,False
+204,500spend_jul2016,Service Name,500spend_nov2015,Supplier Name,0.6287245750427246,textual,False
+205,500spend_may2016,Merchant,500spend_sep2015,Description,0.624505877494812,textual,False
+206,500spend_nov2015,Summary of purpose of expenditure,500spend_oct2015,Service Category,0.6241108775138855,textual,False
+207,500spend_jun2016,Primary Service,500spend_may2016,Merchant,0.6219421029090881,textual,False
+208,500spend_jun2016,Primary Service,500spend_nov2015,Service Category,0.6215250492095947,textual,False
+209,500spend_jun2016,Secondary Service,500spend_sep2016,Merchant Category,0.6214842200279236,textual,False
+210,500spend_may2016,Description,500spend_oct2015,Supplier Name,0.6210416555404663,textual,False
+211,500spend_jun2016,Details,500spend_may2016,Amount,0.6195594668388367,textual,False
+212,500spend_jun2016,Details,500spend_sep2015,Amount,0.6181188821792603,textual,False
+213,500spend_jul2016,Service Name,500spend_nov2015,Merchant Category,0.6172970533370972,textual,False
+214,500spend_oct2015,Service Name,500spend_sep2015,Merchant Type,0.6172683835029602,textual,False
+215,500spend_oct2015,Date,500spend_sep2015,Amount,0.6169604659080505,textual,False
+216,500spend_may2016,Description,500spend_sep2015,Supplier Name,0.6160993576049805,textual,False
+217,500spend_nov2015,Organisation Name,500spend_sep2015,Transaction Number,0.612964928150177,textual,False
+218,500spend_jul2016,Category Name,500spend_oct2015,purpose of expenditure,0.6121388673782349,textual,False
+219,500spend_sep2015,Supplier Name,500spend_sep2016,Merchant Category,0.6120519638061523,textual,False
+220,500spend_jun2016,Details,500spend_oct2015,Service Category,0.6110219359397888,textual,False
+221,500spend_oct2015,Service Name,500spend_sep2016,net_amount,0.610079288482666,textual,False
+222,500spend_nov2015,Supplier Name,500spend_oct2015,Service Name,0.6098352074623108,textual,False
+223,500spend_nov2015,Date,500spend_sep2015,Amount,0.6092623472213745,textual,False
+224,500spend_jun2016,Details,500spend_nov2015,Organisation Name,0.6084198951721191,textual,False
+225,500spend_jun2016,Name,500spend_oct2015,Service Name,0.6072827577590942,textual,False
+226,500spend_jun2016,Secondary Service,500spend_nov2015,Merchant Category,0.6066374778747559,textual,False
+227,500spend_oct2015,Supplier Name,500spend_sep2016,Merchant Category,0.6065471172332764,textual,False
+228,500spend_may2016,Merchant,500spend_oct2015,Service Category,0.6043365597724915,textual,False
+229,500spend_nov2015,Organisation Name,500spend_sep2015,Service Name,0.60422682762146,textual,False
+230,500spend_nov2015,Service Category,500spend_sep2016,Merchant Category,0.60389643907547,textual,False
+231,500spend_may2016,Date,500spend_sep2015,Amount,0.6028523445129395,textual,False
+232,500spend_nov2015,Supplier Name,500spend_sep2015,Service Name,0.601415753364563,textual,False
+233,500spend_jun2016,Secondary Service,500spend_sep2015,Merchant Type,0.6001089811325073,textual,False
+234,500spend_jul2016,Category Name,500spend_jun2016,Name,0.5996328592300415,textual,False
+235,500spend_jul2016,Category Name,500spend_sep2015,Merchant Type,0.5989090204238892,textual,True
+236,500spend_may2016,Amount,500spend_sep2015,Description,0.5982809066772461,textual,False
+237,500spend_sep2015,Description,500spend_sep2016,Supplier Name,0.5975022315979004,textual,False
+238,500spend_nov2015,Supplier Name,500spend_oct2015,purpose of expenditure,0.5969062447547913,textual,False
+239,500spend_may2016,Amount,500spend_oct2015,Service Name,0.5958008170127869,textual,False
+240,500spend_jun2016,Name,500spend_nov2015,Service,0.5957567095756531,textual,False
+241,500spend_jul2016,Service Name,500spend_sep2016,Merchant Category,0.5949610471725464,textual,False
+242,500spend_may2016,Merchant,500spend_nov2015,Merchant Category,0.5932096838951111,textual,False
+243,500spend_nov2015,net_amount,500spend_oct2015,Service Name,0.5919396877288818,textual,False
+244,500spend_jul2016,Expense Category,500spend_nov2015,Supplier Name,0.5910981893539429,textual,False
+245,500spend_jul2016,Service Name,500spend_oct2015,Supplier Name,0.5903193354606628,textual,False
+246,500spend_jun2016,Details,500spend_sep2016,net_amount,0.5890903472900391,textual,False
+247,500spend_jun2016,Name,500spend_sep2016,Merchant Category,0.5880082845687866,textual,False
+248,500spend_jun2016,Details,500spend_oct2015,Supplier Name,0.5874375104904175,textual,False
+249,500spend_jul2016,Supplier,500spend_sep2016,Merchant Category,0.5871186256408691,textual,False
+250,500spend_may2016,Description,500spend_nov2015,Organisation Name,0.5870625376701355,textual,False
+251,500spend_nov2015,Service Category,500spend_sep2015,Merchant Type,0.5848419666290283,textual,False
+252,500spend_nov2015,Organisation Name,500spend_oct2015,Supplier Name,0.582996129989624,textual,False
+253,500spend_oct2015,Service Name,500spend_sep2015,Amount,0.5803912878036499,textual,False
+254,500spend_nov2015,Supplier Name,500spend_oct2015,Service Category,0.5799925327301025,textual,False
+255,500spend_oct2015,Service Category,500spend_sep2016,Supplier Name,0.5796226263046265,textual,False
+256,500spend_may2016,Description,500spend_sep2016,Supplier Name,0.5787534117698669,textual,False
+257,500spend_nov2015,Summary of purpose of expenditure,500spend_oct2015,Supplier Name,0.5783237814903259,textual,False
+258,500spend_jul2016,Category Name,500spend_nov2015,Summary of purpose of expenditure,0.5778678059577942,textual,False
+259,500spend_may2016,Merchant,500spend_nov2015,Service,0.5774708986282349,textual,False
+260,500spend_nov2015,Supplier Name,500spend_sep2015,Merchant Type,0.577358067035675,textual,False
+261,500spend_nov2015,Merchant Category,500spend_oct2015,Supplier Name,0.5772256851196289,textual,False
+262,500spend_jun2016,Details,500spend_may2016,Merchant,0.5741188526153564,textual,False
+263,500spend_jun2016,Primary Service,500spend_sep2016,Supplier Name,0.5737384557723999,textual,False
+264,500spend_jun2016,Details,500spend_nov2015,net_amount,0.5712378025054932,textual,False
+265,500spend_oct2015,Service Name,500spend_sep2015,Supplier Name,0.5712107419967651,textual,False
+266,500spend_nov2015,Merchant Category,500spend_sep2016,Supplier Name,0.5706264972686768,textual,False
+267,500spend_jun2016,Details,500spend_sep2015,Supplier Name,0.5704165101051331,textual,False
+268,500spend_oct2015,Supplier Name,500spend_sep2015,Service Name,0.5698094367980957,textual,False
+269,500spend_nov2015,Service,500spend_sep2015,Supplier Name,0.569003701210022,textual,False
+270,500spend_nov2015,Summary of purpose of expenditure,500spend_sep2015,Supplier Name,0.5688588619232178,textual,False
+271,500spend_oct2015,purpose of expenditure,500spend_sep2015,Supplier Name,0.5686777234077454,textual,False
+272,500spend_jul2016,Service Name,500spend_may2016,Amount,0.5686565637588501,textual,False
+273,500spend_jun2016,Details,500spend_oct2015,net_amount,0.5685245394706726,textual,False
+274,500spend_sep2015,Description,500spend_sep2016,net_amount,0.5670311450958252,textual,False
+275,500spend_jul2016,Service Name,500spend_sep2015,Amount,0.565339207649231,textual,False
+276,500spend_jul2016,Category Name,500spend_may2016,Merchant,0.5650844573974609,textual,False
+277,500spend_nov2015,Merchant Category,500spend_oct2015,Service Name,0.5647016763687134,textual,False
+278,500spend_may2016,Merchant,500spend_nov2015,Summary of purpose of expenditure,0.5646718144416809,textual,False
+279,500spend_jun2016,Secondary Service,500spend_nov2015,Supplier Name,0.5627833604812622,textual,False
+280,500spend_jul2016,Service Name,500spend_sep2015,Supplier Name,0.5627351403236389,textual,False
+281,500spend_jul2016,Service Name,500spend_sep2016,net_amount,0.5623902082443237,textual,False
+282,500spend_oct2015,Service Category,500spend_sep2015,Supplier Name,0.5617254972457886,textual,False
+283,500spend_may2016,Merchant,500spend_oct2015,purpose of expenditure,0.5601059198379517,textual,False
+284,500spend_nov2015,Service Category,500spend_oct2015,purpose of expenditure,0.5586859583854675,textual,False
+285,500spend_nov2015,Service,500spend_oct2015,Supplier Name,0.558348536491394,textual,False
+286,500spend_jul2016,Category Name,500spend_sep2016,Supplier Name,0.5573813915252686,textual,False
+287,500spend_jun2016,Secondary Service,500spend_sep2015,Supplier Name,0.5567618608474731,textual,False
+288,500spend_may2016,Description,500spend_sep2015,Amount,0.5564279556274414,textual,False
+289,500spend_nov2015,Organisation Name,500spend_sep2015,Supplier Name,0.555931031703949,textual,False
+290,500spend_oct2015,Service Name,500spend_sep2016,Merchant Category,0.555198073387146,textual,False
+291,500spend_nov2015,net_amount,500spend_sep2015,Description,0.5551257133483887,textual,False
+292,500spend_may2016,Merchant,500spend_sep2015,Service Name,0.5525758266448975,textual,False
+293,500spend_jun2016,Primary Service,500spend_nov2015,Supplier Name,0.5516499876976013,textual,False
+294,500spend_nov2015,Merchant Category,500spend_sep2015,Supplier Name,0.5501492023468018,textual,False
+295,500spend_may2016,Merchant,500spend_sep2015,Merchant Type,0.5482190847396851,textual,False
+296,500spend_jul2016,Supplier,500spend_jun2016,Primary Service,0.5479677319526672,textual,False
+297,500spend_oct2015,net_amount,500spend_sep2015,Description,0.5467077493667603,textual,False
+298,500spend_jul2016,Category Name,500spend_nov2015,Supplier Name,0.5462198853492737,textual,False
+299,500spend_jun2016,Primary Service,500spend_sep2015,Supplier Name,0.5460066795349121,textual,False
+300,500spend_jun2016,Secondary Service,500spend_may2016,Merchant,0.5458536744117737,textual,False
+301,500spend_jun2016,Secondary Service,500spend_oct2015,Supplier Name,0.5440139770507812,textual,False
+302,500spend_jun2016,Name,500spend_oct2015,Service Category,0.543388843536377,textual,False
+303,500spend_jul2016,Service Name,500spend_nov2015,net_amount,0.5428487658500671,textual,False
+304,500spend_sep2015,Service Name,500spend_sep2016,Supplier Name,0.5414061546325684,textual,False
+305,500spend_jul2016,Service Name,500spend_oct2015,net_amount,0.5406301617622375,textual,False
+306,500spend_jun2016,Secondary Service,500spend_nov2015,Organisation Name,0.5403949618339539,textual,False
+307,500spend_jul2016,Expense Category,500spend_oct2015,Supplier Name,0.5402446985244751,textual,False
+308,500spend_jun2016,Name,500spend_nov2015,Service Category,0.5390994548797607,textual,False
+309,500spend_nov2015,Summary of purpose of expenditure,500spend_sep2016,Supplier Name,0.535788893699646,textual,False
+310,500spend_jul2016,Category Name,500spend_sep2015,Supplier Name,0.5353173017501831,textual,False
+311,500spend_jun2016,Primary Service,500spend_oct2015,Supplier Name,0.5338402390480042,textual,False
+312,500spend_jul2016,Supplier,500spend_oct2015,Service Category,0.5331019759178162,textual,False
+313,500spend_nov2015,Service,500spend_sep2016,Supplier Name,0.5326569080352783,textual,False
+314,500spend_oct2015,purpose of expenditure,500spend_sep2016,Supplier Name,0.5309710502624512,textual,False
+315,500spend_nov2015,Service Category,500spend_sep2015,Supplier Name,0.5306002497673035,textual,False
+316,500spend_jul2016,Expense Category,500spend_sep2015,Supplier Name,0.5301836133003235,textual,False
+317,500spend_jul2016,Expense Category,500spend_may2016,Merchant,0.5299890041351318,textual,False
+318,500spend_sep2015,Merchant Type,500spend_sep2016,Supplier Name,0.5294051170349121,textual,False
+319,500spend_jun2016,Name,500spend_oct2015,purpose of expenditure,0.5282762050628662,textual,False
+320,500spend_jun2016,Details,500spend_sep2016,Supplier Name,0.5274612903594971,textual,False
+321,500spend_may2016,Description,500spend_sep2016,net_amount,0.5270590782165527,textual,False
+322,500spend_jun2016,Name,500spend_nov2015,Merchant Category,0.5254578590393066,textual,False
+323,500spend_oct2015,Supplier Name,500spend_sep2015,Merchant Type,0.5253766775131226,textual,False
+324,500spend_nov2015,Service Category,500spend_oct2015,Supplier Name,0.5247591733932495,textual,False
+325,500spend_nov2015,Service Category,500spend_sep2016,net_amount,0.5244432687759399,textual,False
+326,500spend_jul2016,Service Name,500spend_sep2016,Supplier Name,0.5209222435951233,textual,False
+327,500spend_jun2016,Name,500spend_nov2015,Summary of purpose of expenditure,0.519565999507904,textual,False
+328,500spend_jul2016,Service Name,500spend_may2016,Merchant,0.5195274353027344,textual,False
+329,500spend_jul2016,Category Name,500spend_oct2015,Supplier Name,0.5186120867729187,textual,False
+330,500spend_jul2016,Expense Category,500spend_sep2016,Supplier Name,0.514803946018219,textual,False
+331,500spend_may2016,Description,500spend_nov2015,net_amount,0.5115706324577332,textual,False
+332,500spend_nov2015,Organisation Name,500spend_oct2015,purpose of expenditure,0.5086755752563477,textual,False
+333,500spend_jul2016,Supplier,500spend_nov2015,Service,0.5061140656471252,textual,False
+334,500spend_jun2016,Secondary Service,500spend_sep2016,Supplier Name,0.5055581331253052,textual,False
+335,500spend_jun2016,Name,500spend_sep2015,Merchant Type,0.5045381188392639,textual,False
+336,500spend_nov2015,Service Category,500spend_oct2015,net_amount,0.5043388605117798,textual,False
+337,500spend_jul2016,Expense Category,500spend_jun2016,Name,0.50311279296875,textual,False
+338,500spend_oct2015,Service Name,500spend_sep2016,Supplier Name,0.502774715423584,textual,False
+339,500spend_nov2015,Service Category,500spend_sep2015,Date,0.502478837966919,textual,False
+340,500spend_may2016,Description,500spend_oct2015,net_amount,0.5014132261276245,textual,False
+341,500spend_may2016,Merchant,500spend_oct2015,Service Name,0.4997560679912567,textual,False
+342,500spend_nov2015,Service Category,500spend_oct2015,Date,0.4978476166725158,textual,False
+343,500spend_oct2015,Service Name,500spend_sep2015,Date,0.4925211668014526,textual,False
+344,500spend_may2016,Amount,500spend_nov2015,Service Category,0.4920198321342468,textual,False
+345,500spend_nov2015,Organisation Name,500spend_sep2016,Supplier Name,0.4885012805461883,textual,False
+346,500spend_jul2016,Supplier,500spend_nov2015,Merchant Category,0.488189548254013,textual,False
+347,500spend_may2016,Date,500spend_nov2015,Service Category,0.4840532839298248,textual,False
+348,500spend_jul2016,Supplier,500spend_jun2016,Secondary Service,0.4839496612548828,textual,False
+349,500spend_may2016,Merchant,500spend_nov2015,Service Category,0.4826756715774536,textual,False
+350,500spend_nov2015,Date,500spend_oct2015,Service Name,0.4817025661468506,textual,False
+351,500spend_oct2015,purpose of expenditure,500spend_sep2015,Amount,0.4770700633525848,textual,False
+352,500spend_may2016,Amount,500spend_oct2015,purpose of expenditure,0.4750884175300598,textual,False
+353,500spend_may2016,Date,500spend_oct2015,Service Name,0.4738172888755798,textual,False
+354,500spend_jul2016,Supplier,500spend_sep2015,Description,0.4736481308937073,textual,False
+355,500spend_jul2016,Expense Category,500spend_nov2015,Organisation Name,0.4733380675315857,textual,False
+356,500spend_nov2015,Transaction Number,500spend_oct2015,Service Name,0.4730875492095947,textual,False
+357,500spend_nov2015,Service Category,500spend_sep2015,Amount,0.4705660939216614,textual,False
+358,500spend_may2016,Merchant,500spend_nov2015,Organisation Name,0.4694208204746246,textual,False
+359,500spend_may2016,Amount,500spend_sep2015,Service Name,0.4689765572547912,textual,False
+360,500spend_nov2015,Organisation Name,500spend_sep2015,Merchant Type,0.4647648632526397,textual,False
+361,500spend_jun2016,Name,500spend_may2016,Amount,0.4631006121635437,textual,False
+362,500spend_jun2016,Name,500spend_sep2015,Amount,0.4624387621879577,textual,False
+363,500spend_jul2016,Supplier,500spend_sep2015,Service Name,0.4613418579101562,textual,False
+364,500spend_oct2015,Service Name,500spend_sep2015,Transaction Number,0.4573686122894287,textual,False
+365,500spend_jun2016,Details,500spend_nov2015,Transaction Number,0.4573323726654053,textual,False
+366,500spend_nov2015,Service Category,500spend_sep2016,Supplier Name,0.4565041065216064,textual,False
+367,500spend_sep2015,Service Name,500spend_sep2016,net_amount,0.4540934562683105,textual,False
+368,500spend_jul2016,Supplier,500spend_may2016,Description,0.4534725546836853,textual,False
+369,500spend_may2016,Amount,500spend_nov2015,Supplier Name,0.4501538276672363,textual,False
+370,500spend_oct2015,purpose of expenditure,500spend_sep2016,net_amount,0.4479890465736389,textual,False
+371,500spend_jun2016,Details,500spend_sep2015,Transaction Number,0.4476378560066223,textual,False
+372,500spend_may2016,Amount,500spend_sep2015,Merchant Type,0.4438477158546448,textual,False
+373,500spend_nov2015,Transaction Number,500spend_sep2015,Description,0.44241863489151,textual,False
+374,500spend_nov2015,Summary of purpose of expenditure,500spend_sep2015,Amount,0.4411415159702301,textual,False
+375,500spend_jun2016,Name,500spend_sep2016,net_amount,0.4408782124519348,textual,False
+376,500spend_jun2016,Details,500spend_sep2015,Date,0.4406294524669647,textual,False
+377,500spend_jul2016,Supplier,500spend_sep2015,Merchant Type,0.4393014013767242,textual,False
+378,500spend_nov2015,Service Category,500spend_sep2015,Transaction Number,0.4384995102882385,textual,False
+379,500spend_nov2015,Supplier Name,500spend_sep2015,Amount,0.4382533729076385,textual,False
+380,500spend_jun2016,Name,500spend_nov2015,net_amount,0.4381080269813537,textual,False
+381,500spend_may2016,Amount,500spend_nov2015,Summary of purpose of expenditure,0.4375241994857788,textual,False
+382,500spend_jun2016,Name,500spend_oct2015,net_amount,0.4369920492172241,textual,False
+383,500spend_nov2015,net_amount,500spend_sep2015,Service Name,0.4365409612655639,textual,False
+384,500spend_jul2016,Category Name,500spend_nov2015,Organisation Name,0.4362621307373047,textual,False
+385,500spend_jun2016,Details,500spend_nov2015,Date,0.4357753992080688,textual,False
+386,500spend_jul2016,Service Name,500spend_nov2015,Transaction Number,0.4357286095619201,textual,False
+387,500spend_jun2016,Details,500spend_oct2015,Date,0.4355525970458984,textual,False
+388,500spend_oct2015,net_amount,500spend_sep2015,Service Name,0.4335658848285675,textual,False
+389,500spend_jul2016,Supplier,500spend_nov2015,Summary of purpose of expenditure,0.430884838104248,textual,False
+390,500spend_jul2016,Supplier,500spend_jun2016,Details,0.4263487756252289,textual,False
+391,500spend_jul2016,Service Name,500spend_sep2015,Date,0.4254128038883209,textual,False
+392,500spend_nov2015,net_amount,500spend_oct2015,purpose of expenditure,0.4252031445503235,textual,False
+393,500spend_jul2016,Service Name,500spend_sep2015,Transaction Number,0.42316734790802,textual,False
+394,500spend_jul2016,Supplier,500spend_oct2015,purpose of expenditure,0.4225958585739136,textual,False
+395,500spend_nov2015,Date,500spend_sep2015,Description,0.4207344651222229,textual,False
+396,500spend_may2016,Amount,500spend_oct2015,Supplier Name,0.4205847978591919,textual,False
+397,500spend_oct2015,Date,500spend_sep2015,Description,0.4188747107982635,textual,False
+398,500spend_jul2016,Expense Category,500spend_may2016,Amount,0.4184225797653198,textual,False
+399,500spend_jul2016,Service Name,500spend_oct2015,Date,0.4159944057464599,textual,False
+400,500spend_jun2016,Details,500spend_may2016,Date,0.4156173467636108,textual,False
+401,500spend_nov2015,Service,500spend_sep2015,Amount,0.4149150848388672,textual,False
+402,500spend_nov2015,Supplier Name,500spend_sep2016,net_amount,0.4149114489555359,textual,False
+403,500spend_nov2015,Summary of purpose of expenditure,500spend_sep2016,net_amount,0.4148400723934173,textual,False
+404,500spend_jul2016,Expense Category,500spend_sep2015,Amount,0.4144961535930633,textual,False
+405,500spend_may2016,Amount,500spend_nov2015,Service,0.4140552580356598,textual,False
+406,500spend_oct2015,Supplier Name,500spend_sep2015,Amount,0.4139977991580963,textual,False
+407,500spend_jul2016,Service Name,500spend_nov2015,Date,0.4128686189651489,textual,False
+408,500spend_may2016,Description,500spend_nov2015,Transaction Number,0.4125156700611114,textual,False
+409,500spend_nov2015,Supplier Name,500spend_oct2015,net_amount,0.4083965420722961,textual,False
+410,500spend_nov2015,Supplier Name,500spend_sep2015,Transaction Number,0.4075076580047607,textual,False
+411,500spend_oct2015,Supplier Name,500spend_sep2016,net_amount,0.4045169353485107,textual,False
+412,500spend_sep2015,Merchant Type,500spend_sep2016,net_amount,0.4037724733352661,textual,False
+413,500spend_nov2015,Organisation Name,500spend_oct2015,Service Category,0.4034816026687622,textual,False
+414,500spend_may2016,Description,500spend_sep2015,Transaction Number,0.4031820595264435,textual,False
+415,500spend_jul2016,Service Name,500spend_may2016,Date,0.4025472104549408,textual,False
+416,500spend_jun2016,Primary Service,500spend_nov2015,Organisation Name,0.4018486440181732,textual,False
+417,500spend_jun2016,Secondary Service,500spend_sep2016,net_amount,0.399723470211029,textual,False
+418,500spend_nov2015,net_amount,500spend_oct2015,Supplier Name,0.3987830877304077,textual,False
+419,500spend_may2016,Date,500spend_sep2015,Description,0.3983436524868011,textual,False
+420,500spend_jul2016,Supplier,500spend_oct2015,Service Name,0.3981530964374542,textual,False
+421,500spend_nov2015,Service,500spend_sep2016,net_amount,0.3977840542793274,textual,False
+422,500spend_may2016,Amount,500spend_sep2015,Supplier Name,0.3969391286373138,textual,False
+423,500spend_nov2015,net_amount,500spend_sep2015,Merchant Type,0.3968516290187835,textual,False
+424,500spend_jul2016,Expense Category,500spend_sep2016,net_amount,0.3958764672279358,textual,False
+425,500spend_jul2016,Supplier,500spend_nov2015,Service Category,0.3951566517353058,textual,False
+426,500spend_nov2015,Organisation Name,500spend_sep2016,Merchant Category,0.3930718302726745,textual,False
+427,500spend_jun2016,Secondary Service,500spend_may2016,Amount,0.389115571975708,textual,False
+428,500spend_oct2015,net_amount,500spend_sep2015,Merchant Type,0.3878518939018249,textual,False
+429,500spend_jul2016,Supplier,500spend_nov2015,Organisation Name,0.3877034187316894,textual,False
+430,500spend_oct2015,Supplier Name,500spend_sep2015,Transaction Number,0.3872016072273254,textual,False
+431,500spend_nov2015,Transaction Number,500spend_oct2015,Supplier Name,0.3862848281860351,textual,False
+432,500spend_jun2016,Secondary Service,500spend_sep2015,Amount,0.3846763968467712,textual,False
+433,500spend_sep2015,Supplier Name,500spend_sep2016,net_amount,0.3843065500259399,textual,False
+434,500spend_nov2015,Summary of purpose of expenditure,500spend_oct2015,net_amount,0.3811438679695129,textual,False
+435,500spend_jun2016,Secondary Service,500spend_nov2015,net_amount,0.3792958259582519,textual,False
+436,500spend_jul2016,Expense Category,500spend_nov2015,net_amount,0.3789707720279693,textual,False
+437,500spend_may2016,Description,500spend_sep2015,Date,0.3773331642150879,textual,False
+438,500spend_nov2015,net_amount,500spend_sep2015,Supplier Name,0.3771408200263977,textual,False
+439,500spend_oct2015,net_amount,500spend_sep2015,Supplier Name,0.3764685988426208,textual,False
+440,500spend_jun2016,Name,500spend_nov2015,Transaction Number,0.3728210926055908,textual,False
+441,500spend_jun2016,Secondary Service,500spend_oct2015,net_amount,0.3723573088645935,textual,False
+442,500spend_nov2015,Service,500spend_oct2015,net_amount,0.3721618354320526,textual,False
+443,500spend_jun2016,Name,500spend_sep2015,Transaction Number,0.3714967966079712,textual,False
+444,500spend_jul2016,Expense Category,500spend_oct2015,net_amount,0.3704455196857452,textual,False
+445,500spend_may2016,Description,500spend_nov2015,Date,0.3701010644435882,textual,False
+446,500spend_may2016,Description,500spend_oct2015,Date,0.3697213530540466,textual,False
+447,500spend_nov2015,Transaction Number,500spend_sep2015,Merchant Type,0.36097452044487,textual,False
+448,500spend_nov2015,Merchant Category,500spend_sep2015,Amount,0.3511199951171875,textual,False
+449,500spend_nov2015,Transaction Number,500spend_sep2015,Service Name,0.3479631841182709,textual,False
+450,500spend_may2016,Amount,500spend_nov2015,Merchant Category,0.3463264107704162,textual,False
+451,500spend_nov2015,Transaction Number,500spend_oct2015,purpose of expenditure,0.3449097573757171,textual,False
+452,500spend_nov2015,Transaction Number,500spend_sep2015,Supplier Name,0.3440872728824615,textual,False
+453,500spend_jun2016,Name,500spend_may2016,Date,0.3403341174125671,textual,False
+454,500spend_may2016,Merchant,500spend_sep2015,Amount,0.3403262197971344,textual,False
+455,500spend_may2016,Date,500spend_oct2015,Supplier Name,0.3399071991443634,textual,False
+456,500spend_jun2016,Name,500spend_oct2015,Date,0.3394629955291748,textual,False
+457,500spend_may2016,Date,500spend_nov2015,Supplier Name,0.3376279175281524,textual,False
+458,500spend_jun2016,Name,500spend_nov2015,Date,0.3373565077781677,textual,False
+459,500spend_jun2016,Name,500spend_sep2015,Date,0.3350453078746795,textual,False
+460,500spend_nov2015,Merchant Category,500spend_sep2015,Transaction Number,0.3314262926578522,textual,False
+461,500spend_may2016,Date,500spend_sep2015,Supplier Name,0.3306754827499389,textual,False
+462,500spend_oct2015,purpose of expenditure,500spend_sep2015,Transaction Number,0.3305797278881073,textual,False
+463,500spend_nov2015,Supplier Name,500spend_oct2015,Date,0.3302822709083557,textual,False
+464,500spend_oct2015,Date,500spend_sep2015,Service Name,0.3302426934242248,textual,False
+465,500spend_nov2015,Date,500spend_sep2015,Service Name,0.3284980654716491,textual,False
+466,500spend_nov2015,Supplier Name,500spend_sep2015,Date,0.3258395791053772,textual,False
+467,500spend_may2016,Merchant,500spend_sep2016,net_amount,0.3255596756935119,textual,False
+468,500spend_oct2015,Supplier Name,500spend_sep2015,Date,0.3219623267650604,textual,False
+469,500spend_may2016,Merchant,500spend_nov2015,net_amount,0.3200623989105224,textual,False
+470,500spend_oct2015,Date,500spend_sep2015,Supplier Name,0.3194979131221771,textual,False
+471,500spend_nov2015,Date,500spend_oct2015,Supplier Name,0.3189976215362549,textual,False
+472,500spend_may2016,Amount,500spend_sep2016,Supplier Name,0.3189552426338196,textual,False
+473,500spend_may2016,Date,500spend_sep2015,Service Name,0.3178133070468902,textual,False
+474,500spend_may2016,Merchant,500spend_oct2015,net_amount,0.3151559233665466,textual,False
+475,500spend_nov2015,Date,500spend_sep2015,Supplier Name,0.3149150609970093,textual,False
+476,500spend_nov2015,Merchant Category,500spend_sep2016,net_amount,0.3145504593849182,textual,False
+477,500spend_sep2015,Amount,500spend_sep2016,Supplier Name,0.31243497133255,textual,False
+478,500spend_jul2016,Expense Category,500spend_nov2015,Transaction Number,0.3086794316768646,textual,False
+479,500spend_jun2016,Secondary Service,500spend_sep2015,Date,0.3083625435829162,textual,False
+480,500spend_nov2015,Merchant Category,500spend_oct2015,net_amount,0.3046891093254089,textual,False
+481,500spend_oct2015,purpose of expenditure,500spend_sep2015,Date,0.3044417202472687,textual,False
+482,500spend_jul2016,Expense Category,500spend_sep2015,Transaction Number,0.3015727996826172,textual,False
+483,500spend_jun2016,Secondary Service,500spend_nov2015,Transaction Number,0.2997894883155823,textual,False
+484,500spend_jun2016,Secondary Service,500spend_oct2015,Date,0.2994105219841003,textual,False
+485,500spend_sep2015,Amount,500spend_sep2016,Merchant Category,0.2988462150096893,textual,False
+486,500spend_jun2016,Secondary Service,500spend_nov2015,Date,0.2986389696598053,textual,False
+487,500spend_nov2015,Service,500spend_sep2015,Date,0.2983541488647461,textual,False
+488,500spend_nov2015,Date,500spend_oct2015,purpose of expenditure,0.2965906858444214,textual,False
+489,500spend_may2016,Amount,500spend_sep2016,Merchant Category,0.2958933711051941,textual,False
+490,500spend_nov2015,Summary of purpose of expenditure,500spend_sep2015,Transaction Number,0.2954003810882568,textual,False
+491,500spend_jul2016,Expense Category,500spend_sep2015,Date,0.2924172878265381,textual,False
+492,500spend_jun2016,Secondary Service,500spend_may2016,Date,0.2924007177352905,textual,False
+493,500spend_may2016,Merchant,500spend_sep2015,Transaction Number,0.290878027677536,textual,False
+494,500spend_jun2016,Primary Service,500spend_sep2015,Amount,0.2908630967140198,textual,False
+495,500spend_jun2016,Secondary Service,500spend_sep2015,Transaction Number,0.2898333370685577,textual,False
+496,500spend_may2016,Date,500spend_oct2015,purpose of expenditure,0.2896529734134674,textual,False
+497,500spend_jun2016,Primary Service,500spend_may2016,Amount,0.2889056801795959,textual,False
+498,500spend_may2016,Merchant,500spend_nov2015,Transaction Number,0.2880086302757263,textual,False
+499,500spend_nov2015,Service,500spend_oct2015,Date,0.2875390946865082,textual,False
+500,500spend_nov2015,net_amount,500spend_sep2016,Supplier Name,0.2850764095783233,textual,False
+501,500spend_jul2016,Expense Category,500spend_nov2015,Date,0.2847780585289001,textual,False
+502,500spend_jul2016,Expense Category,500spend_oct2015,Date,0.2835445404052734,textual,False
+503,500spend_oct2015,net_amount,500spend_sep2016,Supplier Name,0.2834062278270721,textual,False
+504,500spend_nov2015,Service,500spend_sep2015,Transaction Number,0.2806131243705749,textual,False
+505,500spend_oct2015,Date,500spend_sep2015,Merchant Type,0.2763786315917969,textual,False
+506,500spend_may2016,Date,500spend_nov2015,Service,0.2763428688049316,textual,False
+507,500spend_nov2015,Date,500spend_sep2015,Merchant Type,0.2748284637928009,textual,False
+508,500spend_sep2015,Transaction Number,500spend_sep2016,Supplier Name,0.273969292640686,textual,False
+509,500spend_jul2016,Expense Category,500spend_may2016,Date,0.2728137969970703,textual,False
+510,500spend_nov2015,Transaction Number,500spend_sep2016,Supplier Name,0.2724844217300415,textual,False
+511,500spend_may2016,Date,500spend_sep2015,Merchant Type,0.2668821811676025,textual,False
+512,500spend_nov2015,Summary of purpose of expenditure,500spend_sep2015,Date,0.2640414237976074,textual,False
+513,500spend_nov2015,net_amount,500spend_sep2016,Merchant Category,0.2582542300224304,textual,False
+514,500spend_nov2015,Merchant Category,500spend_oct2015,Date,0.2576169669628143,textual,False
+515,500spend_jun2016,Primary Service,500spend_sep2016,net_amount,0.2550495266914367,textual,False
+516,500spend_nov2015,Summary of purpose of expenditure,500spend_oct2015,Date,0.2545258998870849,textual,False
+517,500spend_nov2015,Merchant Category,500spend_sep2015,Date,0.2524898946285248,textual,False
+518,500spend_sep2015,Transaction Number,500spend_sep2016,Merchant Category,0.2505075335502624,textual,False
+519,500spend_nov2015,Transaction Number,500spend_sep2016,Merchant Category,0.2504957616329193,textual,False
+520,500spend_jun2016,Primary Service,500spend_nov2015,net_amount,0.2494946718215942,textual,False
+521,500spend_may2016,Date,500spend_nov2015,Summary of purpose of expenditure,0.2491292953491211,textual,False
+522,500spend_may2016,Merchant,500spend_oct2015,Date,0.2488597780466079,textual,False
+523,500spend_may2016,Date,500spend_nov2015,Merchant Category,0.2484843432903289,textual,False
+524,500spend_oct2015,net_amount,500spend_sep2016,Merchant Category,0.2470353990793228,textual,False
+525,500spend_may2016,Merchant,500spend_sep2015,Date,0.2457102239131927,textual,False
+526,500spend_may2016,Merchant,500spend_nov2015,Date,0.2452055662870407,textual,False
+527,500spend_jun2016,Primary Service,500spend_oct2015,net_amount,0.2400627732276916,textual,False
+528,500spend_jul2016,Category Name,500spend_may2016,Amount,0.2388261258602142,textual,False
+529,500spend_jul2016,Category Name,500spend_sep2015,Amount,0.2387989908456802,textual,False
+530,500spend_may2016,Date,500spend_sep2016,Supplier Name,0.2304807603359222,textual,False
+531,500spend_jul2016,Category Name,500spend_nov2015,Date,0.2250089943408966,textual,False
+532,500spend_jul2016,Category Name,500spend_oct2015,Date,0.2213315814733505,textual,False
+533,500spend_oct2015,Service Category,500spend_sep2015,Amount,0.2211229354143142,textual,False
+534,500spend_nov2015,Date,500spend_sep2016,Merchant Category,0.2203295975923538,textual,False
+535,500spend_oct2015,Date,500spend_sep2016,Merchant Category,0.2191239148378372,textual,False
+536,500spend_oct2015,Date,500spend_sep2016,Supplier Name,0.2188605964183807,textual,False
+537,500spend_may2016,Amount,500spend_oct2015,Service Category,0.2160751521587371,textual,False
+538,500spend_jul2016,Category Name,500spend_sep2016,net_amount,0.2154373228549957,textual,False
+539,500spend_jul2016,Category Name,500spend_sep2015,Date,0.2137745916843414,textual,False
+540,500spend_sep2015,Date,500spend_sep2016,Supplier Name,0.213317722082138,textual,False
+541,500spend_nov2015,Date,500spend_sep2016,Supplier Name,0.2132835239171981,textual,False
+542,500spend_jul2016,Category Name,500spend_nov2015,net_amount,0.21216481924057,textual,False
+543,500spend_sep2015,Date,500spend_sep2016,Merchant Category,0.2120658755302429,textual,False
+544,500spend_jun2016,Primary Service,500spend_nov2015,Transaction Number,0.2100712805986404,textual,False
+545,500spend_jul2016,Category Name,500spend_may2016,Date,0.2081596851348877,textual,False
+546,500spend_jul2016,Supplier,500spend_may2016,Amount,0.2071676552295684,textual,False
+547,500spend_may2016,Date,500spend_sep2016,Merchant Category,0.206981211900711,textual,False
+548,500spend_jul2016,Supplier,500spend_sep2015,Amount,0.2045323550701141,textual,False
+549,500spend_jun2016,Primary Service,500spend_sep2015,Transaction Number,0.2042945027351379,textual,False
+550,500spend_jul2016,Category Name,500spend_oct2015,net_amount,0.2029648125171661,textual,False
+551,500spend_oct2015,Service Category,500spend_sep2016,net_amount,0.2021995037794113,textual,False
+552,500spend_nov2015,net_amount,500spend_oct2015,Service Category,0.196819931268692,textual,False
+553,500spend_jul2016,Supplier,500spend_sep2016,net_amount,0.1914097964763641,textual,False
+554,500spend_nov2015,Transaction Number,500spend_oct2015,Service Category,0.186021015048027,textual,False
+555,500spend_jul2016,Supplier,500spend_nov2015,net_amount,0.1852060556411743,textual,False
+556,500spend_jul2016,Supplier,500spend_oct2015,net_amount,0.1840187013149261,textual,False
+557,500spend_jul2016,Category Name,500spend_nov2015,Transaction Number,0.1825823038816452,textual,False
+558,500spend_oct2015,Service Category,500spend_sep2015,Transaction Number,0.182129293680191,textual,False
+559,500spend_jun2016,Primary Service,500spend_nov2015,Date,0.1795897483825683,textual,False
+560,500spend_jun2016,Primary Service,500spend_oct2015,Date,0.1792841851711273,textual,False
+561,500spend_nov2015,Date,500spend_oct2015,Service Category,0.1786363273859024,textual,False
+562,500spend_jun2016,Primary Service,500spend_sep2015,Date,0.1774756610393524,textual,False
+563,500spend_jul2016,Category Name,500spend_sep2015,Transaction Number,0.1773792058229446,textual,False
+564,500spend_may2016,Date,500spend_oct2015,Service Category,0.1752711832523346,textual,False
+565,500spend_oct2015,Service Category,500spend_sep2015,Date,0.174711674451828,textual,False
+566,500spend_jun2016,Primary Service,500spend_may2016,Date,0.1680547893047332,textual,False
+567,500spend_jul2016,Supplier,500spend_sep2015,Transaction Number,0.1505691409111023,textual,False
+568,500spend_jul2016,Supplier,500spend_may2016,Date,0.1495042443275451,textual,False
+569,500spend_jul2016,Supplier,500spend_nov2015,Transaction Number,0.1477806270122528,textual,False
+570,500spend_jul2016,Supplier,500spend_oct2015,Date,0.1367782354354858,textual,False
+571,500spend_jul2016,Supplier,500spend_sep2015,Date,0.135267972946167,textual,False
+572,500spend_jul2016,Supplier,500spend_nov2015,Date,0.1305179744958877,textual,False

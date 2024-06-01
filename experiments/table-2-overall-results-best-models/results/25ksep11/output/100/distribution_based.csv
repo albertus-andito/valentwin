@@ -1,0 +1,456 @@
+,table_a,column_a,table_b,column_b,similarity,correct
+0,25kjul12,Department family,25kjun10,Dept,1.0,True
+1,25kjul12,Department family,25kjun10,Ent,1.0,False
+2,25kjul12,Entity,25kjun10,Dept,1.0,False
+3,25kjul12,Entity,25kjun10,Ent,1.0,True
+4,25kjul12,Department family,25kjun11,Department family,1.0,True
+5,25kjul12,Entity,25kjun11,Department family,1.0,False
+6,25kjul12,Department family,25kjun11,Entity,1.0,False
+7,25kjul12,Entity,25kjun11,Entity,1.0,True
+8,25kjul12,Department family,25kmar11,Secondary Organization,1.0,True
+9,25kjul12,Entity,25kmar11,Secondary Organization,1.0,False
+10,25kjul12,Department family,25kmar11,Primary Organization,1.0,False
+11,25kjul12,Entity,25kmar11,Primary Organization,1.0,True
+12,25kjul12,Department family,25kmar12,Entity,1.0,False
+13,25kjul12,Department family,25kmar12,Department family,1.0,True
+14,25kjul12,Entity,25kmar12,Entity,1.0,True
+15,25kjul12,Entity,25kmar12,Department family,1.0,False
+16,25kjul12,Department family,25kmay10,Department family,1.0,True
+17,25kjul12,Department family,25kmay10,Entity,1.0,False
+18,25kjul12,Entity,25kmay10,Department family,1.0,False
+19,25kjul12,Entity,25kmay10,Entity,1.0,True
+20,25kjul12,Department family,25knov10,Entity,1.0,False
+21,25kjul12,Department family,25knov10,Department family,1.0,True
+22,25kjul12,Entity,25knov10,Entity,1.0,True
+23,25kjul12,Entity,25knov10,Department family,1.0,False
+24,25kjul12,Department family,25knov11,nan1,1.0,True
+25,25kjul12,Department family,25knov11,nan2,1.0,False
+26,25kjul12,Entity,25knov11,nan1,1.0,False
+27,25kjul12,Entity,25knov11,nan2,1.0,True
+28,25kjul12,Department family,25koct10,Department family,1.0,True
+29,25kjul12,Entity,25koct10,Department family,1.0,False
+30,25kjul12,Entity,25koct11,Department family,1.0,False
+31,25kjul12,Entity,25koct11,Entity,1.0,True
+32,25kjul12,Department family,25koct11,Department family,1.0,True
+33,25kjul12,Department family,25koct11,Entity,1.0,False
+34,25kjul12,Entity,25ksep10,unnamed0,1.0,False
+35,25kjul12,Entity,25ksep10,unnamed1,1.0,True
+36,25kjul12,Department family,25ksep10,unnamed0,1.0,True
+37,25kjul12,Department family,25ksep10,unnamed1,1.0,False
+38,25kjul12,Department family,25ksep11,Entity,1.0,False
+39,25kjul12,Department family,25ksep11,Department family,1.0,True
+40,25kjul12,Entity,25ksep11,Entity,1.0,True
+41,25kjul12,Entity,25ksep11,Department family,1.0,False
+42,25kjun10,Dept,25kjun11,Department family,1.0,True
+43,25kjun10,Ent,25kjun11,Department family,1.0,False
+44,25kjun10,Dept,25kjun11,Entity,1.0,False
+45,25kjun10,Ent,25kjun11,Entity,1.0,True
+46,25kjun10,Dept,25kmar11,Secondary Organization,1.0,True
+47,25kjun10,Ent,25kmar11,Secondary Organization,1.0,False
+48,25kjun10,Dept,25kmar11,Primary Organization,1.0,False
+49,25kjun10,Ent,25kmar11,Primary Organization,1.0,True
+50,25kjun10,Dept,25kmar12,Department family,1.0,True
+51,25kjun10,Ent,25kmar12,Department family,1.0,False
+52,25kjun10,Dept,25kmar12,Entity,1.0,False
+53,25kjun10,Ent,25kmar12,Entity,1.0,True
+54,25kjun10,Dept,25kmay10,Department family,1.0,True
+55,25kjun10,Ent,25kmay10,Department family,1.0,False
+56,25kjun10,Dept,25kmay10,Entity,1.0,False
+57,25kjun10,Ent,25kmay10,Entity,1.0,True
+58,25kjun10,Dept,25knov10,Entity,1.0,False
+59,25kjun10,Ent,25knov10,Entity,1.0,True
+60,25kjun10,Dept,25knov10,Department family,1.0,True
+61,25kjun10,Ent,25knov10,Department family,1.0,False
+62,25kjun10,Dept,25knov11,nan2,1.0,False
+63,25kjun10,Ent,25knov11,nan2,1.0,True
+64,25kjun10,Dept,25knov11,nan1,1.0,True
+65,25kjun10,Ent,25knov11,nan1,1.0,False
+66,25kjun10,Dept,25koct10,Department family,1.0,True
+67,25kjun10,Ent,25koct10,Department family,1.0,False
+68,25kjun10,Dept,25koct11,Entity,1.0,False
+69,25kjun10,Ent,25koct11,Entity,1.0,True
+70,25kjun10,Dept,25koct11,Department family,1.0,True
+71,25kjun10,Ent,25koct11,Department family,1.0,False
+72,25kjun10,Dept,25ksep10,unnamed0,1.0,True
+73,25kjun10,Ent,25ksep10,unnamed0,1.0,False
+74,25kjun10,Dept,25ksep10,unnamed1,1.0,False
+75,25kjun10,Ent,25ksep10,unnamed1,1.0,True
+76,25kjun10,Dept,25ksep11,Entity,1.0,False
+77,25kjun10,Ent,25ksep11,Entity,1.0,True
+78,25kjun10,Dept,25ksep11,Department family,1.0,True
+79,25kjun10,Ent,25ksep11,Department family,1.0,False
+80,25kjun11,Department family,25kmar11,Secondary Organization,1.0,True
+81,25kjun11,Department family,25kmar11,Primary Organization,1.0,False
+82,25kjun11,Entity,25kmar11,Secondary Organization,1.0,False
+83,25kjun11,Entity,25kmar11,Primary Organization,1.0,True
+84,25kjun11,Department family,25kmar12,Department family,1.0,True
+85,25kjun11,Department family,25kmar12,Entity,1.0,False
+86,25kjun11,Entity,25kmar12,Department family,1.0,False
+87,25kjun11,Entity,25kmar12,Entity,1.0,True
+88,25kjun11,Department family,25kmay10,Department family,1.0,True
+89,25kjun11,Department family,25kmay10,Entity,1.0,False
+90,25kjun11,Entity,25kmay10,Department family,1.0,False
+91,25kjun11,Entity,25kmay10,Entity,1.0,True
+92,25kjun11,Department family,25knov10,Entity,1.0,False
+93,25kjun11,Department family,25knov10,Department family,1.0,True
+94,25kjun11,Entity,25knov10,Entity,1.0,True
+95,25kjun11,Entity,25knov10,Department family,1.0,False
+96,25kjun11,Department family,25knov11,nan2,1.0,False
+97,25kjun11,Department family,25knov11,nan1,1.0,True
+98,25kjun11,Entity,25knov11,nan2,1.0,True
+99,25kjun11,Entity,25knov11,nan1,1.0,False
+100,25kjun11,Department family,25koct10,Department family,1.0,True
+101,25kjun11,Entity,25koct10,Department family,1.0,False
+102,25kjun11,Department family,25koct11,Department family,1.0,True
+103,25kjun11,Department family,25koct11,Entity,1.0,False
+104,25kjun11,Entity,25koct11,Department family,1.0,False
+105,25kjun11,Entity,25koct11,Entity,1.0,True
+106,25kjun11,Department family,25ksep10,unnamed1,1.0,False
+107,25kjun11,Department family,25ksep10,unnamed0,1.0,True
+108,25kjun11,Entity,25ksep10,unnamed1,1.0,True
+109,25kjun11,Entity,25ksep10,unnamed0,1.0,False
+110,25kjun11,Department family,25ksep11,Department family,1.0,True
+111,25kjun11,Department family,25ksep11,Entity,1.0,False
+112,25kjun11,Entity,25ksep11,Department family,1.0,False
+113,25kjun11,Entity,25ksep11,Entity,1.0,True
+114,25kmar11,Secondary Organization,25kmar12,Department family,1.0,True
+115,25kmar11,Secondary Organization,25kmar12,Entity,1.0,False
+116,25kmar11,Primary Organization,25kmar12,Department family,1.0,False
+117,25kmar11,Primary Organization,25kmar12,Entity,1.0,True
+118,25kmar11,Secondary Organization,25kmay10,Department family,1.0,True
+119,25kmar11,Secondary Organization,25kmay10,Entity,1.0,False
+120,25kmar11,Primary Organization,25kmay10,Department family,1.0,False
+121,25kmar11,Primary Organization,25kmay10,Entity,1.0,True
+122,25kmar11,Secondary Organization,25knov10,Entity,1.0,False
+123,25kmar11,Secondary Organization,25knov10,Department family,1.0,True
+124,25kmar11,Primary Organization,25knov10,Entity,1.0,True
+125,25kmar11,Primary Organization,25knov10,Department family,1.0,False
+126,25kmar11,Secondary Organization,25knov11,nan2,1.0,False
+127,25kmar11,Secondary Organization,25knov11,nan1,1.0,True
+128,25kmar11,Primary Organization,25knov11,nan2,1.0,True
+129,25kmar11,Primary Organization,25knov11,nan1,1.0,False
+130,25kmar11,Secondary Organization,25koct10,Department family,1.0,True
+131,25kmar11,Primary Organization,25koct10,Department family,1.0,False
+132,25kmar11,Secondary Organization,25koct11,Department family,1.0,True
+133,25kmar11,Secondary Organization,25koct11,Entity,1.0,False
+134,25kmar11,Primary Organization,25koct11,Department family,1.0,False
+135,25kmar11,Primary Organization,25koct11,Entity,1.0,True
+136,25kmar11,Secondary Organization,25ksep10,unnamed0,1.0,True
+137,25kmar11,Secondary Organization,25ksep10,unnamed1,1.0,False
+138,25kmar11,Primary Organization,25ksep10,unnamed0,1.0,False
+139,25kmar11,Primary Organization,25ksep10,unnamed1,1.0,True
+140,25kmar11,Secondary Organization,25ksep11,Department family,1.0,True
+141,25kmar11,Secondary Organization,25ksep11,Entity,1.0,False
+142,25kmar11,Primary Organization,25ksep11,Department family,1.0,False
+143,25kmar11,Primary Organization,25ksep11,Entity,1.0,True
+144,25kmar12,Department family,25kmay10,Department family,1.0,True
+145,25kmar12,Department family,25kmay10,Entity,1.0,False
+146,25kmar12,Entity,25kmay10,Department family,1.0,False
+147,25kmar12,Entity,25kmay10,Entity,1.0,True
+148,25kmar12,Department family,25knov10,Entity,1.0,False
+149,25kmar12,Department family,25knov10,Department family,1.0,True
+150,25kmar12,Entity,25knov10,Entity,1.0,True
+151,25kmar12,Entity,25knov10,Department family,1.0,False
+152,25kmar12,Department family,25knov11,nan2,1.0,False
+153,25kmar12,Department family,25knov11,nan1,1.0,True
+154,25kmar12,Entity,25knov11,nan2,1.0,True
+155,25kmar12,Entity,25knov11,nan1,1.0,False
+156,25kmar12,Department family,25koct10,Department family,1.0,True
+157,25kmar12,Entity,25koct10,Department family,1.0,False
+158,25kmar12,Department family,25koct11,Department family,1.0,True
+159,25kmar12,Department family,25koct11,Entity,1.0,False
+160,25kmar12,Entity,25koct11,Department family,1.0,False
+161,25kmar12,Entity,25koct11,Entity,1.0,True
+162,25kmar12,Department family,25ksep10,unnamed1,1.0,False
+163,25kmar12,Department family,25ksep10,unnamed0,1.0,True
+164,25kmar12,Entity,25ksep10,unnamed1,1.0,True
+165,25kmar12,Entity,25ksep10,unnamed0,1.0,False
+166,25kmar12,Department family,25ksep11,Department family,1.0,True
+167,25kmar12,Entity,25ksep11,Department family,1.0,False
+168,25kmar12,Department family,25ksep11,Entity,1.0,False
+169,25kmar12,Entity,25ksep11,Entity,1.0,True
+170,25kmay10,Entity,25knov10,Entity,1.0,True
+171,25kmay10,Department family,25knov10,Entity,1.0,False
+172,25kmay10,Entity,25knov10,Department family,1.0,False
+173,25kmay10,Department family,25knov10,Department family,1.0,True
+174,25kmay10,Department family,25knov11,nan2,1.0,False
+175,25kmay10,Entity,25knov11,nan2,1.0,True
+176,25kmay10,Department family,25knov11,nan1,1.0,True
+177,25kmay10,Entity,25knov11,nan1,1.0,False
+178,25kmay10,Department family,25koct10,Department family,1.0,True
+179,25kmay10,Entity,25koct10,Department family,1.0,False
+180,25kmay10,Department family,25koct11,Entity,1.0,False
+181,25kmay10,Entity,25koct11,Entity,1.0,True
+182,25kmay10,Department family,25koct11,Department family,1.0,True
+183,25kmay10,Entity,25koct11,Department family,1.0,False
+184,25kmay10,Department family,25ksep10,unnamed0,1.0,True
+185,25kmay10,Entity,25ksep10,unnamed0,1.0,False
+186,25kmay10,Department family,25ksep10,unnamed1,1.0,False
+187,25kmay10,Entity,25ksep10,unnamed1,1.0,True
+188,25kmay10,Entity,25ksep11,Entity,1.0,True
+189,25kmay10,Department family,25ksep11,Entity,1.0,False
+190,25kmay10,Entity,25ksep11,Department family,1.0,False
+191,25kmay10,Department family,25ksep11,Department family,1.0,True
+192,25knov10,Entity,25knov11,nan1,1.0,False
+193,25knov10,Entity,25knov11,nan2,1.0,True
+194,25knov10,Department family,25knov11,nan1,1.0,True
+195,25knov10,Department family,25knov11,nan2,1.0,False
+196,25knov10,Entity,25koct10,Department family,1.0,False
+197,25knov10,Department family,25koct10,Department family,1.0,True
+198,25knov10,Entity,25koct11,Department family,1.0,False
+199,25knov10,Entity,25koct11,Entity,1.0,True
+200,25knov10,Department family,25koct11,Department family,1.0,True
+201,25knov10,Department family,25koct11,Entity,1.0,False
+202,25knov10,Entity,25ksep10,unnamed0,1.0,False
+203,25knov10,Entity,25ksep10,unnamed1,1.0,True
+204,25knov10,Department family,25ksep10,unnamed0,1.0,True
+205,25knov10,Department family,25ksep10,unnamed1,1.0,False
+206,25knov10,Entity,25ksep11,Department family,1.0,False
+207,25knov10,Department family,25ksep11,Department family,1.0,True
+208,25knov10,Entity,25ksep11,Entity,1.0,True
+209,25knov10,Department family,25ksep11,Entity,1.0,False
+210,25knov11,nan1,25koct10,Department family,1.0,True
+211,25knov11,nan2,25koct10,Department family,1.0,False
+212,25knov11,nan2,25koct11,Department family,1.0,False
+213,25knov11,nan2,25koct11,Entity,1.0,True
+214,25knov11,nan1,25koct11,Department family,1.0,True
+215,25knov11,nan1,25koct11,Entity,1.0,False
+216,25knov11,nan1,25ksep10,unnamed0,1.0,True
+217,25knov11,nan2,25ksep10,unnamed0,1.0,False
+218,25knov11,nan1,25ksep10,unnamed1,1.0,False
+219,25knov11,nan2,25ksep10,unnamed1,1.0,True
+220,25knov11,nan1,25ksep11,Department family,1.0,True
+221,25knov11,nan2,25ksep11,Department family,1.0,False
+222,25knov11,nan1,25ksep11,Entity,1.0,False
+223,25knov11,nan2,25ksep11,Entity,1.0,True
+224,25koct10,Department family,25koct11,Department family,1.0,True
+225,25koct10,Department family,25koct11,Entity,1.0,False
+226,25koct10,Department family,25ksep10,unnamed0,1.0,True
+227,25koct10,Department family,25ksep10,unnamed1,1.0,False
+228,25koct10,Department family,25ksep11,Entity,1.0,False
+229,25koct10,Department family,25ksep11,Department family,1.0,True
+230,25koct11,Department family,25ksep10,unnamed1,1.0,False
+231,25koct11,Entity,25ksep10,unnamed1,1.0,True
+232,25koct11,Department family,25ksep10,unnamed0,1.0,True
+233,25koct11,Entity,25ksep10,unnamed0,1.0,False
+234,25koct11,Department family,25ksep11,Entity,1.0,False
+235,25koct11,Entity,25ksep11,Entity,1.0,True
+236,25koct11,Department family,25ksep11,Department family,1.0,True
+237,25koct11,Entity,25ksep11,Department family,1.0,False
+238,25ksep10,unnamed0,25ksep11,Department family,1.0,True
+239,25ksep10,unnamed1,25ksep11,Department family,1.0,False
+240,25ksep10,unnamed0,25ksep11,Entity,1.0,False
+241,25ksep10,unnamed1,25ksep11,Entity,1.0,True
+242,25kjun11,Expense area,25kjun12,Expense area,0.995076866021394,True
+243,25kjun10,Description,25knov10,Expense area,0.9879918629380862,True
+244,25kjun10,Description,25ksep11,Expense Category,0.9856932269659098,True
+245,25kjun12,Expense area,25kmar12,Expense area,0.9831385683498296,True
+246,25kmay10,Supplier,25knov11,nan6,0.9826567033179876,True
+247,25kjun10,Summary,25kjun11,Expense type,0.9824002349383314,True
+248,25kjul12,Expense area,25kjun10,Description,0.9817816600840688,True
+249,25kjun10,Vendor,25ksep11,Supplier,0.981384369424452,True
+250,25kmar11,Expense Category,25kmay10,Expense area,0.9797553034899548,True
+251,25kjun11,Expense area,25ksep11,Expense Category,0.9787331486075088,True
+252,25kjun10,Summary,25ksep10,unnamed2,0.9773139486671848,True
+253,25kjun10,Description,25koct11,Expense area,0.9755941367934602,True
+254,25knov10,Supplier,25knov11,nan6,0.9755528647667508,True
+255,25kjun11,Supplier,25kmay10,Supplier,0.9752653801866804,True
+256,25kjun12,Expense area,25ksep10,unnamed3,0.973994905437232,True
+257,25kjun11,Expense area,25ksep10,unnamed3,0.9736939553742088,True
+258,25kmay10,Supplier,25knov10,Supplier,0.9730302883839816,True
+259,25kjun10,Summary,25ksep11,Expense Title,0.9723383147522712,True
+260,25koct10,Expense area,25ksep11,Expense Category,0.9720838961867344,True
+261,25kjun10,Vendor,25kjun11,Supplier,0.9710964528053488,True
+262,25kjun11,Expense area,25koct11,Expense area,0.9709850848586586,True
+263,25koct11,Expense type,25ksep10,unnamed2,0.9704429085059926,True
+264,25kjun11,Supplier,25knov10,Supplier,0.9692887509011076,True
+265,25kjun10,Vendor,25kmar12,Supplier,0.9689826044235232,True
+266,25kjun11,Supplier,25ksep10,unnamed4,0.9686438183585818,True
+267,25kjun11,Expense area,25koct10,Expense area,0.9685287676144154,True
+268,25knov10,Expense area,25koct10,Expense area,0.9685208265643024,True
+269,25kjun11,Supplier,25knov11,nan6,0.9680372378347084,True
+270,25knov11,nan6,25koct10,Supplier,0.9674067647222082,True
+271,25kmay10,Expense area,25knov10,Expense area,0.9669680889558608,True
+272,25kjun11,Expense type,25koct11,Expense type,0.9666890631421396,True
+273,25kjun11,Expense type,25ksep11,Expense Title,0.9660832666950352,True
+274,25kmar12,Expense area,25ksep11,Expense Category,0.9657693010541258,True
+275,25kjul12,Expense area,25kmay10,Expense area,0.9657643598866764,True
+276,25kmay10,Supplier,25koct10,Supplier,0.9657508924631638,True
+277,25kmay10,Expense area,25koct10,Expense area,0.9656945618564712,True
+278,25kjul12,Expense area,25kmar12,Expense area,0.96427035292303,True
+279,25koct10,Supplier,25ksep10,unnamed4,0.9642157383393232,True
+280,25ksep10,unnamed4,25ksep11,Supplier,0.9639767048556064,True
+281,25kjun10,Vendor,25kmay10,Supplier,0.9633677520637932,True
+282,25koct11,Expense type,25ksep11,Expense Title,0.963285034246076,True
+283,25kmay10,Supplier,25ksep10,unnamed4,0.9630411466852704,True
+284,25ksep10,unnamed2,25ksep11,Expense Title,0.9622994037961812,True
+285,25kjun10,Summary,25koct11,Expense type,0.961785009586808,True
+286,25kmay10,Expense area,25knov11,nan5,0.9617022285642932,True
+287,25kjun11,Expense type,25ksep10,unnamed2,0.9614774578350244,True
+288,25kjun12,Expense type,25kmar12,Expense type,0.9614637711544626,True
+289,25knov10,Supplier,25koct10,Supplier,0.9609358288628916,True
+290,25kjul12,Expense area,25koct11,Expense area,0.9609300866320222,True
+291,25kjun11,Supplier,25ksep11,Supplier,0.9609044335324952,True
+292,25kjun11,Supplier,25kmar11,Vendor,0.9591739733835116,True
+293,25ksep10,unnamed3,25ksep11,Expense Category,0.959035747098437,True
+294,25knov11,nan4,25koct11,Expense type,0.9589994057997158,True
+295,25knov11,nan4,25ksep10,unnamed2,0.9587678885987256,True
+296,25kmar11,Vendor,25ksep10,unnamed4,0.9586278653550736,True
+297,25koct11,Expense area,25ksep10,unnamed3,0.9584952391541472,True
+298,25kjul12,Supplier,25knov10,Supplier,0.9578747632347344,True
+299,25koct11,Expense area,25ksep11,Expense Category,0.9578088151601992,True
+300,25kmar12,Expense area,25kmay10,Expense area,0.9574123444563474,True
+301,25kjun11,Supplier,25koct10,Supplier,0.9569526018673628,True
+302,25kjul12,Supplier,25kjun10,Vendor,0.9568948578952684,True
+303,25kmar12,Expense area,25knov10,Expense area,0.9567593358408302,True
+304,25koct10,Expense area,25koct11,Expense area,0.9566571401942692,True
+305,25kjun11,Expense type,25kmar11,Expense Summary,0.9564339080135498,True
+306,25knov11,nan4,25ksep11,Expense Title,0.9559467239968948,True
+307,25kjul12,Supplier,25kmay10,Supplier,0.9555602069423308,True
+308,25kjun10,Summary,25kmar11,Expense Summary,0.9554035964864668,True
+309,25kjul12,Expense area,25kmar11,Expense Category,0.9553146560193938,True
+310,25kmar11,Expense Category,25ksep10,unnamed3,0.955135605451056,True
+311,25knov10,Expense area,25knov11,nan5,0.9549777768015122,True
+312,25kmay10,Expense area,25koct11,Expense area,0.9548935140886472,True
+313,25kmay10,Expense area,25ksep10,unnamed3,0.9548746558310846,True
+314,25kmar12,Supplier,25ksep11,Supplier,0.954717780879768,True
+315,25kjul12,Expense type,25kmar11,Expense Summary,0.9540667143421367,True
+316,25kjul12,Expense area,25koct10,Expense area,0.9535883797892716,True
+317,25kjun12,Expense type,25kmay10,Expense type,0.9534744027984366,True
+318,25kmar11,Expense Category,25koct10,Expense area,0.9531567795998672,True
+319,25koct10,Expense type,25ksep10,unnamed2,0.9530678752587026,True
+320,25kmay10,Expense area,25ksep11,Expense Category,0.9527475831721768,True
+321,25kmar11,Expense Summary,25ksep11,Expense Title,0.9527161768730782,True
+322,25kjul12,Supplier,25ksep11,Supplier,0.952633908446052,True
+323,25kjun10,Description,25kjun11,Expense area,0.9524925220708298,True
+324,25kjul12,Supplier,25knov11,nan6,0.9524531467898149,True
+325,25knov10,Supplier,25ksep10,unnamed4,0.952311432610092,True
+326,25kmar11,Expense Category,25koct11,Expense area,0.952284134370818,True
+327,25kjun11,Expense type,25knov11,nan4,0.952200643004177,True
+328,25kjun11,Expense area,25kmay10,Expense area,0.9521360620651992,True
+329,25kjul12,Expense area,25kjun11,Expense area,0.9521253134755152,True
+330,25kmar12,Expense area,25knov11,nan5,0.9517837917708536,True
+331,25kmar12,Supplier,25ksep10,unnamed4,0.9516848877213262,True
+332,25kjun10,Description,25kmar12,Expense area,0.9515933618858964,True
+333,25kmar11,Expense Category,25ksep11,Expense Category,0.9503843058706865,True
+334,25koct10,Expense area,25ksep10,unnamed3,0.9503570917126132,True
+335,25kjul12,Expense area,25ksep11,Expense Category,0.9498905038320196,True
+336,25knov11,nan6,25ksep11,Supplier,0.9497284705327196,True
+337,25knov10,Expense area,25ksep11,Expense Category,0.9494084638989304,True
+338,25kjul12,Expense type,25kjun10,Summary,0.9492309790788102,True
+339,25koct10,Expense type,25ksep11,Expense Title,0.9488041831301166,True
+340,25kmar11,Expense Category,25knov11,nan5,0.9482739272262876,True
+341,25kjun10,Description,25koct10,Expense area,0.9476119985131314,True
+342,25kmay10,Supplier,25ksep11,Supplier,0.9474193594535112,True
+343,25kmar12,Expense type,25kmay10,Expense type,0.9471542954433992,True
+344,25kjun12,Expense area,25knov10,Expense area,0.9463979092371468,True
+345,25kjun10,Vendor,25kmar11,Vendor,0.946110933176176,True
+346,25knov11,nan6,25ksep10,unnamed4,0.9457978375690436,True
+347,25kjul12,Expense type,25kjun11,Expense type,0.9457742054011424,True
+348,25kjun10,Vendor,25knov11,nan6,0.9451500764345409,True
+349,25kjun10,Vendor,25knov10,Supplier,0.945063347339698,True
+350,25knov10,Expense type,25ksep10,unnamed2,0.9449644321550548,True
+351,25kmar11,Vendor,25ksep11,Supplier,0.944938387520402,True
+352,25kjun11,Expense area,25kmar11,Expense Category,0.9447977516781708,True
+353,25kjun10,Vendor,25koct10,Supplier,0.9432427683839998,True
+354,25knov11,nan5,25koct11,Expense area,0.9431416494734504,True
+355,25kjun10,Summary,25knov11,nan4,0.9428395091159604,True
+356,25kjun11,Expense area,25knov11,nan5,0.9426001185151373,True
+357,25kmar11,Vendor,25kmar12,Supplier,0.9422002435282834,True
+358,25kjun12,Expense area,25kmay10,Expense area,0.9421262179068084,True
+359,25kjun10,Description,25ksep10,unnamed3,0.941322529769832,True
+360,25koct10,Expense type,25koct11,Expense type,0.9411027598832338,True
+361,25kjul12,Supplier,25ksep10,unnamed4,0.94103347037488,True
+362,25kjun11,Expense area,25knov10,Expense area,0.940981892023601,True
+363,25kjul12,Expense type,25kjun12,Expense type,0.9405874142084796,True
+364,25kjul12,Expense area,25kjun12,Expense area,0.9404621385333424,True
+365,25kjul12,Expense type,25ksep11,Expense Title,0.9403174389352597,True
+366,25knov10,Expense area,25ksep10,unnamed3,0.9399630738424114,True
+367,25knov10,Expense type,25koct11,Expense type,0.939886187138368,True
+368,25kmar11,Expense Category,25kmar12,Expense area,0.9398498562396244,True
+369,25kmar11,Expense Category,25knov10,Expense area,0.9396259557775338,True
+370,25kjul12,Expense area,25ksep10,unnamed3,0.9395971039420044,True
+371,25kjul12,Expense type,25kmay10,Expense type,0.9383641408317084,True
+372,25koct10,Supplier,25ksep11,Supplier,0.9380476537233524,True
+373,25kjun10,Vendor,25ksep10,unnamed4,0.9377599293283312,True
+374,25kjul12,Supplier,25kjun11,Supplier,0.936892096145319,True
+375,25kjul12,Supplier,25kmar12,Supplier,0.9367836108495516,True
+376,25kmar11,Vendor,25kmay10,Supplier,0.9364085316947572,True
+377,25kmar11,Expense Summary,25koct11,Expense type,0.9363752625672844,True
+378,25kmar11,Expense Summary,25ksep10,unnamed2,0.9362177504371176,True
+379,25knov10,Supplier,25ksep11,Supplier,0.9351645800414564,True
+380,25kmar12,Expense area,25ksep10,unnamed3,0.934756875057721,True
+381,25kmar12,Supplier,25kmay10,Supplier,0.9346022188258022,True
+382,25kmar11,Vendor,25knov10,Supplier,0.9342115859537152,True
+383,25knov10,Expense type,25knov11,nan4,0.934206656794558,True
+384,25kjun11,Expense area,25kmar12,Expense area,0.9337922795432824,True
+385,25kjun11,Expense type,25koct10,Expense type,0.9333743907853304,True
+386,25knov10,Expense area,25koct11,Expense area,0.93285204617577,True
+387,25kjul12,Expense type,25koct11,Expense type,0.9325411081137176,True
+388,25kjun10,Description,25kmay10,Expense area,0.93242484361848,True
+389,25kjun11,Expense type,25kmay10,Expense type,0.9323759788335348,True
+390,25kmar12,Supplier,25knov11,nan6,0.9318722752391996,True
+391,25kmar12,Supplier,25koct11,Supplier,0.9318410415357904,True
+392,25kmar12,Expense area,25koct11,Expense area,0.9311905643453544,True
+393,25kmar11,Vendor,25koct10,Supplier,0.9293678540065218,True
+394,25knov10,Expense type,25koct10,Expense type,0.9290593693981244,True
+395,25kjul12,Supplier,25koct10,Supplier,0.9289032357643068,True
+396,25kjul12,Expense type,25ksep10,unnamed2,0.9283178668710066,True
+397,25kmar11,Vendor,25koct11,Supplier,0.9281606777919322,True
+398,25kjun12,Expense area,25koct11,Expense area,0.9273196476546198,True
+399,25kmar11,Expense Summary,25knov11,nan4,0.9263487471989844,True
+400,25kmar12,Expense area,25koct10,Expense area,0.9259459682770816,True
+401,25kjun12,Expense area,25ksep11,Expense Category,0.9254091324597726,True
+402,25kmar11,Expense Summary,25kmay10,Expense type,0.924646525573302,True
+403,25kjun12,Expense type,25ksep11,Expense Title,0.9237553366168492,True
+404,25knov11,nan5,25koct10,Expense area,0.9227397061849965,True
+405,25knov11,nan5,25ksep10,unnamed3,0.9222388746557544,True
+406,25kjul12,Expense type,25kmar12,Expense type,0.9220697887010728,True
+407,25kjul12,Expense type,25knov11,nan4,0.9219050585321248,True
+408,25kmar12,Supplier,25knov10,Supplier,0.9217106596468994,True
+409,25kmay10,Expense type,25ksep10,unnamed2,0.921132645309578,True
+410,25kjun10,Summary,25knov10,Expense type,0.9195415165998232,True
+411,25knov11,nan5,25ksep11,Expense Category,0.9187701259752974,True
+412,25kjun11,Expense type,25kjun12,Expense type,0.9181849303416164,True
+413,25kjun11,Expense type,25knov10,Expense type,0.9173980337584574,True
+414,25kjul12,Supplier,25kmar11,Vendor,0.917021130271768,True
+415,25kjun10,Description,25kmar11,Expense Category,0.916855089229044,True
+416,25kjun12,Expense type,25knov11,nan4,0.9166687327084992,True
+417,25kjun10,Summary,25kjun12,Expense type,0.9164007298928596,True
+418,25kjun12,Expense area,25kmar11,Expense Category,0.9162108189589968,True
+419,25kjun10,Description,25knov11,nan5,0.915099428417583,True
+420,25kjul12,Expense area,25knov10,Expense area,0.915090205832521,True
+421,25knov10,Expense type,25ksep11,Expense Title,0.9143294073864804,True
+422,25kjun12,Expense area,25koct10,Expense area,0.9142859218599602,True
+423,25kmay10,Expense type,25koct10,Expense type,0.9114531162614756,True
+424,25kmar11,Vendor,25knov11,nan6,0.9108526055469086,True
+425,25kjun10,Description,25kjun12,Expense area,0.9090917969909496,True
+426,25kjul12,Expense area,25knov11,nan5,0.9089070834053224,True
+427,25kjul12,Expense type,25knov10,Expense type,0.9053598280416336,True
+428,25kmar12,Expense type,25ksep11,Expense Title,0.9050210223380776,True
+429,25koct11,Supplier,25ksep11,Supplier,0.9031214051030751,True
+430,25kjun12,Expense type,25koct10,Expense type,0.900854353933584,True
+431,25kjul12,Expense type,25koct10,Expense type,0.9007309948356184,True
+432,25kjun10,Summary,25kmay10,Expense type,0.9005889387453226,True
+433,25kjun12,Expense area,25knov11,nan5,0.8999755158283466,True
+434,25kmay10,Expense type,25ksep11,Expense Title,0.8996129236027085,True
+435,25kjun12,Description,25kmar12,Description,0.8995256352147174,True
+436,25kjun11,Expense type,25kmar12,Expense type,0.8982226299136091,True
+437,25kjun12,Expense type,25ksep10,unnamed2,0.8969991223386966,True
+438,25kjun12,Expense type,25koct11,Expense type,0.89504691936606,True
+439,25kjun10,Vendor,25koct11,Supplier,0.8947247969307232,True
+440,25kmar12,Expense type,25knov11,nan4,0.892874730842021,True
+441,25kmay10,Expense type,25knov11,nan4,0.8878806059725466,True
+442,25kmar12,Expense type,25koct10,Expense type,0.8878039548206463,True
+443,25kjun11,Supplier,25koct11,Supplier,0.8841492084375308,True
+444,25kmar12,Expense type,25koct11,Expense type,0.8835610731006884,True
+445,25kmar12,Expense type,25ksep10,unnamed2,0.8824387811563156,True
+446,25kmay10,Expense type,25koct11,Expense type,0.8790963506895394,True
+447,25kjun10,Summary,25kmar12,Expense type,0.8771934289679122,True
+448,25koct11,Supplier,25ksep10,unnamed4,0.8734203606288629,True
+449,25knov10,Supplier,25koct11,Supplier,0.8683225782483103,True
+450,25koct10,Supplier,25koct11,Supplier,0.8639611937231705,True
+451,25knov11,nan6,25koct11,Supplier,0.856871617632396,True
+452,25kjun12,Expense type,25knov10,Expense type,0.8567368748522726,True
+453,25kmay10,Expense type,25knov10,Expense type,0.852825223243555,True
+454,25kmay10,Supplier,25koct11,Supplier,0.8509749716741454,True
